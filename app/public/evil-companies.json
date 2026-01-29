@@ -1,0 +1,829 @@
+{
+  "nestle": {
+    "evil": true,
+    "reason": "Unethical water sourcing, baby formula scandal, etc.",
+    "alternatives": [
+      "LocalCo",
+      "Tony's Chocolonely"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "mondelēz international": {
+    "evil": true,
+    "reason": "Deforestation, child labor in cocoa supply chain",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "coca-cola": {
+    "evil": true,
+    "reason": "Plastic pollution, water depletion | Human Rights - Called by Friends of Al Aqsa",
+    "alternatives": [
+      "Fritz-Kola",
+      "Independent Soda Co"
+    ],
+    "supports": [
+      "Israel",
+      "ICE"
+    ]
+  },
+  "amazon": {
+    "evil": true,
+    "reason": "AWS hosts DHS/ICE databases; Ring shares footage with ICE. | Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel",
+      "ICE"
+    ]
+  },
+  "apple": {
+    "evil": true,
+    "reason": "Removed anti-ICE protection apps; donation to Trump 2025 inauguration.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "aramark": {
+    "evil": true,
+    "reason": "Provides food/services to prisons and immigration jails.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "at&t": {
+    "evil": true,
+    "reason": "Provides communications services to DHS/ICE ($680M+ contracts).",
+    "alternatives": [
+      "Local ISP",
+      "Mint Mobile"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "avelo airlines": {
+    "evil": true,
+    "reason": "Part of ICE Air network for deportations (allegedly cut ties Jan 2026).",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "axon enterprise": {
+    "evil": true,
+    "reason": "Supplies body cameras/tasers to DHS; partners with Amazon Ring.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "bank of america": {
+    "evil": true,
+    "reason": "Lending to private prison and ICE detention companies.",
+    "alternatives": [
+      "Local Credit Union"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "bank ozk": {
+    "evil": true,
+    "reason": "Financing for GEO Group.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "blackrock": {
+    "evil": true,
+    "reason": "Major shareholder of GEO Group and CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "booz allen hamilton": {
+    "evil": true,
+    "reason": "Developed cloud analytics/tracking for ICE (RAVEn).",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "cellebrite": {
+    "evil": true,
+    "reason": "Supplies hacking technologies to police/immigration authorities.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "citizens bank": {
+    "evil": true,
+    "reason": "Financing for CoreCivic and GEO Group.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "comcast": {
+    "evil": true,
+    "reason": "Internet and cable services for ICE/CBP.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "corecivic": {
+    "evil": true,
+    "reason": "Operates private prisons and immigration detention facilities.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "dell": {
+    "evil": true,
+    "reason": "Provides Microsoft licenses, cloud services, and equipment to ICE/CBP. | Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel",
+      "ICE"
+    ]
+  },
+  "equifax": {
+    "evil": true,
+    "reason": "Provided data to tracking immigrants (contract ended Sept 2025).",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "fedex": {
+    "evil": true,
+    "reason": "$1M contract to provide delivery services to ICE.",
+    "alternatives": [
+      "USPS"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "first horizon bank": {
+    "evil": true,
+    "reason": "Financing for CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "general dynamics": {
+    "evil": true,
+    "reason": "Surveillance technology for border monitoring; IT for ICE.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "geo group": {
+    "evil": true,
+    "reason": "ICE's top contractor; operates private prisons/detention facilities.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "google": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment. | Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel",
+      "ICE"
+    ]
+  },
+  "hbo max": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "warner bros. discover": {
+    "evil": true,
+    "reason": "Parent of HBO Max (runs ICE ads).",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "hilton": {
+    "evil": true,
+    "reason": "Revoked franchise of hotel that cancelled federal agent reservations.",
+    "alternatives": [
+      "Marriott",
+      "Hyatt"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "home depot": {
+    "evil": true,
+    "reason": "Silence on ICE using properties as hunting grounds.",
+    "alternatives": [
+      "Lowe's",
+      "Local Hardware Store"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "hulu": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "disney": {
+    "evil": true,
+    "reason": "Parent of Hulu (runs ICE ads). | The BDS National Committee, Jewish Voice for Peace, and Movement for Black Lives are calling for a",
+    "alternatives": [],
+    "supports": [
+      "Israel",
+      "ICE"
+    ]
+  },
+  "l3harris": {
+    "evil": true,
+    "reason": "Provides Stingray phone trackers to ICE.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "leidos": {
+    "evil": true,
+    "reason": "Imaging/biometrics for border surveillance.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "lexisnexis": {
+    "evil": true,
+    "reason": "Provides tracking systems/data to immigration authorities.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "linkedin": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "microsoft": {
+    "evil": true,
+    "reason": "Profits from ICE contracts (LinkedIn ads, Dell partnership).",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "meta": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment on Facebook/Instagram.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "motorola solutions": {
+    "evil": true,
+    "reason": "Tactical comms and license plate readers for ICE.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "palantir": {
+    "evil": true,
+    "reason": "FALCON and ICM systems used for raids and tracking immigrants.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "pandora": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "sirius xm": {
+    "evil": true,
+    "reason": "Parent of Pandora (runs ICE ads).",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "regions bank": {
+    "evil": true,
+    "reason": "Financing for GEO Group.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "salesforce": {
+    "evil": true,
+    "reason": "Powers Unified Immigration Portal; seeking to deepen ties.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "spotify": {
+    "evil": true,
+    "reason": "Reportedly ran ads for DHS/ICE recruitment.",
+    "alternatives": [
+      "Apple Music",
+      "Tidal"
+    ],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "stonex": {
+    "evil": true,
+    "reason": "Financing for CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "synovus": {
+    "evil": true,
+    "reason": "Financing for CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "target hospitality": {
+    "evil": true,
+    "reason": "Modular housing for detention centers.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "texas capital bank": {
+    "evil": true,
+    "reason": "Financing for CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "thomson reuters": {
+    "evil": true,
+    "reason": "Data broker used to target and track immigrants.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "vanguard": {
+    "evil": true,
+    "reason": "Major shareholder of GEO Group and CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "wedbush": {
+    "evil": true,
+    "reason": "Financing for CoreCivic.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "wells fargo": {
+    "evil": true,
+    "reason": "Softened policy to allow financing for detention companies.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "youtube": {
+    "evil": true,
+    "reason": "Runs ads for DHS/ICE recruitment.",
+    "alternatives": [],
+    "supports": [
+      "ICE"
+    ]
+  },
+  "airbnb": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "axa": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "barclays bank": {
+    "evil": true,
+    "reason": "Palestine Solidarity Campaign (PSC) is calling for a boycott of Barclays bank. In June 2024 PSC, Campaign Against Arms Trade, and War on Want published a joint",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "booking.com": {
+    "evil": true,
+    "reason": "The BDS National Committee is calling for a boycott of , as it offers rentals in illegal Israeli settlements built on Palestinian land.",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "burger king": {
+    "evil": true,
+    "reason": "The BDS National Committee says McDonald’s, Burger King, Papa John’s, Pizza Hut and Domino's Pizza “are targeted in some countries by",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "chevron": {
+    "evil": true,
+    "reason": "In October 2022 the BDS National Committee (BNC) called for a boycott of Chevron. It",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "coconut milk from thailand": {
+    "evil": true,
+    "reason": "Peta is urging consumers to boycott canned coconut milk from Thailand. Investigations by PETA Asia",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "crufts": {
+    "evil": true,
+    "reason": "PETA are calling for a boycott of dog show Crufts over cruelty involved in breeding. It",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "domino's pizza": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "ecover": {
+    "evil": true,
+    "reason": "Animal Testing - Called by Naturewatch Foundation",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "etoro": {
+    "evil": true,
+    "reason": "Human Rights - Called by Tech For Palestine",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "expedia": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "get your guide": {
+    "evil": true,
+    "reason": "World Animal Protection is calling for a boycott of travel company Get Your Guide.",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "groupon": {
+    "evil": true,
+    "reason": "World Animal Protection is calling for a boycott of travel company Groupon.",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "hewlett-packard enterprise (hpe)": {
+    "evil": true,
+    "reason": "The Palestinian human rights movement Boycott, Divestment and Sanctions (BDS) is calling for a boycott of HP-branded corporations.",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "intel": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "israeli dates": {
+    "evil": true,
+    "reason": "American Muslims for Palestine have a long-running boycott call against",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "israeli produce in supermarkets": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "jcb": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "kellogg's": {
+    "evil": true,
+    "reason": "GMO-Free USA (also known as Toxin-Free USA) calls for a boycott of Kellogg's, accusing it of greenwashing and \"",
+    "alternatives": [],
+    "supports": [
+      "Environment"
+    ]
+  },
+  "l'oréal": {
+    "evil": true,
+    "reason": "Animal Testing - Called by Naturewatch Foundation",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "made in china": {
+    "evil": true,
+    "reason": "A range of groups have called for a boycott of China in recent years. is calling for a boycott of China, citing forced labour among a range of reasons to boycott produce from the country.",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "mcdonald's": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "method": {
+    "evil": true,
+    "reason": "Animal Testing - Called by Naturewatch Foundation",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "microsoft (including xbox)": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "mitie": {
+    "evil": true,
+    "reason": "Women for Refugee Women and the End Detention group are calling for a",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "mondelez international (for oreo & ritz)": {
+    "evil": true,
+    "reason": "90 West Papuan tribes, political organisations and religious groups More than 90 West Papuan tribes, political organisations and religious groups are calling for a boycott of companies that profit from ongoing",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "nestlé": {
+    "evil": true,
+    "reason": "Human Rights - Called by Baby Milk Action",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "nestlé (various chocolate brands)": {
+    "evil": true,
+    "reason": "90 West Papuan tribes, political organisations and religious groups More than 90 West Papuan tribes, political organisations and religious groups are calling for a boycott of companies that profit from ongoing",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "papa john's": {
+    "evil": true,
+    "reason": "The BDS National Committee says McDonald’s, Burger King, Papa John’s, Pizza Hut and Domino's Pizza “are targeted in some countries by grassroots organic boycott campaigns, not initiated by the BDS movement. \"BDS supports these boycott campaigns because these companies, or their branches or franchisees in Israel, have openly supported apartheid Israel and/or provided generous in-kind donations to the Israeli military amid the current genocide”.",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "pizza hut": {
+    "evil": true,
+    "reason": "The BDS National Committee says McDonald’s, Burger King, Papa John’s and Pizza Hut \"are now being targeted in some countries by grassroots organic boycott campaigns , not initiated by the BDS movement. BDS supports these boycott campaigns because these companies, or their branches or franchisees in Israel, have openly supported apartheid Israel and/or provided generous in-kind donations to the Israeli military amid the current genocide.\" According to a Yahoo! Finance article, \"On January 19th 2024",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "procter & gamble": {
+    "evil": true,
+    "reason": "90 West Papuan tribes, political organisations and religious groups More than 90 West Papuan tribes, political organisations and religious groups are calling for a boycott of companies that profit from ongoing",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "reebok": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "russia": {
+    "evil": true,
+    "reason": "Following the Russian invasion of Ukraine, on March 7th 2022 Ukrainian President Volodymyr Zelensky called for an international “boycott of Russian exports, in particular the rejection of oil and oil products from Russia.” Subsequently, Ukraine’s Culture Minister",
+    "alternatives": [],
+    "supports": [
+      "Labor"
+    ]
+  },
+  "sabra hummus": {
+    "evil": true,
+    "reason": "In the US, the brand Sabra hummus was until November 2024 owned 50/50 by PepsiCo and The Strauss Group. The Strauss Group is Israel's second biggest food company and according to the Palestinian Boycott, Divestment and Sanction (BDS) movement it \"",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "siemens": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "sodastream": {
+    "evil": true,
+    "reason": "SodaStream has long faced a boycott call over its “complicity in Israel’s grave violations of Palestinian human rights”,",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "starbucks": {
+    "evil": true,
+    "reason": "The Lakota People's Law Project Action Center is calling for a",
+    "alternatives": [],
+    "supports": [
+      "Labor"
+    ]
+  },
+  "tesco bank": {
+    "evil": true,
+    "reason": "According to Palestine Solidarity Campaign (PSC), \"On 1 November 2024,",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "tesla": {
+    "evil": true,
+    "reason": "Human Rights - Called by Tesla Takedown",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "texaco": {
+    "evil": true,
+    "reason": "In October 2022 the BDS National Committee (BNC) called for a boycott of Chevron. It",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "trip.com": {
+    "evil": true,
+    "reason": "World Animal Protection is calling for a boycott of",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "tui": {
+    "evil": true,
+    "reason": "World Animal Protection is calling for a boycott of travel company Tui.",
+    "alternatives": [],
+    "supports": [
+      "Animal-Testing"
+    ]
+  },
+  "twitter / x": {
+    "evil": true,
+    "reason": "In 2022 the coalition 'Stop Toxic Twitter', composed of around 60 organisations,",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "volvo (ab volvo trucks)": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "wendy's": {
+    "evil": true,
+    "reason": "US fast food chain Wendy’s, which has some branches in the UK, faces a long-standing",
+    "alternatives": [],
+    "supports": [
+      "Labor"
+    ]
+  },
+  "wix": {
+    "evil": true,
+    "reason": "Human Rights - Called by Tech For Palestine",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  },
+  "zara (owned by inditex)": {
+    "evil": true,
+    "reason": "Human Rights - Called by BDS National Committee",
+    "alternatives": [],
+    "supports": [
+      "Israel"
+    ]
+  }
+}

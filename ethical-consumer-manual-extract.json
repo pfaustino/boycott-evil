@@ -1,0 +1,53 @@
+{
+  "note": "This is a manual extract from Ethical Consumer boycotts page. Use the partial data or run the scraper when the page structure is better understood.",
+  "companies": [
+    {
+      "company": "Airbnb",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2016",
+      "reason": "Airbnb offers rentals in illegal Israeli settlements built on stolen Palestinian land. Had previously committed to removing rentals from settlements but reversed its decision due to pressure including lawsuits.",
+      "supports": ["Israel"]
+    },
+    {
+      "company": "Amazon",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "reason": "Amazon Web Services and Google Cloud signed a $1.22 billion contract to provide cloud technology to the Israeli government and military, directly supporting Israeli apartheid.",
+      "supports": ["Israel"]
+    },
+    {
+      "company": "Amazon",
+      "category": "Tax avoidance",
+      "calledBy": "Ethical Consumer",
+      "dateStarted": "2012",
+      "reason": "Outrageous tax avoidance. Estimated to have cost the UK economy around £433m in 2023.",
+      "supports": ["Tax Avoidance"]
+    },
+    {
+      "company": "Wendy's",
+      "category": "Workers' Rights",
+      "calledBy": "Coalition of Immokalee Workers",
+      "dateStarted": "2016",
+      "reason": "Refuses to join the Fair Food Program. Several cases of modern day slavery have emerged on farms in the US and Mexico.",
+      "supports": ["Labor"]
+    },
+    {
+      "company": "Wix",
+      "category": "Human Rights",
+      "calledBy": "Tech For Palestine",
+      "dateStarted": "2023",
+      "reason": "Israeli tech company. Just a short drive away from the WIX headquarters are Palestinian communities with poor or no access to the internet.",
+      "supports": ["Israel"]
+    },
+    {
+      "company": "ZARA (owned by Inditex)",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2025",
+      "reason": "Deep and growing complicity in Israel's regime of settler-colonialism, apartheid, and genocide. The chair of ZARA's Israeli franchise hosted a roundtable event with ultra-nationalist minister Itamar Ben-Gvir.",
+      "supports": ["Israel"]
+    }
+  ]
+}
