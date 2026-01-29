@@ -1,0 +1,622 @@
+{
+  "source": "Ethical Consumer",
+  "url": "https://www.ethicalconsumer.org/ethicalcampaigns/boycotts",
+  "scrapedAt": "2026-01-29T13:29:40.366799",
+  "boycotts": [
+    {
+      "company": "Airbnb",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2016",
+      "companyProfile": "Airbnb, Inc.",
+      "reason": "",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Amazon",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Amazon Web Services, Inc.",
+      "reason": "",
+      "relatedGuides": [
+        "TV and Video Streaming Services",
+        "and",
+        "Ethical Bookshops"
+      ]
+    },
+    {
+      "company": "AXA",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2019",
+      "companyProfile": "AXA Group",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Car Insurance",
+        "and",
+        "Fossil Fuel Free Investment Funds",
+        "and",
+        "Ethical Investment Funds",
+        "and"
+      ]
+    },
+    {
+      "company": "Barclays Bank",
+      "category": "Human Rights",
+      "calledBy": "Palestine Solidarity Campaign",
+      "dateStarted": "2024",
+      "companyProfile": "Barclays Plc",
+      "reason": "Palestine Solidarity Campaign (PSC) is calling for a boycott of Barclays bank. In June 2024 PSC, Campaign Against Arms Trade, and War on Want published a joint",
+      "relatedGuides": [
+        "Ethical Bank Accounts",
+        "and",
+        "Ethical Savings Accounts"
+      ]
+    },
+    {
+      "company": "Booking.com",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Booking Holdings Inc",
+      "reason": "The BDS National Committee is calling for a boycott of , as it offers rentals in illegal Israeli settlements built on Palestinian land.",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Burger King",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Burger King Corporation",
+      "reason": "The BDS National Committee says McDonald’s, Burger King, Papa John’s, Pizza Hut and Domino's Pizza “are targeted in some countries by",
+      "relatedGuides": [
+        "Fast Food Chains"
+      ]
+    },
+    {
+      "company": "Chevron",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2022",
+      "companyProfile": "Chevron Corporation",
+      "reason": "In October 2022 the BDS National Committee (BNC) called for a boycott of Chevron. It",
+      "relatedGuides": [
+        "Petrol & Diesel"
+      ]
+    },
+    {
+      "company": "Coca-Cola",
+      "category": "Human Rights",
+      "calledBy": "Friends of Al Aqsa",
+      "dateStarted": "2014",
+      "companyProfile": "Coca-Cola Company",
+      "reason": "",
+      "relatedGuides": [
+        "Soft Drinks"
+      ]
+    },
+    {
+      "company": "Coconut milk from Thailand",
+      "category": "Animal Rights",
+      "calledBy": "Peta",
+      "dateStarted": "2022",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "Peta is urging consumers to boycott canned coconut milk from Thailand. Investigations by PETA Asia",
+      "relatedGuides": [
+        "Vegan and plant milks"
+      ]
+    },
+    {
+      "company": "Crufts",
+      "category": "Animal Rights",
+      "calledBy": "PETA",
+      "dateStarted": "2014",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "PETA are calling for a boycott of dog show Crufts over cruelty involved in breeding. It",
+      "relatedGuides": [
+        "Ethical Dog Food"
+      ]
+    },
+    {
+      "company": "Dell",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Dell Technologies",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Laptops",
+        "and",
+        "Desktop computers",
+        "and",
+        "Tablets and e-readers"
+      ]
+    },
+    {
+      "company": "Disney",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2023",
+      "companyProfile": "The Walt Disney Company",
+      "reason": "The BDS National Committee, Jewish Voice for Peace, and Movement for Black Lives are calling for a",
+      "relatedGuides": [
+        "TV and Video Streaming Services"
+      ]
+    },
+    {
+      "company": "Domino's Pizza",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": [
+        "Fast Food Chains"
+      ]
+    },
+    {
+      "company": "Ecover",
+      "category": "Animal Testing",
+      "calledBy": "Naturewatch Foundation",
+      "dateStarted": "2018",
+      "companyProfile": "SC Johnson & Son Inc",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Soap",
+        "and",
+        "Washing-up Liquid",
+        "and",
+        "Dishwasher Detergent",
+        "and"
+      ]
+    },
+    {
+      "company": "eToro",
+      "category": "Human Rights",
+      "calledBy": "Tech For Palestine",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Laptops"
+      ]
+    },
+    {
+      "company": "Expedia",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Expedia",
+      "reason": "",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Get Your Guide",
+      "category": "Animal Rights",
+      "calledBy": "World Animal Protection",
+      "dateStarted": "2023",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "World Animal Protection is calling for a boycott of travel company Get Your Guide.",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Google",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": [
+        "TV and Video Streaming Services",
+        "and",
+        "Ethical Mobile Phones"
+      ]
+    },
+    {
+      "company": "Groupon",
+      "category": "Animal Rights",
+      "calledBy": "World Animal Protection",
+      "dateStarted": "2023",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "World Animal Protection is calling for a boycott of travel company Groupon.",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Hewlett-Packard Enterprise (HPE)",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2012",
+      "companyProfile": "HP Inc.",
+      "reason": "The Palestinian human rights movement Boycott, Divestment and Sanctions (BDS) is calling for a boycott of HP-branded corporations.",
+      "relatedGuides": [
+        "Ethical Laptops"
+      ]
+    },
+    {
+      "company": "Intel",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Laptops"
+      ]
+    },
+    {
+      "company": "Israeli dates",
+      "category": "Human Rights",
+      "calledBy": "American Muslims for Palestine",
+      "dateStarted": "2012",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "American Muslims for Palestine have a long-running boycott call against",
+      "relatedGuides": []
+    },
+    {
+      "company": "Israeli produce in supermarkets",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2005",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Supermarkets"
+      ]
+    },
+    {
+      "company": "JCB",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": []
+    },
+    {
+      "company": "Kellogg's",
+      "category": "Environment",
+      "calledBy": "GMO-Free USA",
+      "dateStarted": "2012",
+      "companyProfile": "Kellogg Company",
+      "reason": "GMO-Free USA (also known as Toxin-Free USA) calls for a boycott of Kellogg's, accusing it of greenwashing and \"",
+      "relatedGuides": [
+        "Cereal"
+      ]
+    },
+    {
+      "company": "L'Oréal",
+      "category": "Animal Testing",
+      "calledBy": "Naturewatch Foundation",
+      "dateStarted": "2000",
+      "companyProfile": "L'Oréal S.A",
+      "reason": "",
+      "relatedGuides": [
+        "Make-Up",
+        "and",
+        "Ethical Shampoo",
+        "and",
+        "Skincare"
+      ]
+    },
+    {
+      "company": "Made in China",
+      "category": "Human Rights",
+      "calledBy": "Friends of Tibet",
+      "dateStarted": "2020",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "A range of groups have called for a boycott of China in recent years. is calling for a boycott of China, citing forced labour among a range of reasons to boycott produce from the country.",
+      "relatedGuides": []
+    },
+    {
+      "company": "McDonald's",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": [
+        "Restaurant Chains"
+      ]
+    },
+    {
+      "company": "Method",
+      "category": "Animal Testing",
+      "calledBy": "Naturewatch Foundation",
+      "dateStarted": "2018",
+      "companyProfile": "SC Johnson & Son Inc",
+      "reason": "",
+      "relatedGuides": [
+        "Washing-up Liquid",
+        "and",
+        "Ethical Soap",
+        "and",
+        "Laundry Detergents",
+        "and"
+      ]
+    },
+    {
+      "company": "Microsoft (including Xbox)",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2025",
+      "companyProfile": "Microsoft Corporation",
+      "reason": "",
+      "relatedGuides": [
+        "Email Providers",
+        "and",
+        "Ethical Laptops",
+        "and",
+        "Tablets and e-readers",
+        "and"
+      ]
+    },
+    {
+      "company": "Mitie",
+      "category": "Human Rights",
+      "calledBy": "Women for Refugee Women: End Detention campaign",
+      "dateStarted": "2023",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "Women for Refugee Women and the End Detention group are calling for a",
+      "relatedGuides": []
+    },
+    {
+      "company": "Mondelez International (for Oreo & Ritz)",
+      "category": "Human Rights",
+      "calledBy": "90 West Papuan tribes, political organisations and religious groups",
+      "dateStarted": "2025",
+      "companyProfile": "Mondelez International",
+      "reason": "90 West Papuan tribes, political organisations and religious groups More than 90 West Papuan tribes, political organisations and religious groups are calling for a boycott of companies that profit from ongoing",
+      "relatedGuides": [
+        "Biscuits"
+      ]
+    },
+    {
+      "company": "Nestlé",
+      "category": "Human Rights",
+      "calledBy": "Baby Milk Action",
+      "dateStarted": "1977",
+      "companyProfile": "Nestlé SA",
+      "reason": "",
+      "relatedGuides": [
+        "Soft Drinks",
+        "and",
+        "Make-Up",
+        "and",
+        "Skincare",
+        "and"
+      ]
+    },
+    {
+      "company": "Nestlé (various chocolate brands)",
+      "category": "Human Rights",
+      "calledBy": "90 West Papuan tribes, political organisations and religious groups",
+      "dateStarted": "2025",
+      "companyProfile": "Nestlé SA",
+      "reason": "90 West Papuan tribes, political organisations and religious groups More than 90 West Papuan tribes, political organisations and religious groups are calling for a boycott of companies that profit from ongoing",
+      "relatedGuides": [
+        "Ethical Chocolate"
+      ]
+    },
+    {
+      "company": "Papa John's",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2023",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "The BDS National Committee says McDonald’s, Burger King, Papa John’s, Pizza Hut and Domino's Pizza “are targeted in some countries by grassroots organic boycott campaigns, not initiated by the BDS movement. \"BDS supports these boycott campaigns because these companies, or their branches or franchisees in Israel, have openly supported apartheid Israel and/or provided generous in-kind donations to the Israeli military amid the current genocide”.",
+      "relatedGuides": [
+        "Fast Food Chains"
+      ]
+    },
+    {
+      "company": "Pizza Hut",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2023",
+      "companyProfile": "Pizza Hut LLC",
+      "reason": "The BDS National Committee says McDonald’s, Burger King, Papa John’s and Pizza Hut \"are now being targeted in some countries by grassroots organic boycott campaigns , not initiated by the BDS movement. BDS supports these boycott campaigns because these companies, or their branches or franchisees in Israel, have openly supported apartheid Israel and/or provided generous in-kind donations to the Israeli military amid the current genocide.\" According to a Yahoo! Finance article, \"On January 19th 2024",
+      "relatedGuides": [
+        "Fast Food Chains"
+      ]
+    },
+    {
+      "company": "Procter & Gamble",
+      "category": "Human Rights",
+      "calledBy": "90 West Papuan tribes, political organisations and religious groups",
+      "dateStarted": "2025",
+      "companyProfile": "Procter & Gamble Company",
+      "reason": "90 West Papuan tribes, political organisations and religious groups More than 90 West Papuan tribes, political organisations and religious groups are calling for a boycott of companies that profit from ongoing",
+      "relatedGuides": [
+        "Ethical Shampoo"
+      ]
+    },
+    {
+      "company": "Reebok",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2025",
+      "companyProfile": "Reebok International Ltd",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Trainers",
+        "and",
+        "Ethical Sportswear"
+      ]
+    },
+    {
+      "company": "Russia",
+      "category": "Oppressive Regimes",
+      "calledBy": "Government of Ukraine",
+      "dateStarted": "2022",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "Following the Russian invasion of Ukraine, on March 7th 2022 Ukrainian President Volodymyr Zelensky called for an international “boycott of Russian exports, in particular the rejection of oil and oil products from Russia.” Subsequently, Ukraine’s Culture Minister",
+      "relatedGuides": []
+    },
+    {
+      "company": "Sabra Hummus",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2010",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "In the US, the brand Sabra hummus was until November 2024 owned 50/50 by PepsiCo and The Strauss Group. The Strauss Group is Israel's second biggest food company and according to the Palestinian Boycott, Divestment and Sanction (BDS) movement it \"",
+      "relatedGuides": []
+    },
+    {
+      "company": "Siemens",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2022",
+      "companyProfile": "Robert Bosch Stiftung GMBH",
+      "reason": "",
+      "relatedGuides": [
+        "Eco Friendly Dishwashers",
+        "and",
+        "Washing Machines",
+        "and",
+        "Microwaves",
+        "and"
+      ]
+    },
+    {
+      "company": "SodaStream",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2012",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "SodaStream has long faced a boycott call over its “complicity in Israel’s grave violations of Palestinian human rights”,",
+      "relatedGuides": [
+        "Soft Drinks"
+      ]
+    },
+    {
+      "company": "Starbucks",
+      "category": "Habitats & Resources",
+      "calledBy": "Lakota Law",
+      "dateStarted": "2023",
+      "companyProfile": "Starbucks Corporation",
+      "reason": "The Lakota People's Law Project Action Center is calling for a",
+      "relatedGuides": [
+        "Coffee Shops"
+      ]
+    },
+    {
+      "company": "Tesco Bank",
+      "category": "Human Rights",
+      "calledBy": "Palestine Solidarity Campaign",
+      "dateStarted": "2024",
+      "companyProfile": "Tesco Personal Finance plc \"Tesco Bank\"",
+      "reason": "According to Palestine Solidarity Campaign (PSC), \"On 1 November 2024,",
+      "relatedGuides": [
+        "Ethical Bank Accounts"
+      ]
+    },
+    {
+      "company": "Tesla",
+      "category": "Human Rights",
+      "calledBy": "Tesla Takedown",
+      "dateStarted": "2025",
+      "companyProfile": "Tesla, Inc",
+      "reason": "",
+      "relatedGuides": [
+        "Ethical Cars and Electric Cars"
+      ]
+    },
+    {
+      "company": "Texaco",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2022",
+      "companyProfile": "Chevron Corporation",
+      "reason": "In October 2022 the BDS National Committee (BNC) called for a boycott of Chevron. It",
+      "relatedGuides": [
+        "Petrol & Diesel"
+      ]
+    },
+    {
+      "company": "Trip.com",
+      "category": "Animal Rights",
+      "calledBy": "World Animal Protection",
+      "dateStarted": "2023",
+      "companyProfile": "Trip.com Group Limited",
+      "reason": "World Animal Protection is calling for a boycott of",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Tui",
+      "category": "Animal Rights",
+      "calledBy": "World Animal Protection",
+      "dateStarted": "2023",
+      "companyProfile": "TUI AG",
+      "reason": "World Animal Protection is calling for a boycott of travel company Tui.",
+      "relatedGuides": [
+        "Travel booking companies"
+      ]
+    },
+    {
+      "company": "Twitter / X",
+      "category": "Human Rights",
+      "calledBy": "StopToxicTwitter",
+      "dateStarted": "2022",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "In 2022 the coalition 'Stop Toxic Twitter', composed of around 60 organisations,",
+      "relatedGuides": []
+    },
+    {
+      "company": "Volvo (AB Volvo trucks)",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2024",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": []
+    },
+    {
+      "company": "Wendy's",
+      "category": "Workers' Rights",
+      "calledBy": "Coalition of Immokalee Workers",
+      "dateStarted": "2016",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "US fast food chain Wendy’s, which has some branches in the UK, faces a long-standing",
+      "relatedGuides": [
+        "Fast Food Chains"
+      ]
+    },
+    {
+      "company": "Wix",
+      "category": "Human Rights",
+      "calledBy": "Tech For Palestine",
+      "dateStarted": "2023",
+      "companyProfile": "Related Shopping Guides:",
+      "reason": "",
+      "relatedGuides": []
+    },
+    {
+      "company": "ZARA (owned by Inditex)",
+      "category": "Human Rights",
+      "calledBy": "BDS National Committee",
+      "dateStarted": "2025",
+      "companyProfile": "Zara S.A",
+      "reason": "",
+      "relatedGuides": [
+        "High Street Clothes Shops",
+        "and",
+        "Sustainable Underwear Brands",
+        "and",
+        "Ethical Jeans"
+      ]
+    }
+  ]
+}
