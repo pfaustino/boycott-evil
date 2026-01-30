@@ -42,6 +42,11 @@ ethical-consumer-page-sample.html
 __pycache__/
 *.pyc
 
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+
 # Large archive files
 *.zip
 *.gz

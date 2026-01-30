@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { db, type Product } from './db';
 import { loadProductData, loadLargeProductData, loadEvilCompanies, loadBrandAliases, clearData, exportEvilCompanies, type EvilCompanies } from './dataLoader';
 import { importBoycottCompanies, importBrandsAsProducts, generateBrandAliases, listAvailableFiles } from './githubImporter';
+import * as dataService from './dataService';
 import BarcodeSearch from './components/BarcodeSearch';
 import ProductSearch from './components/ProductSearch';
 import ResultDisplay from './components/ResultDisplay';
@@ -24,13 +25,20 @@ function App() {
   const [searchLoading, setSearchLoading] = useState(false);
   const [importProgress, setImportProgress] = useState<string>('');
   const [isImporting, setIsImporting] = useState(false);
+  const [dataSource, setDataSource] = useState<string>('');
 
   useEffect(() => {
     async function init() {
       try {
+        // Set data source name for display
+        setDataSource(dataService.getDataSourceName());
+        
+        // Initialize data source (Turso or IndexedDB)
+        await dataService.initializeDataSource((count) => setLoadProgress(count));
+        
+        // Load other data in parallel
         await Promise.all([
-          loadProductData((count) => setLoadProgress(count)),
-          db.products.count().then(setProductCount),
+          dataService.getProductCount().then(setProductCount),
           loadEvilCompanies().then(setEvilCompanies),
           loadBrandAliases().then(setBrandAliases)
         ]);
@@ -81,8 +89,15 @@ function App() {
     setSearchLoading(true);
     setSelectedProduct(undefined);
     try {
-      const product = await db.products.get(code);
-      if (product) {
+      const result = await dataService.searchByCode(code);
+      if (result) {
+        // Convert to Product type for compatibility
+        const product: Product = {
+          code: result.code,
+          product_name: result.product_name,
+          brands: result.brands,
+          normalized_brand: result.normalized_brand,
+        };
         checkCompliance(product);
       } else {
         alert("Product not found via barcode."); // Replace with better UI later
@@ -207,7 +222,9 @@ function App() {
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 text-slate-700">
         <div className="text-2xl font-bold mb-4 animate-pulse">Initializing Database...</div>
         <div>Processed items: {loadProgress}</div>
-        <div className="text-sm mt-2 text-slate-400">First load only.</div>
+        <div className="text-sm mt-2 text-slate-400">
+          {dataService.isTursoConfigured() ? 'Connecting to Turso Cloud...' : 'First load only.'}
+        </div>
       </div>
     );
   }
@@ -256,12 +273,15 @@ function App() {
 
         <footer className="text-center mt-10 text-slate-400 text-sm pb-10">
           <p>Powered by Open Food Facts & Community Data</p>
-          <button
-            onClick={handleResetData}
-            className="mt-4 text-xs underline opacity-50 hover:opacity-100"
-          >
-            Debug: Reset Data
-          </button>
+          <p className="text-xs mt-1 text-slate-300">Data: {dataSource}</p>
+          {!dataService.isTursoConfigured() && (
+            <button
+              onClick={handleResetData}
+              className="mt-4 text-xs underline opacity-50 hover:opacity-100"
+            >
+              Debug: Reset Data
+            </button>
+          )}
           <span className="mx-2 text-slate-300">|</span>
           <button
             onClick={handleLoadFullData}
