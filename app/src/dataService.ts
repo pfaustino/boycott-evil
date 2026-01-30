@@ -15,6 +15,13 @@ export interface ProductResult {
     normalized_brand: string;
 }
 
+export interface SmartSearchResult {
+    product: ProductResult | null;
+    matchType: 'exact' | 'prefix' | 'none';
+    similarProducts?: ProductResult[];
+    prefixLength?: number;
+}
+
 // Check if Turso is configured
 export function isTursoConfigured(): boolean {
     return !!(import.meta.env.VITE_TURSO_DATABASE_URL && import.meta.env.VITE_TURSO_AUTH_TOKEN);
@@ -42,6 +49,48 @@ export async function searchByCode(code: string): Promise<ProductResult | null> 
         brands: product.brands,
         normalized_brand: product.normalized_brand || '',
     };
+}
+
+/**
+ * Smart barcode search with prefix matching fallback.
+ * If exact match fails, finds products from the same manufacturer
+ * by matching the company prefix (first 6-10 digits).
+ */
+export async function searchByCodeSmart(code: string): Promise<SmartSearchResult> {
+    if (isTursoConfigured()) {
+        return await turso.searchProductByCodeSmart(code);
+    }
+    
+    // Local IndexedDB - exact match only (no prefix search implemented)
+    const product = await db.products.get(code);
+    if (product) {
+        return {
+            product: {
+                code: product.code,
+                product_name: product.product_name,
+                brands: product.brands,
+                normalized_brand: product.normalized_brand || '',
+            },
+            matchType: 'exact',
+        };
+    }
+    
+    // Try padded code
+    const paddedCode = code.padStart(13, '0');
+    const paddedProduct = await db.products.get(paddedCode);
+    if (paddedProduct) {
+        return {
+            product: {
+                code: paddedProduct.code,
+                product_name: paddedProduct.product_name,
+                brands: paddedProduct.brands,
+                normalized_brand: paddedProduct.normalized_brand || '',
+            },
+            matchType: 'exact',
+        };
+    }
+    
+    return { product: null, matchType: 'none' };
 }
 
 /**

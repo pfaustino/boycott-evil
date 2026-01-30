@@ -26,6 +26,7 @@ function App() {
   const [importProgress, setImportProgress] = useState<string>('');
   const [isImporting, setIsImporting] = useState(false);
   const [dataSource, setDataSource] = useState<string>('');
+  const [matchInfo, setMatchInfo] = useState<{ type: 'exact' | 'prefix' | 'none'; prefixLength?: number; similarProducts?: Product[] } | undefined>(undefined);
 
   useEffect(() => {
     async function init() {
@@ -88,19 +89,45 @@ function App() {
   const handleBarcodeSearch = async (code: string) => {
     setSearchLoading(true);
     setSelectedProduct(undefined);
+    setMatchInfo(undefined);
     try {
-      const result = await dataService.searchByCode(code);
-      if (result) {
-        // Convert to Product type for compatibility
+      // Use smart search with prefix matching fallback
+      const result = await dataService.searchByCodeSmart(code);
+      
+      if (result.matchType === 'exact' && result.product) {
+        // Exact match found
         const product: Product = {
-          code: result.code,
-          product_name: result.product_name,
-          brands: result.brands,
-          normalized_brand: result.normalized_brand,
+          code: result.product.code,
+          product_name: result.product.product_name,
+          brands: result.product.brands,
+          normalized_brand: result.product.normalized_brand,
         };
+        setMatchInfo({ type: 'exact' });
+        checkCompliance(product);
+      } else if (result.matchType === 'prefix' && result.product) {
+        // Prefix match - found products from same manufacturer
+        const product: Product = {
+          code: code, // Use original scanned code
+          product_name: `Unknown product (similar to ${result.product.product_name})`,
+          brands: result.product.brands,
+          normalized_brand: result.product.normalized_brand,
+        };
+        const similarProducts = result.similarProducts?.map(p => ({
+          code: p.code,
+          product_name: p.product_name,
+          brands: p.brands,
+          normalized_brand: p.normalized_brand,
+        }));
+        setMatchInfo({ 
+          type: 'prefix', 
+          prefixLength: result.prefixLength,
+          similarProducts 
+        });
         checkCompliance(product);
       } else {
-        alert("Product not found via barcode."); // Replace with better UI later
+        // No match at all
+        setMatchInfo({ type: 'none' });
+        setEvilStatus('unknown');
         setSearchLoading(false);
       }
     } catch (err) {
@@ -266,7 +293,8 @@ function App() {
               product={selectedProduct}
               evilStatus={evilStatus}
               companyData={companyData}
-              isLoading={searchLoading} // pass loading to let Result handle it if needed
+              isLoading={searchLoading}
+              matchInfo={matchInfo}
             />
           </div>
         </main>

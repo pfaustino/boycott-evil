@@ -2,15 +2,41 @@ import type { Product } from '../db';
 import type { EvilCompanies } from '../dataLoader';
 import { getSupportBadgeStyle } from '../supportBadgeUtils';
 
+interface MatchInfo {
+    type: 'exact' | 'prefix' | 'none';
+    prefixLength?: number;
+    similarProducts?: Product[];
+}
+
 interface Props {
     product?: Product;
     evilStatus: 'evil' | 'clean' | 'unknown';
     companyData?: EvilCompanies[string];
     isLoading?: boolean;
+    matchInfo?: MatchInfo;
 }
 
-export default function ResultDisplay({ product, evilStatus, companyData, isLoading }: Props) {
+export default function ResultDisplay({ product, evilStatus, companyData, isLoading, matchInfo }: Props) {
     if (isLoading) return <div className="mt-6 p-6 text-center text-slate-500 animate-pulse">Checking database...</div>;
+    
+    // Show "not found" message when matchInfo indicates no match
+    if (matchInfo?.type === 'none') {
+        return (
+            <div className="mt-6 p-6 rounded-xl shadow-lg border-2 border-amber-300 bg-amber-50">
+                <div className="flex items-center gap-3 mb-4">
+                    <span className="text-4xl">🔍</span>
+                    <div>
+                        <span className="text-2xl font-bold text-amber-800 block">Product Not Found</span>
+                        <span className="text-amber-700">Not in our database of 356K+ products</span>
+                    </div>
+                </div>
+                <p className="text-amber-800 text-sm">
+                    Try searching by product name instead, or the product may not be in our Open Food Facts dataset.
+                </p>
+            </div>
+        );
+    }
+    
     if (!product) return null;
 
     const isEvil = evilStatus === 'evil';
@@ -21,6 +47,15 @@ export default function ResultDisplay({ product, evilStatus, companyData, isLoad
             isClean ? 'border-green-500 bg-green-50' :
                 'border-gray-200 bg-white'
             }`}>
+            
+            {/* Prefix match indicator */}
+            {matchInfo?.type === 'prefix' && (
+                <div className="mb-4 p-3 bg-blue-100 border border-blue-300 rounded-lg text-blue-800 text-sm">
+                    <span className="font-bold">🔗 Manufacturer Match:</span> Exact product not found, but we found other products from the same company 
+                    (matching first {matchInfo.prefixLength} digits of barcode).
+                </div>
+            )}
+            
             <h2 className="text-3xl font-bold text-slate-800 mb-1">{product.product_name}</h2>
             <p className="text-slate-600 mb-4 text-lg">Brand: <span className="font-semibold text-slate-800">{product.brands}</span></p>
 
@@ -112,6 +147,23 @@ export default function ResultDisplay({ product, evilStatus, companyData, isLoad
             {evilStatus === 'unknown' && (
                 <div className="text-slate-600">
                     <p className="text-lg">No explicit data found for <span className="font-semibold">{product.normalized_brand || "this brand"}</span>.</p>
+                </div>
+            )}
+
+            {/* Similar products from prefix match */}
+            {matchInfo?.type === 'prefix' && matchInfo.similarProducts && matchInfo.similarProducts.length > 1 && (
+                <div className="mt-6 pt-4 border-t border-slate-200">
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3">
+                        Other Products from Same Manufacturer
+                    </h4>
+                    <ul className="space-y-2 text-sm">
+                        {matchInfo.similarProducts.slice(0, 5).map(p => (
+                            <li key={p.code} className="flex items-center gap-2 text-slate-600">
+                                <span className="text-slate-400 font-mono text-xs">{p.code}</span>
+                                <span>{p.product_name}</span>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             )}
         </div>
