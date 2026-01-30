@@ -20,31 +20,34 @@
   },
   "coca-cola": {
     "evil": true,
-    "reason": "Plastic pollution, water depletion | Human Rights - Called by Friends of Al Aqsa",
+    "reason": "Plastic pollution, water depletion | Human Rights - Called by Friends of Al Aqsa | DEI Rollback - 02/06/2025 Coca-Cola calls ICE on its own workers",
     "alternatives": [
       "Fritz-Kola",
       "Independent Soda Co"
     ],
     "supports": [
       "Israel",
-      "ICE"
+      "ICE",
+      "Anti-DEI"
     ]
   },
   "amazon": {
     "evil": true,
-    "reason": "AWS hosts DHS/ICE databases; Ring shares footage with ICE. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows for",
+    "reason": "AWS hosts DHS/ICE databases; Ring shares footage with ICE. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows for | DEI Rollback",
     "alternatives": [],
     "supports": [
       "Israel",
-      "ICE"
+      "ICE",
+      "Anti-DEI"
     ]
   },
   "apple": {
     "evil": true,
-    "reason": "Removed anti-ICE protection apps; donation to Trump 2025 inauguration.",
+    "reason": "Removed anti-ICE protection apps; donation to Trump 2025 inauguration. | DEI Supportive",
     "alternatives": [],
     "supports": [
-      "ICE"
+      "ICE",
+      "Anti-DEI"
     ]
   },
   "aramark": {
@@ -135,10 +138,11 @@
   },
   "comcast": {
     "evil": true,
-    "reason": "Internet and cable services for ICE/CBP.",
+    "reason": "Internet and cable services for ICE/CBP. | DEI Effective",
     "alternatives": [],
     "supports": [
-      "ICE"
+      "ICE",
+      "Anti-DEI"
     ]
   },
   "corecivic": {
@@ -202,11 +206,12 @@
   },
   "google": {
     "evil": true,
-    "reason": "Runs ads for DHS/ICE recruitment. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n\n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows fo",
+    "reason": "Runs ads for DHS/ICE recruitment. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n\n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows fo | DEI Rollback",
     "alternatives": [],
     "supports": [
       "Israel",
-      "ICE"
+      "ICE",
+      "Anti-DEI"
     ]
   },
   "hbo max": {
@@ -257,11 +262,12 @@
   },
   "disney": {
     "evil": true,
-    "reason": "Parent of Hulu (runs ICE ads). | The BDS National Committee, Jewish Voice for Peace, and Movement for Black Lives are calling for a | Owned by **The Walt Disney Company**.\n\n**The Walt Disney Company** Donates To Support Humanitarian Relief Following Terrorist Attacks In Israel.",
+    "reason": "Parent of Hulu (runs ICE ads). | The BDS National Committee, Jewish Voice for Peace, and Movement for Black Lives are calling for a | Owned by **The Walt Disney Company**.\n\n**The Walt Disney Company** Donates To Support Humanitarian Relief Following Terrorist Attacks In Israel. | DEI Rollback",
     "alternatives": [],
     "supports": [
       "Israel",
-      "ICE"
+      "ICE",
+      "Anti-DEI"
     ]
   },
   "l3harris": {
@@ -438,19 +444,21 @@
   },
   "youtube": {
     "evil": true,
-    "reason": "Runs ads for DHS/ICE recruitment. | **Youtube** is owned by **Google**\n\nAmazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and gove",
+    "reason": "Runs ads for DHS/ICE recruitment. | **Youtube** is owned by **Google**\n\nAmazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and gove | DEI Rollback - Owned by Google",
     "alternatives": [],
     "supports": [
       "ICE",
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "airbnb": {
     "evil": true,
-    "reason": "Human Rights - Called by BDS National Committee | **Airbnb** allows listings in occupied Palestinian territory, and after announcing it will remove 200 of such listings, it reversed its decision, showing it is knowingly complicit in Israels occupatio",
+    "reason": "Human Rights - Called by BDS National Committee | **Airbnb** allows listings in occupied Palestinian territory, and after announcing it will remove 200 of such listings, it reversed its decision, showing it is knowingly complicit in Israels occupatio | DEI Rollback",
     "alternatives": [],
     "supports": [
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "axa": {
@@ -743,11 +751,12 @@
   },
   "starbucks": {
     "evil": true,
-    "reason": "The Lakota People's Law Project Action Center is calling for a | Howard Shultz is the largest private owner of **Starbucks** shares and is a staunch zionist who invests heavily in Israel's economy including a recent $1.7 Billion investment in cybersecurity startup ",
+    "reason": "The Lakota People's Law Project Action Center is calling for a | Howard Shultz is the largest private owner of **Starbucks** shares and is a staunch zionist who invests heavily in Israel's economy including a recent $1.7 Billion investment in cybersecurity startup  | DEI Opposed",
     "alternatives": [],
     "supports": [
       "Labor",
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "tesco bank": {
@@ -760,10 +769,11 @@
   },
   "tesla": {
     "evil": true,
-    "reason": "Human Rights - Called by Tesla Takedown",
+    "reason": "Human Rights - Called by Tesla Takedown | DEI Rollback",
     "alternatives": [],
     "supports": [
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "texaco": {
@@ -808,10 +818,11 @@
   },
   "wendy's": {
     "evil": true,
-    "reason": "US fast food chain Wendy’s, which has some branches in the UK, faces a long-standing",
+    "reason": "US fast food chain Wendy’s, which has some branches in the UK, faces a long-standing | DEI Opposed - Coca-Cola products sold here",
     "alternatives": [],
     "supports": [
-      "Labor"
+      "Labor",
+      "Anti-DEI"
     ]
   },
   "wix": {
@@ -2576,10 +2587,11 @@
   },
   "jack daniel's": {
     "evil": true,
-    "reason": "Owned by **The Coca-Cola Company**.\n\n**Coca-Cola Israel** owns dairy farms in the illegal Israeli settlements of Shadmot Mechola in the Jordan Valley and a plant in the industrial zone of Katzerin in the occupied Golan Heights.",
+    "reason": "Owned by **The Coca-Cola Company**.\n\n**Coca-Cola Israel** owns dairy farms in the illegal Israeli settlements of Shadmot Mechola in the Jordan Valley and a plant in the industrial zone of Katzerin in the occupied Golan Heights. | DEI Ineffective",
     "alternatives": [],
     "supports": [
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "jack link's": {
@@ -5120,10 +5132,11 @@
   },
   "kfc": {
     "evil": true,
-    "reason": "Owned by **Yum! Brands**.\n\n**Yum! Brands** is an investor in Israeli start ups.",
+    "reason": "Owned by **Yum! Brands**.\n\n**Yum! Brands** is an investor in Israeli start ups. | DEI Opposed - Owned by Yum! Brands, Inc.",
     "alternatives": [],
     "supports": [
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "lay's": {
@@ -5312,10 +5325,17 @@
   },
   "walmart": {
     "evil": true,
-    "reason": "**Walmart Foundation**, the philanthropy arm of the U.S. retailer, has pledged **$1 million** to an Israeli disaster relief and emergency medical service organization.",
-    "alternatives": [],
+    "reason": "**Walmart Foundation**, the philanthropy arm of the U.S. retailer, has pledged **$1 million** to an Israeli disaster relief and emergency medical service organization. | DEI Rollback",
+    "alternatives": [
+      "Albertsons",
+      "Costco",
+      "Kroger",
+      "Meijer",
+      "WinCo"
+    ],
     "supports": [
-      "Israel"
+      "Israel",
+      "Anti-DEI"
     ]
   },
   "walt disney": {
@@ -5629,5 +5649,629 @@
       "Israel"
     ],
     "reason": "Dannon is Danone (US brand). Danone leads an investment of about NIS 12.5 million in Israel's Wilk."
+  },
+  "ace hardware": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "aldi": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [
+      "Albertsons",
+      "Costco",
+      "Kroger",
+      "Meijer",
+      "WinCo"
+    ],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "alliance health": {
+    "evil": true,
+    "reason": "DEI Supportive",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "alphabet": {
+    "evil": true,
+    "reason": "DEI Rollback - Owns Google",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "arby's": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "autozone": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "bass pro": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "bj's wholesale club": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "black+decker": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by Stanley Black & Decker",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "boeing": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "brown-forman": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "buffalo wild wings": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "burlington": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "caterpillar": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "chevrolet": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "chevron corporation": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "chik-fil-a": {
+    "evil": true,
+    "reason": "DEI Opposed - While Chik-Fil-A currently has DEI initiatives posted on their websites, they do not support LGBTQ+ and women's rights",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "citigroup": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "craftsman": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by Stanley Black & Decker",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "dairy queen": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "dewalt": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by Stanley Black & Decker",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "dillards": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "energy transfer partners": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "enterprise products": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "facebook": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by Meta",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "ford motor company": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "gamestop": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "goya foods": {
+    "evil": true,
+    "reason": "Under Review",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "hardee's/carl's jr.": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "harley-davidson": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "hobby lobby": {
+    "evil": true,
+    "reason": "DEI Opposed",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "homegoods": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by The TJX Companies, Inc.",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "hyundai": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "instagram": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by Meta",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "john deere": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "liberty mutual": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "little caesars": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "lockheed martin": {
+    "evil": true,
+    "reason": "DEI Rollback - It's Lockheed Martin...",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "long john silver": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "love's": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "lowe's": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "marathon": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "marshalls": {
+    "evil": true,
+    "reason": "DEI Opposed - Owned by The TJX Companies, Inc.",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "mcdonalds": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "mckinsey & company": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "menards": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "meta platforms": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "molson coors": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "netflix": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "papa johns": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "pepsico": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "petsmart": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "polaris": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "rolls-royce": {
+    "evil": true,
+    "reason": "DEI Effective - Rolls-Royce is a weapons manufacturer",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "ross": {
+    "evil": true,
+    "reason": "DEI Opposed",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "raytheon/rtx corporation": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "sam's club": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [
+      "Albertsons",
+      "Costco",
+      "Kroger",
+      "Meijer",
+      "WinCo"
+    ],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "stanley": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by Stanley Black & Decker",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "stanley black & decker": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "steak & shake": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "steam": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "t-mobile": {
+    "evil": true,
+    "reason": "*DEI Effective* - T-Mobile is now using Starlink technology which is owned by SpaceX",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "taco john's": {
+    "evil": true,
+    "reason": "DEI Ineffective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "target": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [
+      "Albertsons",
+      "Costco",
+      "Kroger",
+      "Meijer",
+      "WinCo"
+    ],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "tj maxx": {
+    "evil": true,
+    "reason": "DEI Rollback - Owned by The TJX Companies, Inc.",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "tjx": {
+    "evil": true,
+    "reason": "DEI Rollback - The TJX Companies, Inc. owns TJ Maxx, Marshalls, HomeGoods, Sierra, Winners, Homesense, and TK Maxx",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "toyota": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "tractor supply company": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "valero energy": {
+    "evil": true,
+    "reason": "DEI Effective",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "whataburger": {
+    "evil": true,
+    "reason": "DEI Supportive",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "white castle": {
+    "evil": true,
+    "reason": "*DEI Effective* - Coca-Cola products sold here",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "whole foods market": {
+    "evil": true,
+    "reason": "*DEI Effective* - Whole Foods Market is owned by Amazon",
+    "alternatives": [
+      "Albertsons",
+      "Costco",
+      "Kroger",
+      "Meijer",
+      "WinCo"
+    ],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "x (twitter)": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "texas instruments": {
+    "evil": true,
+    "reason": "DEI Rollback",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
+  },
+  "lola": {
+    "evil": true,
+    "reason": "DEI Ineffective - Owner is Amazon affiliated",
+    "alternatives": [],
+    "supports": [
+      "Anti-DEI"
+    ]
   }
 }
