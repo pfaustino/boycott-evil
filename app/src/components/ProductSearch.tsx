@@ -45,7 +45,7 @@ export default function ProductSearch({ onSelect }: Props) {
     return (
         <div className="w-full max-w-md mx-auto">
             <label htmlFor="prod-search" className="block text-sm font-medium text-slate-700 mb-1">
-                Product Name
+                Company or Product Name
             </label>
             <input
                 id="prod-search"

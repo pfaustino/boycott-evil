@@ -272,17 +272,17 @@ function App() {
               onClick={() => { setActiveTab('barcode'); setSelectedProduct(undefined); }}
               className={`flex-1 py-4 font-semibold text-center transition-colors ${activeTab === 'barcode' ? 'bg-indigo-50 text-indigo-600 border-b-2 border-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}
             >
-              Barcode
+              by Barcode
             </button>
             <button
               onClick={() => { setActiveTab('product'); setSelectedProduct(undefined); }}
               className={`flex-1 py-4 font-semibold text-center transition-colors ${activeTab === 'product' ? 'bg-indigo-50 text-indigo-600 border-b-2 border-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}
             >
-              Product Name
+              by Name
             </button>
           </div>
 
-          <div className="p-8 min-h-[400px]">
+          <div className="p-4 sm:p-8 min-h-[400px]">
             {activeTab === 'barcode' ? (
               <BarcodeSearch onSearch={handleBarcodeSearch} isLoading={searchLoading} />
             ) : (
