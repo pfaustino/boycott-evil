@@ -33,7 +33,7 @@ async function parseDelimitedData(text: string, delimiter: string = '\t'): Promi
             complete: (results) => {
                 resolve(results.data);
             },
-            error: (error) => {
+            error: (error: Error) => {
                 reject(error);
             }
         });
