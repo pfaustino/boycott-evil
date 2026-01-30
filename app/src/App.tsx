@@ -286,7 +286,7 @@ function App() {
             {activeTab === 'barcode' ? (
               <BarcodeSearch onSearch={handleBarcodeSearch} isLoading={searchLoading} />
             ) : (
-              <ProductSearch onSelect={checkCompliance} />
+              <ProductSearch onSelect={checkCompliance} evilCompanies={evilCompanies} />
             )}
 
             <ResultDisplay
