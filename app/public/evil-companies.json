@@ -5621,5 +5621,13 @@
     "supports": [
       "Israel"
     ]
+  },
+  "dannon": {
+    "alternatives": [],
+    "evil": true,
+    "supports": [
+      "Israel"
+    ],
+    "reason": "Dannon is Danone (US brand). Danone leads an investment of about NIS 12.5 million in Israel's Wilk."
   }
 }
