@@ -274,32 +274,35 @@ function App() {
         <footer className="text-center mt-10 text-slate-400 text-sm pb-10">
           <p>Powered by Open Food Facts & Community Data</p>
           <p className="text-xs mt-1 text-slate-300">Data: {dataSource}</p>
+          {/* Only show data management buttons when NOT using Turso cloud */}
           {!dataService.isTursoConfigured() && (
-            <button
-              onClick={handleResetData}
-              className="mt-4 text-xs underline opacity-50 hover:opacity-100"
-            >
-              Debug: Reset Data
-            </button>
-          )}
-          <span className="mx-2 text-slate-300">|</span>
-          <button
-            onClick={handleLoadFullData}
-            className="mt-4 text-xs underline opacity-50 hover:opacity-100 text-indigo-600"
-          >
-            Load Full DB (1GB)
-          </button>
-          <span className="mx-2 text-slate-300">|</span>
-          <button
-            onClick={handleImportGitHubData}
-            disabled={isImporting}
-            className="mt-4 text-xs underline opacity-50 hover:opacity-100 text-red-600 disabled:opacity-30"
-            title="Import boycott data from local TechForPalestine dataset files"
-          >
-            {isImporting ? 'Importing...' : 'Import Israel Boycott Data'}
-          </button>
-          {importProgress && (
-            <div className="mt-2 text-xs text-slate-500 italic">{importProgress}</div>
+            <>
+              <button
+                onClick={handleResetData}
+                className="mt-4 text-xs underline opacity-50 hover:opacity-100"
+              >
+                Debug: Reset Data
+              </button>
+              <span className="mx-2 text-slate-300">|</span>
+              <button
+                onClick={handleLoadFullData}
+                className="mt-4 text-xs underline opacity-50 hover:opacity-100 text-indigo-600"
+              >
+                Load Full DB (1GB)
+              </button>
+              <span className="mx-2 text-slate-300">|</span>
+              <button
+                onClick={handleImportGitHubData}
+                disabled={isImporting}
+                className="mt-4 text-xs underline opacity-50 hover:opacity-100 text-red-600 disabled:opacity-30"
+                title="Import boycott data from local TechForPalestine dataset files"
+              >
+                {isImporting ? 'Importing...' : 'Import Israel Boycott Data'}
+              </button>
+              {importProgress && (
+                <div className="mt-2 text-xs text-slate-500 italic">{importProgress}</div>
+              )}
+            </>
           )}
 
           <div className="mt-6 pt-6 border-t border-slate-200/50 flex justify-center gap-6">
