@@ -9,6 +9,7 @@ interface Props {
 
 export default function CameraScanner({ onScanSuccess, onScanFailure, onClose }: Props) {
     const [error, setError] = useState<string | null>(null);
+    const [facingMode, setFacingMode] = useState<"environment" | "user">("environment");
     const scannerRef = useRef<Html5Qrcode | null>(null);
 
     useEffect(() => {
@@ -19,7 +20,7 @@ export default function CameraScanner({ onScanSuccess, onScanFailure, onClose }:
         const startCamera = async () => {
             try {
                 await html5QrCode.start(
-                    { facingMode: "user" }, // Default to user/webcam for desktops
+                    { facingMode }, // "environment" = back camera, "user" = front camera
                     {
                         fps: 10,
                         qrbox: { width: 250, height: 250 },
@@ -53,7 +54,16 @@ export default function CameraScanner({ onScanSuccess, onScanFailure, onClose }:
                 scannerRef.current.stop().catch(e => console.error("Failed to stop on unmount", e));
             }
         };
-    }, []); // Empty dependency array -> run once
+    }, [facingMode]); // Re-run when camera changes
+
+    const flipCamera = async () => {
+        // Stop current camera first
+        if (scannerRef.current && scannerRef.current.isScanning) {
+            await scannerRef.current.stop();
+        }
+        // Toggle facing mode
+        setFacingMode(prev => prev === "environment" ? "user" : "environment");
+    };
 
     return (
         <div className="fixed inset-0 bg-black/80 z-[60] flex flex-col items-center justify-center p-4">
@@ -63,6 +73,13 @@ export default function CameraScanner({ onScanSuccess, onScanFailure, onClose }:
                     className="absolute top-2 right-2 z-10 bg-black/50 text-white rounded-full p-2 hover:bg-black/70 transition-colors"
                 >
                     ✕
+                </button>
+                <button
+                    onClick={flipCamera}
+                    className="absolute top-2 left-2 z-10 bg-black/50 text-white rounded-full p-2 hover:bg-black/70 transition-colors"
+                    title="Flip camera"
+                >
+                    🔄
                 </button>
 
                 <div className="p-4 bg-slate-900 text-white text-center font-medium">
