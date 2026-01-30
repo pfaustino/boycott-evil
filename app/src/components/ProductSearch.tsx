@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { db, type Product } from '../db';
+import { type Product } from '../db';
+import * as dataService from '../dataService';
 
 interface Props {
     onSelect: (product: Product) => void;
@@ -18,16 +19,18 @@ export default function ProductSearch({ onSelect }: Props) {
             }
             setIsSearching(true);
             try {
-                // Simple prefix search; for better results we might use filter with includes
-                // const found = await db.products.where('product_name').startsWithIgnoreCase(term).limit(10).toArray();
+                // Use data service for search (works with both Turso and IndexedDB)
+                const found = await dataService.searchByQuery(term, 10);
+                
+                // Convert to Product type
+                const products: Product[] = found.map(r => ({
+                    code: r.code,
+                    product_name: r.product_name,
+                    brands: r.brands,
+                    normalized_brand: r.normalized_brand,
+                }));
 
-                // Let's use filter to be more flexible (contains) since dataset is small-ish
-                const found = await db.products
-                    .filter(p => p.product_name.toLowerCase().includes(term.toLowerCase()))
-                    .limit(10)
-                    .toArray();
-
-                setResults(found);
+                setResults(products);
             } catch (err) {
                 console.error("Search failed", err);
             } finally {
