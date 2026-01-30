@@ -5,7 +5,7 @@
  * Otherwise, falls back to local IndexedDB.
  */
 
-import { db, type Product } from './db';
+import { db } from './db';
 import * as turso from './tursoClient';
 
 export interface ProductResult {
