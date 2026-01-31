@@ -56,14 +56,42 @@ function App() {
     init();
   }, []);
 
+  // Helper: Try to find a brand from product name using aliases
+  const extractBrandFromName = (productName: string): string | null => {
+    const nameLower = productName.toLowerCase();
+    // Check all aliases - if product name contains a known alias, return the parent company
+    for (const [alias, parent] of Object.entries(brandAliases)) {
+      if (nameLower.includes(alias.toLowerCase())) {
+        return parent.toLowerCase();
+      }
+    }
+    // Also check direct evil company names
+    for (const company of Object.keys(evilCompanies)) {
+      if (nameLower.includes(company.toLowerCase())) {
+        return company.toLowerCase();
+      }
+    }
+    return null;
+  };
+
   const checkCompliance = (product: Product) => {
     setSelectedProduct(product);
-    setSearchLoading(true); // Artificial delay or just state transition
+    setSearchLoading(true);
     setCompanyData(undefined);
     setGoodCompanyData(undefined);
 
-    // Normalize logic
-    const brand = product.normalized_brand;
+    // Normalize logic - use brand field, or try to extract from product name
+    let brand = product.normalized_brand;
+    let extractedFromName = false;
+    
+    // If brand is empty, try to extract from product name
+    if (!brand && product.product_name) {
+      const extracted = extractBrandFromName(product.product_name);
+      if (extracted) {
+        brand = extracted;
+        extractedFromName = true;
+      }
+    }
 
     // Wait a tick for UI
     setTimeout(() => {
@@ -76,7 +104,7 @@ function App() {
       // Check evil companies first
       const evilInfo = evilCompanies[brand];
       if (evilInfo && evilInfo.evil) {
-        track('product_result', { status: 'boycott', brand: brand, supports: evilInfo.supports?.join(',') || '' });
+        track('product_result', { status: 'boycott', brand: brand, supports: evilInfo.supports?.join(',') || '', extracted: extractedFromName });
         setEvilStatus('evil');
         setCompanyData(evilInfo);
         setSearchLoading(false);
@@ -87,7 +115,7 @@ function App() {
       const parentCompany = brandAliases[brand];
       if (parentCompany && evilCompanies[parentCompany.toLowerCase()]?.evil) {
         const parentInfo = evilCompanies[parentCompany.toLowerCase()];
-        track('product_result', { status: 'boycott', brand: parentCompany, supports: parentInfo.supports?.join(',') || '' });
+        track('product_result', { status: 'boycott', brand: parentCompany, supports: parentInfo.supports?.join(',') || '', extracted: extractedFromName });
         setEvilStatus('evil');
         setCompanyData(parentInfo);
         setSearchLoading(false);
