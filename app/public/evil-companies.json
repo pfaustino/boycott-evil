@@ -48,6 +48,14 @@
     "supports": [
       "ICE",
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.apple.com/diversity/",
+        "source": "DEI Boycott List",
+        "title": "Apple DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "aramark": {
@@ -143,6 +151,14 @@
     "supports": [
       "ICE",
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://corporate.comcast.com/impact/diversity-equity-inclusion",
+        "source": "DEI Boycott List",
+        "title": "Comcast DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "corecivic": {
@@ -775,6 +791,20 @@
       "Israel",
       "Anti-DEI",
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/news/2024/10/elon-musk-pumps-nearly-120-million-into-pro-trump-america-pac/",
+        "source": "OpenSecrets",
+        "title": "Elon Musk Pumps Nearly $120 Million Into Pro-Trump America PAC",
+        "date": "2024-10"
+      },
+      {
+        "url": "https://www.fec.gov/data/committee/C00825851/",
+        "source": "FEC.gov",
+        "title": "America PAC Filings",
+        "date": "2024"
+      }
     ]
   },
   "texaco": {
@@ -5679,6 +5709,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.alliancehealthplan.org/about/working-with-alliance/diversity-equity-and-inclusion/",
+        "source": "DEI Boycott List",
+        "title": "Alliance Health DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "alphabet": {
@@ -5703,6 +5741,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.autozone.com/diversity",
+        "source": "DEI Boycott List",
+        "title": "AutoZone DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "bass pro": {
@@ -5711,6 +5757,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://about.basspro.com/careers/culture/",
+        "source": "DEI Boycott List",
+        "title": "Bass Pro DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "bj's wholesale club": {
@@ -5759,6 +5813,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.burlington.com/about/diversity-equity-and-inclusion",
+        "source": "DEI Boycott List",
+        "title": "Burlington DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "caterpillar": {
@@ -5783,6 +5845,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.chevron.com/sustainability/social/diversity-inclusion",
+        "source": "DEI Boycott List",
+        "title": "Chevron Corporation DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "chik-fil-a": {
@@ -5799,6 +5869,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://finance.yahoo.com/news/dei-retreat-widens-as-citigroup-and-pepsico-roll-back-diversity-policies-154956511.html",
+        "source": "DEI Boycott List",
+        "title": "Citigroup DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "craftsman": {
@@ -5831,6 +5909,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.dillards.com/Careers/information/diversity",
+        "source": "DEI Boycott List",
+        "title": "Dillards DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "energy transfer partners": {
@@ -5847,6 +5933,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.enterpriseproducts.com/careers/diversity-inclusion/",
+        "source": "DEI Boycott List",
+        "title": "Enterprise Products DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "facebook": {
@@ -5880,6 +5974,14 @@
     "supports": [
       "Anti-DEI",
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.npr.org/2020/07/10/889858578/goya-foods-ceo-praises-trump-faces-boycott-calls",
+        "source": "NPR",
+        "title": "Goya Foods CEO Praises Trump, Faces Boycott Calls",
+        "date": "2020-07"
+      }
     ]
   },
   "hardee's/carl's jr.": {
@@ -5920,6 +6022,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careersautomotive.com/content/Diversity-and-Inclusion/?locale=en_US",
+        "source": "DEI Boycott List",
+        "title": "Hyundai DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "instagram": {
@@ -5944,6 +6054,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.libertymutualgroup.com/about-lm/corporate-information/diversity-equity-inclusion/our-commitment-diversity-equity-inclusion",
+        "source": "DEI Boycott List",
+        "title": "Liberty Mutual DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "little caesars": {
@@ -5976,6 +6094,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.loves.com/content/Inclusion-and-Diversity/?locale=en_US",
+        "source": "DEI Boycott List",
+        "title": "Love's DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "lowe's": {
@@ -5992,6 +6118,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.marathonpetroleum.com/Sustainability/Diversity-Equity-and-Inclusion/",
+        "source": "DEI Boycott List",
+        "title": "Marathon DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "marshalls": {
@@ -6016,6 +6150,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mckinsey.com/featured-insights/diversity-and-inclusion",
+        "source": "DEI Boycott List",
+        "title": "McKinsey & Company DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "menards": {
@@ -6064,6 +6206,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://finance.yahoo.com/news/dei-retreat-widens-as-citigroup-and-pepsico-roll-back-diversity-policies-154956511.html",
+        "source": "DEI Boycott List",
+        "title": "PepsiCo DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "petsmart": {
@@ -6088,6 +6238,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.rolls-royce-smr.com/careers/diversity-equality-and-inclusion",
+        "source": "DEI Boycott List",
+        "title": "Rolls-Royce DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "ross": {
@@ -6158,6 +6316,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.t-mobile.com/responsibility/people/diversity-inclusion",
+        "source": "DEI Boycott List",
+        "title": "T-Mobile DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "taco john's": {
@@ -6220,6 +6386,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.valero.com/careers/working-valero/team-valero",
+        "source": "DEI Boycott List",
+        "title": "Valero Energy DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "whataburger": {
@@ -6228,6 +6402,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://stories.whataburger.com/our-promise-pride-care-love/",
+        "source": "DEI Boycott List",
+        "title": "Whataburger DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "white castle": {
@@ -6236,6 +6418,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.whitecastle.com/castle-commitments/diversity-and-inclusion",
+        "source": "DEI Boycott List",
+        "title": "White Castle DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "whole foods market": {
@@ -6266,6 +6456,14 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://edbz.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX",
+        "source": "DEI Boycott List",
+        "title": "Texas Instruments DEI Policy",
+        "date": "2025-01"
+      }
     ]
   },
   "lola": {
@@ -6281,6 +6479,14 @@
     "reason": "CEO Elon Musk is a major Trump donor and ally (Government contractor with close Trump ties)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/news/2024/10/elon-musk-pumps-nearly-120-million-into-pro-trump-america-pac/",
+        "source": "OpenSecrets",
+        "title": "Elon Musk America PAC Donations",
+        "date": "2024-10"
+      }
     ]
   },
   "x": {
@@ -6288,6 +6494,14 @@
     "reason": "Owner Elon Musk donated $277M+ to Trump's America PAC (Formerly Twitter)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/news/2024/10/elon-musk-pumps-nearly-120-million-into-pro-trump-america-pac/",
+        "source": "OpenSecrets",
+        "title": "Elon Musk America PAC Donations",
+        "date": "2024-10"
+      }
     ]
   },
   "twitter": {
@@ -6295,6 +6509,14 @@
     "reason": "Owner Elon Musk donated $277M+ to Trump's America PAC (Now named X)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/news/2024/10/elon-musk-pumps-nearly-120-million-into-pro-trump-america-pac/",
+        "source": "OpenSecrets",
+        "title": "Elon Musk America PAC Donations",
+        "date": "2024-10"
+      }
     ]
   },
   "the boring company": {
@@ -6302,6 +6524,14 @@
     "reason": "CEO Elon Musk is a major Trump campaign donor",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/news/2024/10/elon-musk-pumps-nearly-120-million-into-pro-trump-america-pac/",
+        "source": "OpenSecrets",
+        "title": "Elon Musk America PAC Donations",
+        "date": "2024-10"
+      }
     ]
   },
   "uline": {
@@ -6309,6 +6539,20 @@
     "reason": "Owners Dick and Liz Uihlein donated $100M+ to Trump-aligned PACs (Major GOP mega-donors, shipping supplies company)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/outsidespending/summ.php?cycle=2024&disp=D&type=V&superession",
+        "source": "OpenSecrets",
+        "title": "Top Individual Contributors 2024",
+        "date": "2024"
+      },
+      {
+        "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=uihlein",
+        "source": "FEC.gov",
+        "title": "Uihlein Contributions",
+        "date": "2024"
+      }
     ]
   },
   "my pillow": {
@@ -6316,6 +6560,14 @@
     "reason": "CEO Mike Lindell is a prominent Trump supporter and donor (Lindell was involved in election denial efforts)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=mike+lindell",
+        "source": "OpenSecrets",
+        "title": "Mike Lindell Donations",
+        "date": "2024"
+      }
     ]
   },
   "mypillow": {
@@ -6323,6 +6575,14 @@
     "reason": "CEO Mike Lindell is a prominent Trump supporter and donor (Alternate spelling)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=mike+lindell",
+        "source": "OpenSecrets",
+        "title": "Mike Lindell Donations",
+        "date": "2024"
+      }
     ]
   },
   "las vegas sands": {
@@ -6330,6 +6590,20 @@
     "reason": "Miriam Adelson donated $100M+ to Trump's 2024 campaign (Adelson family are longtime GOP mega-donors)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=miriam+adelson",
+        "source": "OpenSecrets",
+        "title": "Miriam Adelson Donations",
+        "date": "2024"
+      },
+      {
+        "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=adelson&contributor_name=miriam",
+        "source": "FEC.gov",
+        "title": "Adelson FEC Filings",
+        "date": "2024"
+      }
     ]
   },
   "sands": {
@@ -6337,6 +6611,14 @@
     "reason": "Miriam Adelson donated $100M+ to Trump's 2024 campaign (Las Vegas Sands)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=miriam+adelson",
+        "source": "OpenSecrets",
+        "title": "Miriam Adelson Donations",
+        "date": "2024"
+      }
     ]
   },
   "venetian": {
@@ -6344,6 +6626,14 @@
     "reason": "Owned by Las Vegas Sands (Adelson family, Trump mega-donors)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=miriam+adelson",
+        "source": "OpenSecrets",
+        "title": "Miriam Adelson Donations",
+        "date": "2024"
+      }
     ]
   },
   "ufc": {
@@ -6351,6 +6641,14 @@
     "reason": "CEO Dana White is a close Trump ally and RNC speaker (White has been a vocal Trump supporter since 2016)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=dana+white",
+        "source": "OpenSecrets",
+        "title": "Dana White Donations",
+        "date": "2024"
+      }
     ]
   },
   "blackstone": {
@@ -6358,6 +6656,14 @@
     "reason": "CEO Steve Schwarzman is a major Trump donor (Private equity firm)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=stephen+schwarzman",
+        "source": "OpenSecrets",
+        "title": "Stephen Schwarzman Donations",
+        "date": "2024"
+      }
     ]
   },
   "goya": {
@@ -6365,6 +6671,14 @@
     "reason": "CEO Robert Unanue publicly praised Trump at White House event",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.npr.org/2020/07/10/889858578/goya-foods-ceo-praises-trump-faces-boycott-calls",
+        "source": "NPR",
+        "title": "Goya Foods CEO Praises Trump",
+        "date": "2020-07"
+      }
     ]
   },
   "continental resources": {
@@ -6372,6 +6686,14 @@
     "reason": "Founder Harold Hamm is a longtime Trump donor and advisor (Oil and gas company)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=harold+hamm",
+        "source": "OpenSecrets",
+        "title": "Harold Hamm Donations",
+        "date": "2024"
+      }
     ]
   },
   "news corp": {
@@ -6379,6 +6701,14 @@
     "reason": "Owner Rupert Murdoch's media empire has supported Trump (Parent company of Fox News, Wall Street Journal)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/orgs/news-corp/summary?id=D000000227",
+        "source": "OpenSecrets",
+        "title": "News Corp Political Contributions",
+        "date": "2024"
+      }
     ]
   },
   "fox news": {
@@ -6386,6 +6716,14 @@
     "reason": "Rupert Murdoch's network has been Trump's most prominent media ally (Part of Fox Corporation)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/orgs/21st-century-fox/summary?id=D000021898",
+        "source": "OpenSecrets",
+        "title": "Fox Corporation Political Activity",
+        "date": "2024"
+      }
     ]
   },
   "fox corporation": {
@@ -6393,6 +6731,14 @@
     "reason": "Rupert Murdoch's company, Trump's most prominent media supporter",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/orgs/21st-century-fox/summary?id=D000021898",
+        "source": "OpenSecrets",
+        "title": "Fox Corporation Political Activity",
+        "date": "2024"
+      }
     ]
   },
   "cantor fitzgerald": {
@@ -6400,6 +6746,14 @@
     "reason": "CEO Howard Lutnick is Trump's Commerce Secretary nominee and major donor (Lutnick was Trump transition co-chair)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=howard+lutnick",
+        "source": "OpenSecrets",
+        "title": "Howard Lutnick Donations",
+        "date": "2024"
+      }
     ]
   },
   "apollo global management": {
@@ -6407,6 +6761,14 @@
     "reason": "CEO Marc Rowan is a major Trump donor (Private equity firm)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=marc+rowan",
+        "source": "OpenSecrets",
+        "title": "Marc Rowan Donations",
+        "date": "2024"
+      }
     ]
   },
   "susquehanna international group": {
@@ -6414,6 +6776,14 @@
     "reason": "Co-founder Jeff Yass is a major GOP/Trump donor (Trading firm, TikTok investor)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=jeff+yass",
+        "source": "OpenSecrets",
+        "title": "Jeff Yass Donations",
+        "date": "2024"
+      }
     ]
   },
   "wwe": {
@@ -6421,6 +6791,20 @@
     "reason": "Linda McMahon is Trump cabinet member, major donor, and transition chair (McMahon is Trump's Education Secretary nominee)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=linda+mcmahon",
+        "source": "OpenSecrets",
+        "title": "Linda McMahon Donations",
+        "date": "2024"
+      },
+      {
+        "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=mcmahon&contributor_name=linda",
+        "source": "FEC.gov",
+        "title": "Linda McMahon FEC Filings",
+        "date": "2024"
+      }
     ]
   },
   "world wrestling entertainment": {
@@ -6428,6 +6812,14 @@
     "reason": "Linda McMahon is Trump cabinet member and major donor",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=linda+mcmahon",
+        "source": "OpenSecrets",
+        "title": "Linda McMahon Donations",
+        "date": "2024"
+      }
     ]
   },
   "tko group": {
@@ -6435,6 +6827,14 @@
     "reason": "Formed from WWE-UFC merger, both led by Trump allies",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=linda+mcmahon",
+        "source": "OpenSecrets",
+        "title": "Linda McMahon Donations",
+        "date": "2024"
+      }
     ]
   },
   "truth social": {
@@ -6442,6 +6842,14 @@
     "reason": "Trump's own social media company (Part of Trump Media & Technology Group)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=trump+media",
+        "source": "SEC.gov",
+        "title": "Trump Media SEC Filings",
+        "date": "2024"
+      }
     ]
   },
   "trump media": {
@@ -6449,6 +6857,14 @@
     "reason": "Donald Trump's media company (Parent of Truth Social)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=trump+media",
+        "source": "SEC.gov",
+        "title": "Trump Media SEC Filings",
+        "date": "2024"
+      }
     ]
   },
   "beal bank": {
@@ -6456,6 +6872,14 @@
     "reason": "Andy Beal is a major Trump donor ($20M+ to PACs)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=andy+beal",
+        "source": "OpenSecrets",
+        "title": "Andy Beal Donations",
+        "date": "2024"
+      }
     ]
   },
   "fertitta entertainment": {
@@ -6463,6 +6887,14 @@
     "reason": "Tilman Fertitta is a major Trump donor (Owns Landry's, Golden Nugget casinos)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=tilman+fertitta",
+        "source": "OpenSecrets",
+        "title": "Tilman Fertitta Donations",
+        "date": "2024"
+      }
     ]
   },
   "landry's": {
@@ -6470,6 +6902,14 @@
     "reason": "Owner Tilman Fertitta is a major Trump donor (Restaurant/hospitality company)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=tilman+fertitta",
+        "source": "OpenSecrets",
+        "title": "Tilman Fertitta Donations",
+        "date": "2024"
+      }
     ]
   },
   "golden nugget": {
@@ -6477,6 +6917,14 @@
     "reason": "Owner Tilman Fertitta is a major Trump donor (Casino chain)",
     "supports": [
       "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=tilman+fertitta",
+        "source": "OpenSecrets",
+        "title": "Tilman Fertitta Donations",
+        "date": "2024"
+      }
     ]
   }
 }

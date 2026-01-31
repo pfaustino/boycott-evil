@@ -66,6 +66,7 @@ function main() {
     let added = 0;
     let merged = 0;
     let skipped = 0;
+    let citationsAdded = 0;
     
     for (const entry of deiData) {
         // Only process companies marked as evil (Not Evil = "No")
@@ -86,6 +87,18 @@ function main() {
         let alternatives = [];
         if (entry.alternatives && entry.alternatives !== 'Alternatives') {
             alternatives = entry.alternatives.split(',').map(a => a.trim()).filter(Boolean);
+        }
+        
+        // Build citation if URL exists
+        let citation = null;
+        if (entry.url && entry.url !== '' && entry.url.startsWith('http')) {
+            citation = {
+                url: entry.url,
+                source: 'DEI Boycott List',
+                title: `${entry.brand} DEI Policy`,
+                date: '2025-01'
+            };
+            citationsAdded++;
         }
         
         if (existingData[normalizedName]) {
@@ -119,15 +132,35 @@ function main() {
                 }
             }
             
+            // Add citation
+            if (citation) {
+                if (!existing.citations) {
+                    existing.citations = [];
+                }
+                // Check if this URL already exists
+                if (!existing.citations.some(c => c.url === citation.url)) {
+                    existing.citations.push(citation);
+                }
+            }
+            
             merged++;
         } else {
             // Add new entry
-            existingData[normalizedName] = {
+            const newEntry = {
                 evil: true,
                 reason: reason,
-                alternatives: alternatives,
                 supports: ['Anti-DEI']
             };
+            
+            if (alternatives.length > 0) {
+                newEntry.alternatives = alternatives;
+            }
+            
+            if (citation) {
+                newEntry.citations = [citation];
+            }
+            
+            existingData[normalizedName] = newEntry;
             added++;
         }
     }
@@ -139,6 +172,7 @@ function main() {
     console.log(`  Added: ${added} new companies`);
     console.log(`  Merged: ${merged} existing companies`);
     console.log(`  Skipped: ${skipped} non-evil companies`);
+    console.log(`  Citations added: ${citationsAdded}`);
     console.log(`  Total evil companies: ${Object.keys(existingData).length}`);
 }
 
