@@ -305,18 +305,26 @@ function App() {
         <main className="bg-white rounded-2xl shadow-xl overflow-hidden">
 
           {/* Tab Switcher */}
-          <div className="flex border-b border-slate-200">
+          <div className="flex gap-2 p-2 bg-slate-100 rounded-xl">
             <button
               onClick={() => { setActiveTab('barcode'); setSelectedProduct(undefined); }}
-              className={`flex-1 py-4 font-semibold text-center transition-colors ${activeTab === 'barcode' ? 'bg-indigo-50 text-indigo-600 border-b-2 border-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}
+              className={`flex-1 py-3 px-4 font-semibold text-center rounded-lg transition-all duration-200 ${
+                activeTab === 'barcode' 
+                  ? 'bg-white text-indigo-600 shadow-md ring-1 ring-indigo-100' 
+                  : 'text-slate-500 hover:text-slate-700 hover:bg-white/50'
+              }`}
             >
-              by Barcode
+              📷 by Barcode
             </button>
             <button
               onClick={() => { setActiveTab('product'); setSelectedProduct(undefined); }}
-              className={`flex-1 py-4 font-semibold text-center transition-colors ${activeTab === 'product' ? 'bg-indigo-50 text-indigo-600 border-b-2 border-indigo-600' : 'text-slate-500 hover:bg-slate-50'}`}
+              className={`flex-1 py-3 px-4 font-semibold text-center rounded-lg transition-all duration-200 ${
+                activeTab === 'product' 
+                  ? 'bg-white text-indigo-600 shadow-md ring-1 ring-indigo-100' 
+                  : 'text-slate-500 hover:text-slate-700 hover:bg-white/50'
+              }`}
             >
-              by Name
+              🔍 by Name
             </button>
           </div>
 
