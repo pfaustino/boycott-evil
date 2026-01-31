@@ -769,11 +769,12 @@
   },
   "tesla": {
     "evil": true,
-    "reason": "Human Rights - Called by Tesla Takedown | DEI Rollback",
+    "reason": "Human Rights - Called by Tesla Takedown | DEI Rollback | CEO Elon Musk donated $277M+ to Trump's America PAC in 2024 (Musk became Trump's most prominent business ally)",
     "alternatives": [],
     "supports": [
       "Israel",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
     ]
   },
   "texaco": {
@@ -5874,10 +5875,11 @@
   },
   "goya foods": {
     "evil": true,
-    "reason": "Under Review",
+    "reason": "Under Review | CEO Robert Unanue publicly praised Trump at White House event (Led to boycott calls in 2020)",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
     ]
   },
   "hardee's/carl's jr.": {
@@ -6272,6 +6274,209 @@
     "alternatives": [],
     "supports": [
       "Anti-DEI"
+    ]
+  },
+  "spacex": {
+    "evil": true,
+    "reason": "CEO Elon Musk is a major Trump donor and ally (Government contractor with close Trump ties)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "x": {
+    "evil": true,
+    "reason": "Owner Elon Musk donated $277M+ to Trump's America PAC (Formerly Twitter)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "twitter": {
+    "evil": true,
+    "reason": "Owner Elon Musk donated $277M+ to Trump's America PAC (Now named X)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "the boring company": {
+    "evil": true,
+    "reason": "CEO Elon Musk is a major Trump campaign donor",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "uline": {
+    "evil": true,
+    "reason": "Owners Dick and Liz Uihlein donated $100M+ to Trump-aligned PACs (Major GOP mega-donors, shipping supplies company)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "my pillow": {
+    "evil": true,
+    "reason": "CEO Mike Lindell is a prominent Trump supporter and donor (Lindell was involved in election denial efforts)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "mypillow": {
+    "evil": true,
+    "reason": "CEO Mike Lindell is a prominent Trump supporter and donor (Alternate spelling)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "las vegas sands": {
+    "evil": true,
+    "reason": "Miriam Adelson donated $100M+ to Trump's 2024 campaign (Adelson family are longtime GOP mega-donors)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "sands": {
+    "evil": true,
+    "reason": "Miriam Adelson donated $100M+ to Trump's 2024 campaign (Las Vegas Sands)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "venetian": {
+    "evil": true,
+    "reason": "Owned by Las Vegas Sands (Adelson family, Trump mega-donors)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "ufc": {
+    "evil": true,
+    "reason": "CEO Dana White is a close Trump ally and RNC speaker (White has been a vocal Trump supporter since 2016)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "blackstone": {
+    "evil": true,
+    "reason": "CEO Steve Schwarzman is a major Trump donor (Private equity firm)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "goya": {
+    "evil": true,
+    "reason": "CEO Robert Unanue publicly praised Trump at White House event",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "continental resources": {
+    "evil": true,
+    "reason": "Founder Harold Hamm is a longtime Trump donor and advisor (Oil and gas company)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "news corp": {
+    "evil": true,
+    "reason": "Owner Rupert Murdoch's media empire has supported Trump (Parent company of Fox News, Wall Street Journal)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "fox news": {
+    "evil": true,
+    "reason": "Rupert Murdoch's network has been Trump's most prominent media ally (Part of Fox Corporation)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "fox corporation": {
+    "evil": true,
+    "reason": "Rupert Murdoch's company, Trump's most prominent media supporter",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "cantor fitzgerald": {
+    "evil": true,
+    "reason": "CEO Howard Lutnick is Trump's Commerce Secretary nominee and major donor (Lutnick was Trump transition co-chair)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "apollo global management": {
+    "evil": true,
+    "reason": "CEO Marc Rowan is a major Trump donor (Private equity firm)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "susquehanna international group": {
+    "evil": true,
+    "reason": "Co-founder Jeff Yass is a major GOP/Trump donor (Trading firm, TikTok investor)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "wwe": {
+    "evil": true,
+    "reason": "Linda McMahon is Trump cabinet member, major donor, and transition chair (McMahon is Trump's Education Secretary nominee)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "world wrestling entertainment": {
+    "evil": true,
+    "reason": "Linda McMahon is Trump cabinet member and major donor",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "tko group": {
+    "evil": true,
+    "reason": "Formed from WWE-UFC merger, both led by Trump allies",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "truth social": {
+    "evil": true,
+    "reason": "Trump's own social media company (Part of Trump Media & Technology Group)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "trump media": {
+    "evil": true,
+    "reason": "Donald Trump's media company (Parent of Truth Social)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "beal bank": {
+    "evil": true,
+    "reason": "Andy Beal is a major Trump donor ($20M+ to PACs)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "fertitta entertainment": {
+    "evil": true,
+    "reason": "Tilman Fertitta is a major Trump donor (Owns Landry's, Golden Nugget casinos)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "landry's": {
+    "evil": true,
+    "reason": "Owner Tilman Fertitta is a major Trump donor (Restaurant/hospitality company)",
+    "supports": [
+      "Trump-Donor"
+    ]
+  },
+  "golden nugget": {
+    "evil": true,
+    "reason": "Owner Tilman Fertitta is a major Trump donor (Casino chain)",
+    "supports": [
+      "Trump-Donor"
     ]
   }
 }

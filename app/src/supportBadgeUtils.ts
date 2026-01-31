@@ -2,7 +2,7 @@
  * Utility functions for displaying support category badges
  */
 
-export type SupportCategory = 'ICE' | 'Israel' | 'Russia' | 'Labor' | 'Environment' | 'Animal-Testing' | 'Anti-DEI' | string;
+export type SupportCategory = 'ICE' | 'Israel' | 'Russia' | 'Labor' | 'Environment' | 'Animal-Testing' | 'Anti-DEI' | 'Trump-Donor' | string;
 
 export interface SupportBadgeStyle {
     bgColor: string;
@@ -67,6 +67,13 @@ export function getSupportBadgeStyle(support: string): SupportBadgeStyle {
                 textColor: 'text-purple-700',
                 emoji: '🏳️‍🌈',
                 label: 'Anti-DEI'
+            };
+        case 'trump-donor':
+            return {
+                bgColor: 'bg-red-100',
+                textColor: 'text-red-700',
+                emoji: '🍊',
+                label: 'Trump Donor'
             };
         default:
             return {
