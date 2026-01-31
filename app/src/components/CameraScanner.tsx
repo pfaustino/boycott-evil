@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { track } from '@vercel/analytics';
 import { Html5Qrcode } from 'html5-qrcode';
 
 interface Props {
@@ -27,7 +28,8 @@ export default function CameraScanner({ onScanSuccess, onScanFailure, onClose }:
                         aspectRatio: 1.0
                     },
                     (decodedText) => {
-                        // Success
+                        // Success - track camera scan
+                        track('camera_scan', { barcode_length: decodedText.length.toString() });
                         // Stop scanning immediately to prevent duplicate reads
                         html5QrCode.stop().then(() => {
                             onScanSuccess(decodedText);

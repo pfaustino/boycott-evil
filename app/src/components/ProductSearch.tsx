@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { track } from '@vercel/analytics';
 import { type Product } from '../db';
 import { type EvilCompanies } from '../dataLoader';
 import * as dataService from '../dataService';
@@ -71,7 +72,10 @@ export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
         return () => clearTimeout(timer);
     }, [term, evilCompanies]);
 
-    const handleCompanySelect = (name: string, _data: EvilCompanies[string]) => {
+    const handleCompanySelect = (name: string, data: EvilCompanies[string]) => {
+        // Track the company search
+        track('name_search', { type: 'company', name: name, supports: data.supports?.join(',') || '' });
+        
         // Create a synthetic product for the company
         const syntheticProduct: Product = {
             code: `COMPANY-${name}`,
@@ -80,6 +84,11 @@ export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
             normalized_brand: name.toLowerCase(),
         };
         onSelect(syntheticProduct);
+    };
+
+    const handleProductSelect = (product: Product) => {
+        track('name_search', { type: 'product', name: product.product_name, brand: product.brands });
+        onSelect(product);
     };
 
     return (
@@ -114,7 +123,7 @@ export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
                                 </button>
                             ) : result.product ? (
                                 <button
-                                    onClick={() => onSelect(result.product!)}
+                                    onClick={() => handleProductSelect(result.product!)}
                                     className="w-full text-left px-4 py-3 hover:bg-indigo-50 transition-colors flex justify-between items-center group"
                                 >
                                     <span className="font-medium text-slate-800">{result.product.product_name}</span>
