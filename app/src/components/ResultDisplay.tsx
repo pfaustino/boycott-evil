@@ -1,5 +1,5 @@
 import type { Product } from '../db';
-import type { EvilCompanies } from '../dataLoader';
+import type { EvilCompanies, GoodCompanies } from '../dataLoader';
 import { getSupportBadgeStyle } from '../supportBadgeUtils';
 
 interface MatchInfo {
@@ -10,13 +10,14 @@ interface MatchInfo {
 
 interface Props {
     product?: Product;
-    evilStatus: 'evil' | 'clean' | 'unknown';
+    evilStatus: 'evil' | 'clean' | 'good' | 'unknown';
     companyData?: EvilCompanies[string];
+    goodCompanyData?: GoodCompanies[string];
     isLoading?: boolean;
     matchInfo?: MatchInfo;
 }
 
-export default function ResultDisplay({ product, evilStatus, companyData, isLoading, matchInfo }: Props) {
+export default function ResultDisplay({ product, evilStatus, companyData, goodCompanyData, isLoading, matchInfo }: Props) {
     if (isLoading) return <div className="mt-6 p-6 text-center text-slate-500 animate-pulse">Checking database...</div>;
     
     // Show "not found" message when matchInfo indicates no match
@@ -40,13 +41,16 @@ export default function ResultDisplay({ product, evilStatus, companyData, isLoad
     if (!product) return null;
 
     const isEvil = evilStatus === 'evil';
+    const isGood = evilStatus === 'good';
     const isClean = evilStatus === 'clean';
 
     return (
-        <div className={`mt-6 p-6 rounded-xl shadow-lg border-2 transition-all duration-300 animate-in fade-in zoom-in-95 ${isEvil ? 'border-red-500 bg-red-50' :
+        <div className={`mt-6 p-6 rounded-xl shadow-lg border-2 transition-all duration-300 animate-in fade-in zoom-in-95 ${
+            isEvil ? 'border-red-500 bg-red-50' :
+            isGood ? 'border-emerald-500 bg-emerald-50' :
             isClean ? 'border-green-500 bg-green-50' :
-                'border-gray-200 bg-white'
-            }`}>
+            'border-gray-200 bg-white'
+        }`}>
             
             {/* Prefix match indicator */}
             {matchInfo?.type === 'prefix' && (
@@ -127,6 +131,59 @@ export default function ResultDisplay({ product, evilStatus, companyData, isLoad
                 </div>
             )}
 
+            {isGood && (
+                <div className="text-emerald-900">
+                    <div className="flex flex-wrap gap-2 mb-4">
+                        {goodCompanyData?.supports?.map(support => {
+                            const style = getSupportBadgeStyle(support);
+                            return (
+                                <span 
+                                    key={support} 
+                                    className={`px-2 py-1 rounded text-xs font-bold uppercase tracking-wider ${style.bgColor} ${style.textColor}`}
+                                    title={style.label}
+                                >
+                                    {style.emoji} {style.label}
+                                </span>
+                            );
+                        })}
+                    </div>
+                    <div className="flex items-center gap-3 mb-4">
+                        <span className="text-4xl">⭐</span>
+                        <span className="text-2xl font-bold">Recommended Company</span>
+                    </div>
+                    {goodCompanyData?.reason && (
+                        <div className="mb-4 text-lg leading-relaxed">
+                            <span className="font-bold">Why:</span> {goodCompanyData.reason}
+                        </div>
+                    )}
+                    {goodCompanyData?.category && (
+                        <div className="mb-4 text-sm text-emerald-700">
+                            <span className="font-semibold">Category:</span> {goodCompanyData.category}
+                        </div>
+                    )}
+                    {goodCompanyData?.citations && goodCompanyData.citations.length > 0 && (
+                        <div className="mt-6 p-4 bg-white/80 rounded-xl border border-emerald-200 shadow-sm">
+                            <p className="text-xs font-bold text-emerald-600 uppercase tracking-wider mb-3">📚 Sources</p>
+                            <ul className="space-y-2">
+                                {goodCompanyData.citations.map((citation, idx) => (
+                                    <li key={idx} className="text-sm">
+                                        <a 
+                                            href={citation.url} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium"
+                                        >
+                                            {citation.title || citation.source}
+                                        </a>
+                                        <span className="text-slate-500 ml-2">— {citation.source}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+                </div>
+            )}
+
             {isClean && (
                 <div className="text-green-900 flex items-center gap-3 mb-6">
                     <span className="text-4xl">✅</span>
@@ -138,8 +195,8 @@ export default function ResultDisplay({ product, evilStatus, companyData, isLoad
             )}
 
             {/* Product Metadata Section */}
-            <div className={`pt-6 mt-6 border-t ${isEvil ? 'border-red-200' : isClean ? 'border-green-200' : 'border-slate-200'}`}>
-                <h3 className={`text-xs font-bold uppercase tracking-wider mb-3 ${isEvil ? 'text-red-400' : isClean ? 'text-green-600' : 'text-slate-400'}`}>
+            <div className={`pt-6 mt-6 border-t ${isEvil ? 'border-red-200' : isGood ? 'border-emerald-200' : isClean ? 'border-green-200' : 'border-slate-200'}`}>
+                <h3 className={`text-xs font-bold uppercase tracking-wider mb-3 ${isEvil ? 'text-red-400' : isGood ? 'text-emerald-600' : isClean ? 'text-green-600' : 'text-slate-400'}`}>
                     Product Data
                 </h3>
                 <div className="grid grid-cols-2 gap-4 text-sm">

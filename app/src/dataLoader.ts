@@ -16,7 +16,16 @@ interface EvilCompany {
     citations?: Citation[];
 }
 
+interface GoodCompany {
+    good: boolean;
+    reason?: string;
+    category?: string;
+    supports?: string[];
+    citations?: Citation[];
+}
+
 export type EvilCompanies = Record<string, EvilCompany>;
+export type GoodCompanies = Record<string, GoodCompany>;
 
 export async function loadEvilCompanies(): Promise<EvilCompanies> {
     const response = await fetch('/evil-companies.json');
@@ -24,6 +33,17 @@ export async function loadEvilCompanies(): Promise<EvilCompanies> {
         throw new Error('Failed to load evil companies list');
     }
     return await response.json();
+}
+
+export async function loadGoodCompanies(): Promise<GoodCompanies> {
+    try {
+        const response = await fetch('/good-companies.json');
+        if (!response.ok) return {};
+        return await response.json();
+    } catch (e) {
+        console.warn("Failed to load good companies", e);
+        return {};
+    }
 }
 
 export async function loadBrandAliases(): Promise<Record<string, string>> {

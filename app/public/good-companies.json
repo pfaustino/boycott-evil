@@ -1,0 +1,3346 @@
+{
+  "abbvie": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.abbvie.com/who-we-are/equity-equality-inclusion-diversity.html",
+        "source": "Company DEI Page",
+        "title": "AbbVie DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "abercrombie and fitch": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://corporate.abercrombie.com/our-commitment/",
+        "source": "Company DEI Page",
+        "title": "Abercrombie and Fitch DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "acura": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Honda",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://csr.honda.com/diversity/",
+        "source": "Company DEI Page",
+        "title": "Acura DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "adobe": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.adobe.com/diversity.html",
+        "source": "Company DEI Page",
+        "title": "Adobe DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "advance auto": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.advanceautoparts.com/us/en/culture",
+        "source": "Company DEI Page",
+        "title": "Advance Auto DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "albertsons": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.albertsonscompanies.com/our-impact/people/diversity-equity-inclusion/default.aspx",
+        "source": "Company DEI Page",
+        "title": "Albertsons DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "allstate": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.allstatecorporation.com/corporate-responsibility/inclusive-diversity-equity.aspx",
+        "source": "Company DEI Page",
+        "title": "Allstate DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "american eagle": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.aeo-inc.com/inclusion-diversity/",
+        "source": "Company DEI Page",
+        "title": "American Eagle DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "american express": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.americanexpress.com/en-us/careers/inclusion-and-diversity/index.html/",
+        "source": "Company DEI Page",
+        "title": "American Express DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ancestry": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Charity/Research, Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.ancestry.com/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Ancestry DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "applebee's": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.applebees.com/en/restaurant-jobs",
+        "source": "Company DEI Page",
+        "title": "Applebee's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "at&t": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://about.att.com/pages/inclusion",
+        "source": "Company DEI Page",
+        "title": "AT&T DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "athleta": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Gap Inc.",
+    "category": "Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gapinc.com/en-us/careers/athleta-careers",
+        "source": "Company DEI Page",
+        "title": "Athleta DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "audi": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Volkswagen Group",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.audiusa.com/en/corporate/inclusion/",
+        "source": "Company DEI Page",
+        "title": "Audi DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "automattic": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://automattic.com/diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Automattic DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "banana republic": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Gap Inc.",
+    "category": "Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gapinc.com/en-us/articles/2021/02/banana-republic-celebrates-advocates-and-allies-wi",
+        "source": "Company DEI Page",
+        "title": "Banana Republic DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "bank of america": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://about.bankofamerica.com/en/working-here/diversity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Bank of America DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "barnes & noble": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.barnesandnoble.com/",
+        "source": "Company DEI Page",
+        "title": "Barnes & Noble DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "bath & body works": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Health/Cosmetics, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.bathandbodyworks.com/m/diversity-equity-inclusion.html?srsltid=AfmBOopOrpcTtgf1avmA57NoklLB4ji8GPEuEAvJLbYJ8IvwsVw-t5Gc",
+        "source": "Company DEI Page",
+        "title": "Bath & Body Works DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ben & jerry's": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.benjerry.com/whats-new/2024/06/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Ben & Jerry's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "bering straits native corporation": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Construction/Agriculture, Utility/Gas",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://beringstraits.com/career/",
+        "source": "Company DEI Page",
+        "title": "Bering Straits Native Corporation DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "berkshire hathaway": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel, Law/Business, Utility/Gas",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.brkenergy.com/about-us/careers/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Berkshire Hathaway DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "bristol-myers squibb": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.bms.com/about-us/global-diversity-and-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Bristol-Myers Squibb DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "buick": {
+    "good": true,
+    "reason": "DEI Effective - Owned by General Motors",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gm.com/commitments/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Buick DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "capital one": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.capitalone.com/about/diversity/",
+        "source": "Company DEI Page",
+        "title": "Capital One DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "cencora": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cencora.com/",
+        "source": "Company DEI Page",
+        "title": "Cencora DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "chrysler": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Stellantis",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.stellantis.com/en/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Chrysler DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "church's texas chicken": {
+    "good": true,
+    "reason": "Under Review",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ]
+  },
+  "cigna": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.thecignagroup.com/our-impact/esg/healthy-workforce/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Cigna DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "cisco": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cisco.com/c/m/en_us/about/csr/esg-hub/people/inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Cisco DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "costco": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.costco.com/our-values.html",
+        "source": "Company DEI Page",
+        "title": "Costco DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "cvs health": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cvshealth.com/about/our-strategy/diversity.html",
+        "source": "Company DEI Page",
+        "title": "CVS Health DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dell technologies": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.dell.com/en/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Dell Technologies DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "delta air lines": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.delta.com/us/en/about-delta/diversity?srsltid=AfmBOoqOmzwlnBG7uxcJmEDS5kMzrWyy7aSsLGkPxGY66Wh4Gv2HShQe",
+        "source": "Company DEI Page",
+        "title": "Delta Air Lines DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dick's sporting goods": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.dickssportinggoods.jobs/inclusion/",
+        "source": "Company DEI Page",
+        "title": "Dick's Sporting Goods DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "discover financial": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.discover.com/who-we-are/diversity-equity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Discover Financial DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dodge": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Stellantis",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.stellantis.com/en/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Dodge DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dunkin donuts": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.dunkindonuts.com/us/en/inclusion-and-diversity",
+        "source": "Company DEI Page",
+        "title": "Dunkin Donuts DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "e.l.f. cosmetics": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.elfbeauty.com/work-with-us",
+        "source": "Company DEI Page",
+        "title": "e.l.f. Cosmetics DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "epic games": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Entertainment",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.epicgames.com/site/en-US/eeo-policy?sessionInvalidated=true",
+        "source": "Company DEI Page",
+        "title": "Epic Games DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "fannie mae": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.fanniemae.com/careers/diversity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Fannie Mae DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "fiat": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Stellantis",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.stellantis.com/en/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Fiat DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "fifth third bank": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.53.com/content/fifth-third/en/personal-banking/about/inclusion-at-fifth-third.html",
+        "source": "Company DEI Page",
+        "title": "Fifth Third Bank DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "foot locker": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.footlocker.com/diversity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Foot Locker DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "francesca’s": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://francescas.com/careers",
+        "source": "Company DEI Page",
+        "title": "Francesca’s DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "gap inc.": {
+    "good": true,
+    "reason": "DEI Supportive - Gap Inc. owns the brands Gap, Old Navy, Banana Republic, and Athleta",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gap.com/page/gap-equality-belonging?cid=1179886 https://www.gapinc.com/en-us/impact/bridging-the-inclusion-gap",
+        "source": "Company DEI Page",
+        "title": "Gap Inc. DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "general electric (ge)": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.geaerospace.com/global/en",
+        "source": "Company DEI Page",
+        "title": "General Electric (GE) DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "general motors (gm)": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Construction/Agriculture",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gm.com/commitments/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "General Motors (GM) DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "giant food": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://giantfood.com/pages/diversity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Giant Food DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "gmc": {
+    "good": true,
+    "reason": "DEI Effective - Owned by General Motors",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gm.com/commitments/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "GMC DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "goto foods": {
+    "good": true,
+    "reason": "DEI Effective - GoTo Foods owns food chains: Auntie Anne's, Carvel, Cinnabon, Jamba, McAlister's Deli, Moe's Southwest Grill, Schlotzsky's,",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gotofoods.com/about/inclusion/",
+        "source": "Company DEI Page",
+        "title": "GoTo Foods DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "h-e-b grocery": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.heb.com/here-everyone-belongs/",
+        "source": "Company DEI Page",
+        "title": "H-E-B Grocery DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "harbor freight": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Construction/Agriculture",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.harborfreight.com/",
+        "source": "Company DEI Page",
+        "title": "Harbor Freight DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "hinge": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Match Group",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://hinge.co/careers",
+        "source": "Company DEI Page",
+        "title": "Hinge DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "hlw": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Construction/Agriculture",
+    "supports": [
+      "Pro-DEI"
+    ]
+  },
+  "honda": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://csr.honda.com/diversity/",
+        "source": "Company DEI Page",
+        "title": "Honda DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "hp": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.hp.com/us-en/hp-information/about-hp/diversity.html",
+        "source": "Company DEI Page",
+        "title": "HP DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "hummer": {
+    "good": true,
+    "reason": "DEI Effective - Owned by General Motors",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gm.com/commitments/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Hummer DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ibm": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.ibm.com/impact/be-equal",
+        "source": "Company DEI Page",
+        "title": "IBM DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ikea": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Construction/Agriculture, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.ikea.com/us/en/this-is-ikea/work-with-us/equality-diversity-and-inclusion-pub86a2cb59/",
+        "source": "Company DEI Page",
+        "title": "Ikea DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "independence bank": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.independentbank.com/corporate-responsibility/employee-investment/dei",
+        "source": "Company DEI Page",
+        "title": "Independence Bank DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "intel": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.intel.com/content/www/us/en/diversity/diversity-at-intel.html",
+        "source": "Company DEI Page",
+        "title": "Intel DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jaguar": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.jaguarlandrover.com/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Jaguar DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jcpenney": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Shopping, Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://companyblog.jcpenney.com/blog/category/inclusion-diversity/",
+        "source": "Company DEI Page",
+        "title": "JCPenney DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jeep": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Stellantis",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.stellantis.com/en/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Jeep DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jewel-osco": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.jewelosco.com/careers.html",
+        "source": "Company DEI Page",
+        "title": "Jewel-Osco DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "johnson & johnson": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.jnj.com/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Johnson & Johnson DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jpmorgan chase": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.jpmorganchase.com/impact/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "JPMorgan Chase DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "kia": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.kiausa.com/content/Inclusion-and-Diversity/?locale=en_US",
+        "source": "Company DEI Page",
+        "title": "Kia DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "kohl's": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://corporate.kohls.com/dei-at-kohls",
+        "source": "Company DEI Page",
+        "title": "Kohl's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "kroger": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.thekrogerco.com/community/standing-together/",
+        "source": "Company DEI Page",
+        "title": "Kroger DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lamborghini": {
+    "good": true,
+    "reason": "DEI Effective - No page found on site",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.lamborghini.com/en-en/news/automobili-lamborghini-celebrates-the-european-diversity-month",
+        "source": "Company DEI Page",
+        "title": "Lamborghini DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "land rover": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.jaguarlandrover.com/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Land Rover DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lexus": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://mag.lexus.co.uk/diversity-at-lexus/",
+        "source": "Company DEI Page",
+        "title": "Lexus DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lg corp": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.lg.com/global/sustainability/for-people/",
+        "source": "Company DEI Page",
+        "title": "LG Corp DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lincoln electric": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Construction/Agriculture",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://sustainability.lincolnelectric.com/diversity-equity-and-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Lincoln Electric DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "linkedin": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media, Law/Business",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.linkedin.com/company/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "LinkedIn DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "logitech": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.logitech.com/en-us/social-impact/diversity-inclusion.html?srsltid=AfmBOop2as3gnKcSIoIDfHbpO417OoT7Bk76YxBECrkUkloILP3bR-nQ",
+        "source": "Company DEI Page",
+        "title": "Logitech DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "longhorn steakhouse": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Darden Restaurants",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.darden.com/our-impact/team-members/ensuring-an-inclusive-and-diverse-culture",
+        "source": "Company DEI Page",
+        "title": "Longhorn Steakhouse DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lululemon": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://shop.lululemon.com/story/inclusion-diversity-equity-action",
+        "source": "Company DEI Page",
+        "title": "Lululemon DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lyft": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.lyft.com/diversity",
+        "source": "Company DEI Page",
+        "title": "Lyft DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "macy's": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.macysinc.com/purpose/diversity-equity-and-inclusion/default.aspx",
+        "source": "Company DEI Page",
+        "title": "Macy's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "marriott": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.marriott.com/diversity/diversity-and-inclusion.mi",
+        "source": "Company DEI Page",
+        "title": "Marriott DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "maserati": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Stellantis",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.stellantis.com/en/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Maserati DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mastercard": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mastercard.us/en-us/vision/who-we-are/diversity-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Mastercard DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "match group": {
+    "good": true,
+    "reason": "DEI Supportive - Match Group owns the following dating services: Archer, Asian People Meet, Azar, Baby Boomer People Meet, Black People Meet2, Black Christian People Meet, Black Professional People Meet, BLK, Catholic People Meet, Chinese People Meet, Chispa, Delightful, Democratic People Meet, Divorced People Meet, GenXPeople Meet, Hakuna, Hinge, India Match ,Interracial People Meet, Italian People Meet, J People Meet, Latino People Meet, LDS Planet, Little People Meet, Loveandseek, Marriage Minded People Meet, Match.com, Meetic, OkCupid, Ourtime, Pairs, Peoplemeet, Petpeoplemeet, Plenty of Fish, Republican People Meet, Senior BlackPeople Meet, Ship, Single People Meet, Stir, The League, Tinder, Upward, Yuzu, and Veggie People Meet",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://grow.matchgroup.com/p/p2",
+        "source": "Company DEI Page",
+        "title": "Match Group DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mazda": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mazda.com/en/sustainability/social/diversity/",
+        "source": "Company DEI Page",
+        "title": "Mazda DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mckesson corporation": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mckesson.com/about-mckesson/impact/inclusion-and-belonging/",
+        "source": "Company DEI Page",
+        "title": "McKesson Corporation DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mclaren": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mclaren.com/racing/sustainability/mission-drive-diversity-inclusion-motorsport/",
+        "source": "Company DEI Page",
+        "title": "McLaren DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mercedes-benz": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://group.mercedes-benz.com/sustainability/people/diversity/",
+        "source": "Company DEI Page",
+        "title": "Mercedes-Benz DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "michaels": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.michaels.com/diversity",
+        "source": "Company DEI Page",
+        "title": "Michaels DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mini": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mini.com/en_MS/home/people/we-celebrate-diversity-european-championships-2022.html",
+        "source": "Company DEI Page",
+        "title": "Mini DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mitre": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Charity/Research",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mitre.org/news-insights/impact-story/mitre-holds-top-spot-best-place-work-disability-inclusion",
+        "source": "Company DEI Page",
+        "title": "Mitre DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mitsubishi": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.mufg.jp/english/csr/social/id/01/index.html",
+        "source": "Company DEI Page",
+        "title": "Mitsubishi DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "morgan stanley": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.morganstanley.com/about-us/diversity",
+        "source": "Company DEI Page",
+        "title": "Morgan Stanley DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "nike": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.nike.com/purpose",
+        "source": "Company DEI Page",
+        "title": "Nike DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "nintendo": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Entertainment",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.nintendo.com/diversity-equity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Nintendo DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "nissan": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.nissanusa.com/about/diversity.html",
+        "source": "Company DEI Page",
+        "title": "Nissan DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "nordstrom": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.nordstrom.com/browse/diversity-at-nordstrom?srsltid=AfmBOorpSkoKoBazbHaOp0cy_3RKM2KF1cmDtHxR4uwOAUPdduQ4nJ67",
+        "source": "Company DEI Page",
+        "title": "Nordstrom DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "nvidia": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Nvidia DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "office depot": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.officedepot.com/l/help/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Office Depot DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "old navy": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://oldnavy.gap.com/customerService/info.do?cid=1160233",
+        "source": "Company DEI Page",
+        "title": "Old Navy DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "oreilly auto parts": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.oreillyauto.com/us/en/engagement",
+        "source": "Company DEI Page",
+        "title": "OReilly Auto Parts DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "outback steakhouse": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Bloomin' Brands",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "http://outback.com/offers/inside",
+        "source": "Company DEI Page",
+        "title": "Outback Steakhouse DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "panda express": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.pandarg.com/diversity-and-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Panda Express DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "penzeys": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.penzeys.com/shop/about-republicans/",
+        "source": "Company DEI Page",
+        "title": "Penzeys DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "petco": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.petco.com/us/en/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "PetCo DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "pfizer": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.pfizer.com/about/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Pfizer DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "pinterest": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.pinterestcareers.com/our-life/inclusion-diversity/",
+        "source": "Company DEI Page",
+        "title": "Pinterest DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "plenty of fish": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Match Group",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.pof.com/careers/",
+        "source": "Company DEI Page",
+        "title": "Plenty of Fish DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "pontiac": {
+    "good": true,
+    "reason": "DEI Effective - Owned by General Motors",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gm.com/commitments/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Pontiac DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "porsche": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://newsroom.porsche.com/en/company/diversity.html",
+        "source": "Company DEI Page",
+        "title": "Porsche DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "proctor and gamble": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Health/Cosmetics",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Proctor and Gamble DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "progressive": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.progressive.com/about/purpose/diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Progressive DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "qdoba": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.qdoba.com/join-the-qdoba-team",
+        "source": "Company DEI Page",
+        "title": "Qdoba DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "raising cane's": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.raisingcanes.com/news/raising-canes-named-as-one-of-americas-greatest-workplaces-for-diversity/",
+        "source": "Company DEI Page",
+        "title": "Raising Cane's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ram": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Stellantis",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.stellantis.com/en/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Ram DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "scholastic": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Entertainment",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://shop.scholastic.com/content/fairs/hub/equity-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Scholastic DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "sephora": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Health/Cosmetics, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.inside-sephora.com/en/usa/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Sephora DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "shell usa": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Utility/Gas",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.shell.com/who-we-are/diversity-equity-and-inclusion.html#iframe=L2RlaS8=",
+        "source": "Company DEI Page",
+        "title": "Shell USA DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "snapchat": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://diversity.snap.com/",
+        "source": "Company DEI Page",
+        "title": "SnapChat DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "sony": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.sony.com/en/SonyInfo/diversity/",
+        "source": "Company DEI Page",
+        "title": "Sony DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "southwest airlines": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.southwest.com/citizenship/people/diversity-equity-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Southwest Airlines DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "spotify": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Entertainment",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.lifeatspotify.com/diversity-equity-impact/diversity-equity-inclusion-belonging",
+        "source": "Company DEI Page",
+        "title": "Spotify DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "sprouts farmers market": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.sprouts.com/about/commitment-to-human-rights/",
+        "source": "Company DEI Page",
+        "title": "Sprouts Farmers Market DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "staples": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping, Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.staples.com/en/diversity",
+        "source": "Company DEI Page",
+        "title": "Staples DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "subaru": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.subaru.com/about/corporate-responsibility/diversity-equity-inclusion-and-belonging.html",
+        "source": "Company DEI Page",
+        "title": "Subaru DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "suzuki": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.globalsuzuki.com/corporate/csr_environment/social/diversity.html",
+        "source": "Company DEI Page",
+        "title": "Suzuki DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "taco bell": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Yum! Brands, Inc.",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.tacobellfoundation.org/event/real-talk-equity-inclusion-and-belonging/",
+        "source": "Company DEI Page",
+        "title": "Taco Bell DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "texas roadhouse": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.becomearoadie.com/us/en/",
+        "source": "Company DEI Page",
+        "title": "Texas Roadhouse DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "the fresh market": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.thefreshmarket.com/team-experience-inclusion",
+        "source": "Company DEI Page",
+        "title": "The Fresh Market DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "the home depot": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Construction/Agriculture",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://corporate.homedepot.com/page/political-engagement-home-depot",
+        "source": "Company DEI Page",
+        "title": "The Home Depot DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "tiffany & co": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Clothing/Apparel, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.tiffany.com/sustainability/community/diversity/",
+        "source": "Company DEI Page",
+        "title": "Tiffany & Co DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "tiktok": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.tiktok.com/for-good/diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "TikTok DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "tinder": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Match Group",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.lifeattinder.com/dei",
+        "source": "Company DEI Page",
+        "title": "Tinder DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "truist": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.truist.com/who-we-are/belonging",
+        "source": "Company DEI Page",
+        "title": "Truist DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "tumblr": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Automattic which still has DEI policies in place",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://automattic.com/diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Tumblr DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "uber": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.uber.com/us/en/about/diversity/",
+        "source": "Company DEI Page",
+        "title": "Uber DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ulta": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Health/Cosmetics, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.ulta.com/company/dei",
+        "source": "Company DEI Page",
+        "title": "Ulta DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "unilever": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery, Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.unilever.com/sustainability/equity-diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Unilever DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "united airlines": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.united.com/en/us/fly/company/responsibility/people-impact.html",
+        "source": "Company DEI Page",
+        "title": "United Airlines DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "united parcel service (ups)": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shipping/Warehouse",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.jobs-ups.com/inclusion-and-belonging",
+        "source": "Company DEI Page",
+        "title": "United Parcel Service (UPS) DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "us bank": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.usbank.com/about-us-bank/diversity.html",
+        "source": "Company DEI Page",
+        "title": "US Bank DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "usaa": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.usaa.com/about/belonging/?akredirect=true",
+        "source": "Company DEI Page",
+        "title": "USAA DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "verizon": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://mycareer.verizon.com/life-at-verizon/work-culture/",
+        "source": "Company DEI Page",
+        "title": "Verizon DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "visa": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://usa.visa.com/about-visa/diversity-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Visa DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "volkswagen": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.volkswagen-group.com/en/diversity-and-inclusion-16087",
+        "source": "Company DEI Page",
+        "title": "Volkswagen DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "volvo": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.volvogroup.com/en/careers/working-at-volvo-group/diversity-inclusion-stories.html",
+        "source": "Company DEI Page",
+        "title": "Volvo DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "wayfair": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Shopping, Construction/Agriculture",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.aboutwayfair.com/dei",
+        "source": "Company DEI Page",
+        "title": "Wayfair DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "wegmans": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.wegmans.com/values-in-action/diversity-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Wegmans DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "wells fargo": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Finance/Travel",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.wellsfargo.com/about/diversity/diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Wells Fargo DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "wilson sonsini goodrich & rosati": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Law/Business",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.wsgr.com/en/about-us/diversity/index.html",
+        "source": "Company DEI Page",
+        "title": "Wilson Sonsini Goodrich & Rosati DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "winco": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.wincofoods.com/",
+        "source": "Company DEI Page",
+        "title": "WinCo DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "yahoo!": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Tech/Media",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.yahooinc.com/careers/",
+        "source": "Company DEI Page",
+        "title": "Yahoo! DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "zaxby's": {
+    "good": true,
+    "reason": "*DEI Effective* - Coca-Cola products sold here",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.zaxbys.com/careers",
+        "source": "Company DEI Page",
+        "title": "Zaxby's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "kraft heinz": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery, Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.kraftheinzcompany.com/esg/diversity-inclusion.html",
+        "source": "Company DEI Page",
+        "title": "Kraft Heinz DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lego": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Entertainment",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.lego.com/en-us/sustainability/diversity-and-inclusion?locale=en-us",
+        "source": "Company DEI Page",
+        "title": "Lego DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "trader joe's": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.supermarketnews.com/company-news/retailer-dei-backlash-where-do-we-go-from-here-",
+        "source": "Company DEI Page",
+        "title": "Trader Joe's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "save mart": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://supplier.savemart.com/soc",
+        "source": "Company DEI Page",
+        "title": "Save Mart DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "schnucks": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://schnucks.com/unity",
+        "source": "Company DEI Page",
+        "title": "Schnucks DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "olive garden": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Darden Restaurants",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.darden.com/our-impact/team-members/ensuring-an-inclusive-and-diverse-culture",
+        "source": "Company DEI Page",
+        "title": "Olive Garden DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "cheddar's": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Darden Restaurants",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.darden.com/our-impact/team-members/ensuring-an-inclusive-and-diverse-culture",
+        "source": "Company DEI Page",
+        "title": "Cheddar's DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "darden restaurants": {
+    "good": true,
+    "reason": "DEI Effective - Darden Restaurants owns Bahama Breeze: Island Grille, Cheddars's, Chuy's, Eddie V's, Long Horn Steakhouse, Ruth's Chris Steakhouse, Olive Garden, Seasons 52, The Capital Grille, Yard House",
+    "category": "Food/Drink, Law/Business",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.darden.com/our-impact/team-members/ensuring-an-inclusive-and-diverse-culture",
+        "source": "Company DEI Page",
+        "title": "Darden Restaurants DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "bounty": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Bounty DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "charmin": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Charmin DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dawn": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Dawn DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dove soap": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Unilever",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.unilever.com/sustainability/equity-diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Dove Soap DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "colgate": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.colgatepalmolive.com/en-us/dei-home",
+        "source": "Company DEI Page",
+        "title": "Colgate DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "pantene": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Pantene DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "crest": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Crest DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "pampers": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Pampers DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "cottonelle": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Kimberly-Clark",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.kimberly-clark.com/en-us/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Cottonelle DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "gillette": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Gillette DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "head & shoulders": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Head & Shoulders DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "nivea": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.beiersdorf.com/about-us/our-profile/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Nivea DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "persil": {
+    "good": true,
+    "reason": "DEI Effective - Henkel owns Persil in the US, Unilever owns Persil in some other countries",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.henkel-northamerica.com/company/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Persil DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "huggies": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Kimberly-Clark",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.kimberly-clark.com/en-us/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Huggies DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ajax": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Colgate-Palmolive",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.colgatepalmolive.com/en-us/dei-home",
+        "source": "Company DEI Page",
+        "title": "Ajax DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "palmolive": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Colgate-Palmolive",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.colgatepalmolive.com/en-us/dei-home",
+        "source": "Company DEI Page",
+        "title": "Palmolive DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "mr. clean": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Mr. Clean DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "oral b": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Oral B DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "sensodyne": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.haleon.com/our-impact/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Sensodyne DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "l'oréal": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.loreal.com/en/commitments-and-responsibilities/for-the-people/promoting-diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "L'Oréal DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "axe": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by Unilever",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.unilever.com/sustainability/equity-diversity-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Axe DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "febreeze": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Colgate-Palmolive",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.colgatepalmolive.com/en-us/dei-home",
+        "source": "Company DEI Page",
+        "title": "Febreeze DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "duracell": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.brkenergy.com/about-us/careers/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Duracell DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "energizer": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Vehicles/Appliance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.energizerholdings.com/our-culture",
+        "source": "Company DEI Page",
+        "title": "Energizer DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "always": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Always DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "tampax": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Proctor and Gamble",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://us.pg.com/equality-and-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Tampax DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "scott": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Kimberly-Clark",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.kimberly-clark.com/en-us/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Scott DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "sparkle": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Georgia-Pacific",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gp.com/legal/affirmative-action/",
+        "source": "Company DEI Page",
+        "title": "Sparkle DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "fabuloso": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Colgate-Palmolive",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.colgatepalmolive.com/en-us/dei-home",
+        "source": "Company DEI Page",
+        "title": "Fabuloso DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "clorox": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.thecloroxcompany.com/company/idea/",
+        "source": "Company DEI Page",
+        "title": "Clorox DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "lysol": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Reckitt",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reckitt.com/our-impact/fairer-society/diversity-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Lysol DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "finish": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Reckitt",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reckitt.com/our-impact/fairer-society/diversity-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Finish DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "windex": {
+    "good": true,
+    "reason": "DEI Effective - Owned by SC Johnson",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.scjohnson.com/inclusion",
+        "source": "Company DEI Page",
+        "title": "Windex DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "oxiclean": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.churchdwight.com/our-diversity/",
+        "source": "Company DEI Page",
+        "title": "OxiClean DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "arm & hammer": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.churchdwight.com/our-diversity/",
+        "source": "Company DEI Page",
+        "title": "Arm & Hammer DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "glade": {
+    "good": true,
+    "reason": "DEI Supportive - Owned by SC Johnson",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.scjohnson.com/inclusion",
+        "source": "Company DEI Page",
+        "title": "Glade DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "dial": {
+    "good": true,
+    "reason": "DEI Effective - Owned by Henkel",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.henkel-northamerica.com/company/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Dial DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "scrubbing bubbles": {
+    "good": true,
+    "reason": "DEI Effective - Owned by SC Johnson",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.scjohnson.com/inclusion",
+        "source": "Company DEI Page",
+        "title": "Scrubbing Bubbles DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "colgate-palmolive": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.colgatepalmolive.com/en-us/dei-home",
+        "source": "Company DEI Page",
+        "title": "Colgate-Palmolive DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "kimberly-clark": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.kimberly-clark.com/en-us/responsibility/diversity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Kimberly-Clark DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "henkel": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.henkel-northamerica.com/company/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Henkel DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "beiersdorf global ag": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.beiersdorf.com/about-us/our-profile/diversity-equity-inclusion",
+        "source": "Company DEI Page",
+        "title": "Beiersdorf Global AG DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "georgia-pacific": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gp.com/legal/affirmative-action/",
+        "source": "Company DEI Page",
+        "title": "Georgia-Pacific DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "haleon": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.haleon.com/our-impact/diversity-equity-and-inclusion",
+        "source": "Company DEI Page",
+        "title": "Haleon DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "sc johnson": {
+    "good": true,
+    "reason": "DEI Supportive",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://jobs.scjohnson.com/inclusion",
+        "source": "Company DEI Page",
+        "title": "SC Johnson DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "reckitt": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reckitt.com/our-impact/fairer-society/diversity-inclusion/",
+        "source": "Company DEI Page",
+        "title": "Reckitt DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "church & dwight": {
+    "good": true,
+    "reason": "DEI Effective",
+    "category": "Hygiene/Toiletries",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://careers.churchdwight.com/our-diversity/",
+        "source": "Company DEI Page",
+        "title": "Church & Dwight DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  }
+}

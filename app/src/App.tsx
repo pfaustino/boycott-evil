@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { track } from '@vercel/analytics';
 import { db, type Product } from './db';
-import { loadProductData, loadLargeProductData, loadEvilCompanies, loadBrandAliases, clearData, exportEvilCompanies, type EvilCompanies } from './dataLoader';
+import { loadProductData, loadLargeProductData, loadEvilCompanies, loadGoodCompanies, loadBrandAliases, clearData, exportEvilCompanies, type EvilCompanies, type GoodCompanies } from './dataLoader';
 import { importBoycottCompanies, importBrandsAsProducts, generateBrandAliases, listAvailableFiles } from './githubImporter';
 import * as dataService from './dataService';
 import BarcodeSearch from './components/BarcodeSearch';
@@ -13,6 +13,7 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [loadProgress, setLoadProgress] = useState(0);
   const [evilCompanies, setEvilCompanies] = useState<EvilCompanies>({});
+  const [goodCompanies, setGoodCompanies] = useState<GoodCompanies>({});
   const [brandAliases, setBrandAliases] = useState<Record<string, string>>({});
   const [productCount, setProductCount] = useState(0);
 
@@ -21,8 +22,9 @@ function App() {
   const [browserTab, setBrowserTab] = useState<'products' | 'evil' | 'evil-products'>('products');
 
   const [selectedProduct, setSelectedProduct] = useState<Product | undefined>(undefined);
-  const [evilStatus, setEvilStatus] = useState<'evil' | 'clean' | 'unknown'>('unknown');
+  const [evilStatus, setEvilStatus] = useState<'evil' | 'clean' | 'good' | 'unknown'>('unknown');
   const [companyData, setCompanyData] = useState<EvilCompanies[string] | undefined>(undefined);
+  const [goodCompanyData, setGoodCompanyData] = useState<GoodCompanies[string] | undefined>(undefined);
   const [searchLoading, setSearchLoading] = useState(false);
   const [importProgress, setImportProgress] = useState<string>('');
   const [isImporting, setIsImporting] = useState(false);
@@ -42,6 +44,7 @@ function App() {
         await Promise.all([
           dataService.getProductCount().then(setProductCount),
           loadEvilCompanies().then(setEvilCompanies),
+          loadGoodCompanies().then(setGoodCompanies),
           loadBrandAliases().then(setBrandAliases)
         ]);
         setLoading(false);
@@ -57,6 +60,7 @@ function App() {
     setSelectedProduct(product);
     setSearchLoading(true); // Artificial delay or just state transition
     setCompanyData(undefined);
+    setGoodCompanyData(undefined);
 
     // Normalize logic
     const brand = product.normalized_brand;
@@ -69,24 +73,50 @@ function App() {
         return;
       }
 
-      const info = evilCompanies[brand];
-      if (info && info.evil) {
-        track('product_result', { status: 'boycott', brand: brand, supports: info.supports?.join(',') || '' });
+      // Check evil companies first
+      const evilInfo = evilCompanies[brand];
+      if (evilInfo && evilInfo.evil) {
+        track('product_result', { status: 'boycott', brand: brand, supports: evilInfo.supports?.join(',') || '' });
         setEvilStatus('evil');
-        setCompanyData(info);
-      } else {
-        // Check aliases
-        const parentCompany = brandAliases[brand];
-        if (parentCompany && evilCompanies[parentCompany.toLowerCase()] && evilCompanies[parentCompany.toLowerCase()].evil) {
-          const parentInfo = evilCompanies[parentCompany.toLowerCase()];
-          track('product_result', { status: 'boycott', brand: parentCompany, supports: parentInfo.supports?.join(',') || '' });
-          setEvilStatus('evil');
-          setCompanyData(parentInfo);
-        } else {
-          track('product_result', { status: 'clean', brand: brand });
-          setEvilStatus('clean');
-        }
+        setCompanyData(evilInfo);
+        setSearchLoading(false);
+        return;
       }
+
+      // Check aliases for evil
+      const parentCompany = brandAliases[brand];
+      if (parentCompany && evilCompanies[parentCompany.toLowerCase()]?.evil) {
+        const parentInfo = evilCompanies[parentCompany.toLowerCase()];
+        track('product_result', { status: 'boycott', brand: parentCompany, supports: parentInfo.supports?.join(',') || '' });
+        setEvilStatus('evil');
+        setCompanyData(parentInfo);
+        setSearchLoading(false);
+        return;
+      }
+
+      // Check good companies
+      const goodInfo = goodCompanies[brand];
+      if (goodInfo && goodInfo.good) {
+        track('product_result', { status: 'recommended', brand: brand, supports: goodInfo.supports?.join(',') || '' });
+        setEvilStatus('good');
+        setGoodCompanyData(goodInfo);
+        setSearchLoading(false);
+        return;
+      }
+
+      // Check aliases for good
+      if (parentCompany && goodCompanies[parentCompany.toLowerCase()]?.good) {
+        const parentGoodInfo = goodCompanies[parentCompany.toLowerCase()];
+        track('product_result', { status: 'recommended', brand: parentCompany, supports: parentGoodInfo.supports?.join(',') || '' });
+        setEvilStatus('good');
+        setGoodCompanyData(parentGoodInfo);
+        setSearchLoading(false);
+        return;
+      }
+
+      // Neither evil nor good
+      track('product_result', { status: 'unknown', brand: brand });
+      setEvilStatus('clean');
       setSearchLoading(false);
     }, 100);
   };
@@ -301,6 +331,7 @@ function App() {
               product={selectedProduct}
               evilStatus={evilStatus}
               companyData={companyData}
+              goodCompanyData={goodCompanyData}
               isLoading={searchLoading}
               matchInfo={matchInfo}
             />
