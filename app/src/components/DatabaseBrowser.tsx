@@ -11,11 +11,17 @@ interface Props {
     initialTab?: 'products' | 'evil' | 'evil-products';
 }
 
+interface SelectedCompany {
+    name: string;
+    data: EvilCompanies[string];
+}
+
 export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, onSearch, initialTab = 'products' }: Props) {
     const [activeTab, setActiveTab] = useState<'products' | 'evil' | 'evil-products'>(initialTab);
     const [products, setProducts] = useState<Product[]>([]);
     const [page, setPage] = useState(0);
     const [totalProducts, setTotalProducts] = useState(0);
+    const [selectedCompany, setSelectedCompany] = useState<SelectedCompany | null>(null);
     const pageSize = 50;
 
     // Compute set of all brands considered evil (direct + aliases)
@@ -31,6 +37,7 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
 
     useEffect(() => {
         setPage(0); // Reset page on tab switch
+        setSelectedCompany(null); // Clear selection on tab switch
     }, [activeTab]);
 
     const loadAllProducts = useCallback(async () => {
@@ -136,10 +143,114 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                                 </tbody>
                             </table>
                         </div>
+                    ) : selectedCompany ? (
+                        /* Detail View for Selected Company */
+                        <div className="p-4">
+                            <button 
+                                onClick={() => setSelectedCompany(null)}
+                                className="mb-4 flex items-center gap-2 text-indigo-600 hover:text-indigo-800 font-medium"
+                            >
+                                ← Back to list
+                            </button>
+                            <div className={`p-6 rounded-xl border-2 ${selectedCompany.data.evil ? 'border-red-500 bg-red-50' : 'border-slate-200 bg-slate-50'}`}>
+                                <h2 className="text-3xl font-bold text-slate-800 mb-2 capitalize">{selectedCompany.name}</h2>
+                                
+                                {selectedCompany.data.supports && (
+                                    <div className="mb-6">
+                                        <div className="flex flex-wrap gap-2 mb-3">
+                                            {selectedCompany.data.supports.map(support => {
+                                                const style = getSupportBadgeStyle(support);
+                                                return (
+                                                    <span 
+                                                        key={support} 
+                                                        className={`px-2 py-1 rounded text-xs font-bold uppercase tracking-wider ${style.bgColor} ${style.textColor}`}
+                                                    >
+                                                        {style.emoji} {style.label}
+                                                    </span>
+                                                );
+                                            })}
+                                        </div>
+                                        {/* Badge explanations */}
+                                        <div className="bg-white/60 rounded-lg p-3 border border-red-100">
+                                            <p className="text-xs font-bold text-red-400 uppercase tracking-wider mb-2">Why boycott?</p>
+                                            <ul className="space-y-1">
+                                                {selectedCompany.data.supports.map(support => {
+                                                    const style = getSupportBadgeStyle(support);
+                                                    return (
+                                                        <li key={support} className="text-sm text-slate-700 flex items-start gap-2">
+                                                            <span className={`shrink-0 px-1.5 py-0.5 rounded text-xs font-bold ${style.bgColor} ${style.textColor}`}>
+                                                                {style.emoji} {style.label}
+                                                            </span>
+                                                            <span className="text-slate-600">{style.description}</span>
+                                                        </li>
+                                                    );
+                                                })}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                )}
+
+                                {selectedCompany.data.evil && (
+                                    <div className="text-red-900">
+                                        <div className="flex items-center gap-3 mb-4">
+                                            <span className="text-4xl">🚫</span>
+                                            <span className="text-2xl font-bold">Boycott Recommended</span>
+                                        </div>
+                                        {selectedCompany.data.reason && (
+                                            <div className="mb-4 text-lg leading-relaxed">
+                                                <span className="font-bold">Reason:</span> {selectedCompany.data.reason}
+                                            </div>
+                                        )}
+                                    </div>
+                                )}
+
+                                {selectedCompany.data.alternatives && selectedCompany.data.alternatives.length > 0 && (
+                                    <div className="mt-6 p-4 bg-white/80 rounded-xl border border-emerald-200 shadow-sm">
+                                        <p className="text-xs font-bold text-emerald-500 uppercase tracking-wider mb-3">✓ Better Alternatives</p>
+                                        <ul className="space-y-2">
+                                            {selectedCompany.data.alternatives.map(alt => (
+                                                <li key={alt} className="flex items-center gap-2 text-emerald-700 font-medium">
+                                                    <span className="text-emerald-500">✓</span> {alt}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+
+                                {selectedCompany.data.citations && selectedCompany.data.citations.length > 0 && (
+                                    <div className="mt-6 p-4 bg-white/80 rounded-xl border border-red-200 shadow-sm">
+                                        <p className="text-xs font-bold text-red-500 uppercase tracking-wider mb-3">📚 Sources & Citations</p>
+                                        <ul className="space-y-2">
+                                            {selectedCompany.data.citations.map((citation, idx) => (
+                                                <li key={idx} className="text-sm">
+                                                    <a
+                                                        href={citation.url}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium"
+                                                    >
+                                                        {citation.title || citation.source}
+                                                    </a>
+                                                    <span className="text-slate-500 ml-2">
+                                                        — {citation.source}
+                                                        {citation.date && <span className="text-slate-400"> ({citation.date})</span>}
+                                                    </span>
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
                     ) : (
+                        /* Company List View */
                         <div className="p-4 grid gap-4">
                             {Object.entries(evilCompanies).map(([name, data]) => (
-                                <div key={name} className={`p-4 rounded-lg border flex flex-col gap-2 ${data.evil ? 'border-red-100 bg-red-50' : 'border-slate-200'}`}>
+                                <button
+                                    key={name}
+                                    onClick={() => setSelectedCompany({ name, data })}
+                                    className={`p-4 rounded-lg border flex flex-col gap-2 text-left transition-all hover:shadow-md hover:scale-[1.01] cursor-pointer ${data.evil ? 'border-red-100 bg-red-50 hover:border-red-300' : 'border-slate-200 hover:border-slate-300'}`}
+                                >
                                     <div className="flex justify-between items-start">
                                         <div className="flex flex-col">
                                             <h3 className="font-bold text-lg capitalize text-slate-800">{name}</h3>
@@ -151,7 +262,6 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                                                             <span 
                                                                 key={c} 
                                                                 className={`text-[10px] uppercase font-bold px-1.5 py-0.5 rounded ${style.bgColor} ${style.textColor}`}
-                                                                title={`Supports: ${style.label}`}
                                                             >
                                                                 {style.emoji} {style.label}
                                                             </span>
@@ -160,13 +270,16 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                                                 </div>
                                             )}
                                         </div>
-                                        {data.evil && <span className="bg-red-100 text-red-700 text-xs px-2 py-1 rounded-full font-bold">EVIL</span>}
+                                        <div className="flex items-center gap-2">
+                                            {data.evil && <span className="bg-red-100 text-red-700 text-xs px-2 py-1 rounded-full font-bold">EVIL</span>}
+                                            <span className="text-slate-400 text-lg">→</span>
+                                        </div>
                                     </div>
-                                    {data.reason && <p className="text-sm text-slate-700"><span className="font-semibold">Reason:</span> {data.reason}</p>}
+                                    {data.reason && <p className="text-sm text-slate-700 line-clamp-2"><span className="font-semibold">Reason:</span> {data.reason}</p>}
                                     {data.alternatives && data.alternatives.length > 0 && (
                                         <p className="text-sm text-slate-600"><span className="font-semibold">Alternatives:</span> {data.alternatives.join(', ')}</p>
                                     )}
-                                </div>
+                                </button>
                             ))}
                             {Object.keys(evilCompanies).length === 0 && (
                                 <div className="text-center text-slate-400 p-8">No evil companies list loaded.</div>
