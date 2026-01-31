@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import { db, type Product } from '../db';
 import { type EvilCompanies } from '../dataLoader';
 import { getSupportBadgeStyle } from '../supportBadgeUtils';
+import { isTursoConfigured } from '../dataService';
 
 interface Props {
     evilCompanies: EvilCompanies;
@@ -17,7 +18,9 @@ interface SelectedCompany {
 }
 
 export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, onSearch, initialTab = 'products' }: Props) {
-    const [activeTab, setActiveTab] = useState<'products' | 'evil' | 'evil-products'>(initialTab);
+    const usingTurso = isTursoConfigured();
+    // Default to 'evil' tab when using Turso since product browsing isn't available
+    const [activeTab, setActiveTab] = useState<'products' | 'evil' | 'evil-products'>(usingTurso ? 'evil' : initialTab);
     const [products, setProducts] = useState<Product[]>([]);
     const [page, setPage] = useState(0);
     const [totalProducts, setTotalProducts] = useState(0);
@@ -83,23 +86,27 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                 {/* Header */}
                 <div className="p-4 border-b border-slate-200 flex justify-between items-center bg-slate-50">
                     <div className="flex gap-2">
-                        <button
-                            onClick={() => setActiveTab('products')}
-                            className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === 'products' ? 'bg-white shadow text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}
-                        >
-                            All Products
-                        </button>
-                        <button
-                            onClick={() => setActiveTab('evil-products')}
-                            className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === 'evil-products' ? 'bg-white shadow text-red-600' : 'text-slate-500 hover:bg-slate-200'}`}
-                        >
-                            Matches Evil List
-                        </button>
+                        {!usingTurso && (
+                            <>
+                                <button
+                                    onClick={() => setActiveTab('products')}
+                                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === 'products' ? 'bg-white shadow text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}
+                                >
+                                    All Products
+                                </button>
+                                <button
+                                    onClick={() => setActiveTab('evil-products')}
+                                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === 'evil-products' ? 'bg-white shadow text-red-600' : 'text-slate-500 hover:bg-slate-200'}`}
+                                >
+                                    Matches Evil List
+                                </button>
+                            </>
+                        )}
                         <button
                             onClick={() => setActiveTab('evil')}
                             className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors ${activeTab === 'evil' ? 'bg-white shadow text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}
                         >
-                            Evil Companies Rule Set
+                            🚫 Boycott List ({Object.keys(evilCompanies).length})
                         </button>
                     </div>
                     <button onClick={onClose} className="text-slate-400 hover:text-slate-600 p-2">✕</button>
@@ -288,8 +295,8 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                     )}
                 </div>
 
-                {/* Footer / Pagination */}
-                {(activeTab === 'products' || activeTab === 'evil-products') && (
+                {/* Footer / Pagination - only for local IndexedDB mode */}
+                {!usingTurso && (activeTab === 'products' || activeTab === 'evil-products') && (
                     <div className="p-4 border-t border-slate-200 bg-slate-50 flex justify-between items-center">
                         <button
                             disabled={page === 0}
