@@ -100,6 +100,30 @@ export default function ResultDisplay({ product, evilStatus, companyData, isLoad
                             </ul>
                         </div>
                     )}
+
+                    {companyData?.citations && companyData.citations.length > 0 && (
+                        <div className="mt-6 p-4 bg-white/80 rounded-xl border border-red-200 shadow-sm">
+                            <p className="text-xs font-bold text-red-500 uppercase tracking-wider mb-3">📚 Sources & Citations</p>
+                            <ul className="space-y-2">
+                                {companyData.citations.map((citation, idx) => (
+                                    <li key={idx} className="text-sm">
+                                        <a 
+                                            href={citation.url} 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            className="text-indigo-600 hover:text-indigo-800 hover:underline font-medium"
+                                        >
+                                            {citation.title || citation.source}
+                                        </a>
+                                        <span className="text-slate-500 ml-2">
+                                            — {citation.source}
+                                            {citation.date && <span className="text-slate-400"> ({citation.date})</span>}
+                                        </span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
                 </div>
             )}
 

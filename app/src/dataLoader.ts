@@ -1,11 +1,19 @@
 import Papa from 'papaparse';
 import { db, type Product } from './db';
 
+interface Citation {
+    url: string;
+    source: string;
+    title?: string;
+    date?: string;
+}
+
 interface EvilCompany {
     evil: boolean;
     reason?: string;
     alternatives?: string[];
     supports?: string[];
+    citations?: Citation[];
 }
 
 export type EvilCompanies = Record<string, EvilCompany>;
