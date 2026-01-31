@@ -1,22 +1,24 @@
 import { useState, useEffect } from 'react';
 import { track } from '@vercel/analytics';
 import { type Product } from '../db';
-import { type EvilCompanies } from '../dataLoader';
+import { type EvilCompanies, type GoodCompanies } from '../dataLoader';
 import * as dataService from '../dataService';
 
 interface SearchResult {
-    type: 'product' | 'company';
+    type: 'product' | 'evil-company' | 'good-company';
     product?: Product;
     companyName?: string;
     companyData?: EvilCompanies[string];
+    goodCompanyData?: GoodCompanies[string];
 }
 
 interface Props {
     onSelect: (product: Product) => void;
     evilCompanies?: EvilCompanies;
+    goodCompanies?: GoodCompanies;
 }
 
-export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
+export default function ProductSearch({ onSelect, evilCompanies = {}, goodCompanies = {} }: Props) {
     const [term, setTerm] = useState('');
     const [results, setResults] = useState<SearchResult[]>([]);
     const [isSearching, setIsSearching] = useState(false);
@@ -33,19 +35,32 @@ export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
                 const termLower = term.toLowerCase();
 
                 // 1. Search evil companies list first
-                const matchingCompanies = Object.entries(evilCompanies)
+                const matchingEvilCompanies = Object.entries(evilCompanies)
                     .filter(([name]) => name.toLowerCase().includes(termLower))
-                    .slice(0, 5);
+                    .slice(0, 3);
 
-                for (const [name, data] of matchingCompanies) {
+                for (const [name, data] of matchingEvilCompanies) {
                     searchResults.push({
-                        type: 'company',
+                        type: 'evil-company',
                         companyName: name,
                         companyData: data,
                     });
                 }
 
-                // 2. Search products database
+                // 2. Search good companies list
+                const matchingGoodCompanies = Object.entries(goodCompanies)
+                    .filter(([name]) => name.toLowerCase().includes(termLower))
+                    .slice(0, 3);
+
+                for (const [name, data] of matchingGoodCompanies) {
+                    searchResults.push({
+                        type: 'good-company',
+                        companyName: name,
+                        goodCompanyData: data,
+                    });
+                }
+
+                // 3. Search products database
                 const found = await dataService.searchByQuery(term, 10 - searchResults.length);
                 
                 for (const r of found) {
@@ -70,16 +85,24 @@ export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
 
         const timer = setTimeout(search, 300);
         return () => clearTimeout(timer);
-    }, [term, evilCompanies]);
+    }, [term, evilCompanies, goodCompanies]);
 
-    const handleCompanySelect = (name: string, data: EvilCompanies[string]) => {
-        // Track the company search
-        track('name_search', { type: 'company', name: name, supports: data.supports?.join(',') || '' });
-        
-        // Create a synthetic product for the company
+    const handleEvilCompanySelect = (name: string, data: EvilCompanies[string]) => {
+        track('name_search', { type: 'evil-company', name: name, supports: data.supports?.join(',') || '' });
         const syntheticProduct: Product = {
             code: `COMPANY-${name}`,
-            product_name: name.charAt(0).toUpperCase() + name.slice(1), // Capitalize
+            product_name: name.charAt(0).toUpperCase() + name.slice(1),
+            brands: name,
+            normalized_brand: name.toLowerCase(),
+        };
+        onSelect(syntheticProduct);
+    };
+
+    const handleGoodCompanySelect = (name: string, data: GoodCompanies[string]) => {
+        track('name_search', { type: 'good-company', name: name, supports: data.supports?.join(',') || '' });
+        const syntheticProduct: Product = {
+            code: `COMPANY-${name}`,
+            product_name: name.charAt(0).toUpperCase() + name.slice(1),
             brands: name,
             normalized_brand: name.toLowerCase(),
         };
@@ -110,15 +133,25 @@ export default function ProductSearch({ onSelect, evilCompanies = {} }: Props) {
             {results.length > 0 && (
                 <ul className="bg-white border border-slate-200 rounded-lg shadow-lg divide-y divide-slate-100 mt-2 max-h-72 overflow-y-auto">
                     {results.map((result, idx) => (
-                        <li key={result.type === 'company' ? `company-${result.companyName}` : result.product?.code || idx}>
-                            {result.type === 'company' && result.companyName && result.companyData ? (
+                        <li key={result.type === 'product' ? result.product?.code || idx : `${result.type}-${result.companyName}`}>
+                            {result.type === 'evil-company' && result.companyName && result.companyData ? (
                                 <button
-                                    onClick={() => handleCompanySelect(result.companyName!, result.companyData!)}
+                                    onClick={() => handleEvilCompanySelect(result.companyName!, result.companyData!)}
                                     className="w-full text-left px-4 py-3 hover:bg-red-50 transition-colors flex justify-between items-center group"
                                 >
                                     <span className="font-medium text-slate-800 capitalize">{result.companyName}</span>
                                     <span className="text-xs text-white bg-red-500 px-2 py-1 rounded-full font-bold">
                                         🚫 Boycott
+                                    </span>
+                                </button>
+                            ) : result.type === 'good-company' && result.companyName && result.goodCompanyData ? (
+                                <button
+                                    onClick={() => handleGoodCompanySelect(result.companyName!, result.goodCompanyData!)}
+                                    className="w-full text-left px-4 py-3 hover:bg-emerald-50 transition-colors flex justify-between items-center group"
+                                >
+                                    <span className="font-medium text-slate-800 capitalize">{result.companyName}</span>
+                                    <span className="text-xs text-white bg-emerald-500 px-2 py-1 rounded-full font-bold">
+                                        ⭐ Recommended
                                     </span>
                                 </button>
                             ) : result.product ? (
