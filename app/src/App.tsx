@@ -75,7 +75,6 @@ function App() {
   };
 
   const checkCompliance = (product: Product) => {
-    setSelectedProduct(product);
     setSearchLoading(true);
     setCompanyData(undefined);
     setGoodCompanyData(undefined);
@@ -83,6 +82,7 @@ function App() {
     // Normalize logic - use brand field, or try to extract from product name
     let brand = product.normalized_brand;
     let extractedFromName = false;
+    let displayBrand = product.brands;
     
     // If brand is empty, try to extract from product name
     if (!brand && product.product_name) {
@@ -90,8 +90,19 @@ function App() {
       if (extracted) {
         brand = extracted;
         extractedFromName = true;
+        // Also find the parent company name for display
+        const parentCompany = brandAliases[extracted] || extracted;
+        displayBrand = parentCompany.charAt(0).toUpperCase() + parentCompany.slice(1);
       }
     }
+    
+    // Update product with extracted brand for display
+    const displayProduct = {
+      ...product,
+      brands: displayBrand || product.brands,
+      normalized_brand: brand || product.normalized_brand
+    };
+    setSelectedProduct(displayProduct);
 
     // Wait a tick for UI
     setTimeout(() => {
