@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { track } from '@vercel/analytics';
 import { db, type Product } from './db';
 import { loadProductData, loadLargeProductData, loadEvilCompanies, loadBrandAliases, clearData, exportEvilCompanies, type EvilCompanies } from './dataLoader';
 import { importBoycottCompanies, importBrandsAsProducts, generateBrandAliases, listAvailableFiles } from './githubImporter';
@@ -70,15 +71,19 @@ function App() {
 
       const info = evilCompanies[brand];
       if (info && info.evil) {
+        track('product_result', { status: 'boycott', brand: brand, supports: info.supports?.join(',') || '' });
         setEvilStatus('evil');
         setCompanyData(info);
       } else {
         // Check aliases
         const parentCompany = brandAliases[brand];
         if (parentCompany && evilCompanies[parentCompany.toLowerCase()] && evilCompanies[parentCompany.toLowerCase()].evil) {
+          const parentInfo = evilCompanies[parentCompany.toLowerCase()];
+          track('product_result', { status: 'boycott', brand: parentCompany, supports: parentInfo.supports?.join(',') || '' });
           setEvilStatus('evil');
-          setCompanyData(evilCompanies[parentCompany.toLowerCase()]);
+          setCompanyData(parentInfo);
         } else {
+          track('product_result', { status: 'clean', brand: brand });
           setEvilStatus('clean');
         }
       }
@@ -96,6 +101,7 @@ function App() {
       
       if (result.matchType === 'exact' && result.product) {
         // Exact match found
+        track('barcode_search', { result: 'exact', brand: result.product.brands });
         const product: Product = {
           code: result.product.code,
           product_name: result.product.product_name,
@@ -106,6 +112,7 @@ function App() {
         checkCompliance(product);
       } else if (result.matchType === 'prefix' && result.product) {
         // Prefix match - found products from same manufacturer
+        track('barcode_search', { result: 'prefix', brand: result.product.brands });
         const product: Product = {
           code: code, // Use original scanned code
           product_name: `Unknown product (similar to ${result.product.product_name})`,
@@ -126,6 +133,7 @@ function App() {
         checkCompliance(product);
       } else {
         // No match at all
+        track('barcode_search', { result: 'not_found' });
         setMatchInfo({ type: 'none' });
         setEvilStatus('unknown');
         setSearchLoading(false);
