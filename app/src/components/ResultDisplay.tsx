@@ -64,19 +64,38 @@ export default function ResultDisplay({ product, evilStatus, companyData, goodCo
             <p className="text-slate-600 mb-4 text-lg">Brand: <span className="font-semibold text-slate-800">{product.brands}</span></p>
 
             {isEvil && companyData?.supports && (
-                <div className="flex flex-wrap gap-2 mb-6">
-                    {companyData.supports.map(support => {
-                        const style = getSupportBadgeStyle(support);
-                        return (
-                            <span 
-                                key={support} 
-                                className={`px-2 py-1 rounded text-xs font-bold uppercase tracking-wider ${style.bgColor} ${style.textColor}`}
-                                title={`Supports: ${style.label}`}
-                            >
-                                {style.emoji} {style.label}
-                            </span>
-                        );
-                    })}
+                <div className="mb-6">
+                    <div className="flex flex-wrap gap-2 mb-3">
+                        {companyData.supports.map(support => {
+                            const style = getSupportBadgeStyle(support);
+                            return (
+                                <span 
+                                    key={support} 
+                                    className={`px-2 py-1 rounded text-xs font-bold uppercase tracking-wider ${style.bgColor} ${style.textColor}`}
+                                    title={style.description}
+                                >
+                                    {style.emoji} {style.label}
+                                </span>
+                            );
+                        })}
+                    </div>
+                    {/* Badge explanations */}
+                    <div className="bg-white/60 rounded-lg p-3 border border-red-100">
+                        <p className="text-xs font-bold text-red-400 uppercase tracking-wider mb-2">Why boycott?</p>
+                        <ul className="space-y-1">
+                            {companyData.supports.map(support => {
+                                const style = getSupportBadgeStyle(support);
+                                return (
+                                    <li key={support} className="text-sm text-slate-700 flex items-start gap-2">
+                                        <span className={`shrink-0 px-1.5 py-0.5 rounded text-xs font-bold ${style.bgColor} ${style.textColor}`}>
+                                            {style.emoji} {style.label}
+                                        </span>
+                                        <span className="text-slate-600">{style.description}</span>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                    </div>
                 </div>
             )}
 
