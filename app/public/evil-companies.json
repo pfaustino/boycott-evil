@@ -33,12 +33,21 @@
   },
   "amazon": {
     "evil": true,
-    "reason": "AWS hosts DHS/ICE databases; Ring shares footage with ICE. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows for | DEI Rollback",
+    "reason": "AWS hosts DHS/ICE databases; Ring shares footage with ICE. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows for | DEI Rollback | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
       "Israel",
       "ICE",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/amazon-to-donate-1-million-to-trumps-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Amazon to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "apple": {
@@ -47,13 +56,20 @@
     "alternatives": [],
     "supports": [
       "ICE",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
     ],
     "citations": [
       {
         "url": "https://www.apple.com/diversity/",
         "source": "DEI Boycott List",
         "title": "Apple DEI Policy",
+        "date": "2025-01"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/01/10/apple-to-donate-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Apple to donate $1M to Trump inauguration",
         "date": "2025-01"
       }
     ]
@@ -68,13 +84,22 @@
   },
   "at&t": {
     "evil": true,
-    "reason": "Provides communications services to DHS/ICE ($680M+ contracts).",
+    "reason": "Provides communications services to DHS/ICE ($680M+ contracts). | Donated to Trump 2025 inauguration fund [$1M]",
     "alternatives": [
       "Local ISP",
       "Mint Mobile"
     ],
     "supports": [
-      "ICE"
+      "ICE",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/media-telecom/att-donate-trump-inauguration-2025-01-14/",
+        "source": "Reuters",
+        "title": "AT&T to donate to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "avelo airlines": {
@@ -95,13 +120,22 @@
   },
   "bank of america": {
     "evil": true,
-    "reason": "Lending to private prison and ICE detention companies. | **Bank of America** was part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer.",
+    "reason": "Lending to private prison and ICE detention companies. | **Bank of America** was part of a $500m loan deal with a consortium of lenders, into Elbit Systems Ltd, the Israeli weapons manufacturer. | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [
       "Local Credit Union"
     ],
     "supports": [
       "ICE",
-      "Israel"
+      "Israel",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/08/bank-of-america-to-donate-to-trumps-inauguration.html",
+        "source": "CNBC",
+        "title": "Bank of America to donate to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "bank ozk": {
@@ -146,17 +180,24 @@
   },
   "comcast": {
     "evil": true,
-    "reason": "Internet and cable services for ICE/CBP. | DEI Effective",
+    "reason": "Internet and cable services for ICE/CBP. | DEI Effective | Donated to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
       "ICE",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
     ],
     "citations": [
       {
         "url": "https://corporate.comcast.com/impact/diversity-equity-inclusion",
         "source": "DEI Boycott List",
         "title": "Comcast DEI Policy",
+        "date": "2025-01"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/01/14/comcast-donate-1-million-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Comcast to donate $1M to Trump inauguration",
         "date": "2025-01"
       }
     ]
@@ -222,12 +263,21 @@
   },
   "google": {
     "evil": true,
-    "reason": "Runs ads for DHS/ICE recruitment. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n\n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows fo | DEI Rollback",
+    "reason": "Runs ads for DHS/ICE recruitment. | Human Rights - Called by BDS National Committee | Amazon and Google are working together on **Project Nimbus**. \n\n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and government**. This technology allows fo | DEI Rollback | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
       "Israel",
       "ICE",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.theverge.com/2025/1/9/24339988/google-million-dollar-donation-trump-inauguration",
+        "source": "The Verge",
+        "title": "Google donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "hbo max": {
@@ -320,18 +370,36 @@
   },
   "microsoft": {
     "evil": true,
-    "reason": "Profits from ICE contracts (LinkedIn ads, Dell partnership).",
+    "reason": "Profits from ICE contracts (LinkedIn ads, Dell partnership). | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
-      "ICE"
+      "ICE",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/microsoft-plans-to-give-1-million-to-trumps-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Microsoft to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "meta": {
     "evil": true,
-    "reason": "Runs ads for DHS/ICE recruitment on Facebook/Instagram.",
+    "reason": "Runs ads for DHS/ICE recruitment on Facebook/Instagram. | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
-      "ICE"
+      "ICE",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/meta-donates-1-million-to-trump-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Meta donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "motorola solutions": {
@@ -460,12 +528,21 @@
   },
   "youtube": {
     "evil": true,
-    "reason": "Runs ads for DHS/ICE recruitment. | **Youtube** is owned by **Google**\n\nAmazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and gove | DEI Rollback - Owned by Google",
+    "reason": "Runs ads for DHS/ICE recruitment. | **Youtube** is owned by **Google**\n\nAmazon and Google are working together on **Project Nimbus**. \n**Project Nimbus** is a $1.2bn contract to provide cloud services for the **Israeli military and gove | DEI Rollback - Owned by Google | Parent company Alphabet donated $1M to Trump 2025 inauguration [$1M]",
     "alternatives": [],
     "supports": [
       "ICE",
       "Israel",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.theverge.com/2025/1/9/24339988/google-million-dollar-donation-trump-inauguration",
+        "source": "The Verge",
+        "title": "Google donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "airbnb": {
@@ -511,10 +588,19 @@
   },
   "chevron": {
     "evil": true,
-    "reason": "In October 2022 the BDS National Committee (BNC) called for a boycott of Chevron. It",
+    "reason": "In October 2022 the BDS National Committee (BNC) called for a boycott of Chevron. It | Donated to Trump 2025 inauguration [$1M]",
     "alternatives": [],
     "supports": [
-      "Israel"
+      "Israel",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/energy/chevron-donate-trump-inauguration-2025-01-14/",
+        "source": "Reuters",
+        "title": "Chevron to donate to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "coconut milk from thailand": {
@@ -5356,7 +5442,7 @@
   },
   "walmart": {
     "evil": true,
-    "reason": "**Walmart Foundation**, the philanthropy arm of the U.S. retailer, has pledged **$1 million** to an Israeli disaster relief and emergency medical service organization. | DEI Rollback",
+    "reason": "**Walmart Foundation**, the philanthropy arm of the U.S. retailer, has pledged **$1 million** to an Israeli disaster relief and emergency medical service organization. | DEI Rollback | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [
       "Albertsons",
       "Costco",
@@ -5366,7 +5452,16 @@
     ],
     "supports": [
       "Israel",
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/retail-consumer/walmart-donate-trump-inauguration-2025-01-13/",
+        "source": "Reuters",
+        "title": "Walmart to donate to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "walt disney": {
@@ -5721,10 +5816,19 @@
   },
   "alphabet": {
     "evil": true,
-    "reason": "DEI Rollback - Owns Google",
+    "reason": "DEI Rollback - Owns Google | Donated $1M to Trump 2025 inauguration fund (parent of Google) [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.theverge.com/2025/1/9/24339988/google-million-dollar-donation-trump-inauguration",
+        "source": "The Verge",
+        "title": "Google/Alphabet donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "arby's": {
@@ -5785,10 +5889,19 @@
   },
   "boeing": {
     "evil": true,
-    "reason": "DEI Rollback",
+    "reason": "DEI Rollback | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/aerospace-defense/boeing-give-1-million-trump-inauguration-2025-01-10/",
+        "source": "Reuters",
+        "title": "Boeing to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "brown-forman": {
@@ -5833,10 +5946,19 @@
   },
   "chevrolet": {
     "evil": true,
-    "reason": "DEI Rollback",
+    "reason": "DEI Rollback | Parent company GM donated $1M to Trump 2025 inauguration [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/autos-transportation/gm-donate-1-mln-trump-inaugural-fund-2025-01-14/",
+        "source": "Reuters",
+        "title": "GM to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "chevron corporation": {
@@ -5865,16 +5987,23 @@
   },
   "citigroup": {
     "evil": true,
-    "reason": "DEI Rollback",
+    "reason": "DEI Rollback | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
     ],
     "citations": [
       {
         "url": "https://finance.yahoo.com/news/dei-retreat-widens-as-citigroup-and-pepsico-roll-back-diversity-policies-154956511.html",
         "source": "DEI Boycott List",
         "title": "Citigroup DEI Policy",
+        "date": "2025-01"
+      },
+      {
+        "url": "https://www.cnbc.com/2025/01/10/citigroup-to-donate-1-million-to-trump-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Citigroup to donate $1M to Trump inauguration",
         "date": "2025-01"
       }
     ]
@@ -5945,10 +6074,19 @@
   },
   "facebook": {
     "evil": true,
-    "reason": "DEI Rollback - Owned by Meta",
+    "reason": "DEI Rollback - Owned by Meta | Parent company Meta donated $1M to Trump 2025 inauguration [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/meta-donates-1-million-to-trump-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Meta donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "ford motor company": {
@@ -6034,10 +6172,19 @@
   },
   "instagram": {
     "evil": true,
-    "reason": "DEI Rollback - Owned by Meta",
+    "reason": "DEI Rollback - Owned by Meta | Parent company Meta donated $1M to Trump 2025 inauguration [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/meta-donates-1-million-to-trump-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Meta donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "john deere": {
@@ -6074,10 +6221,19 @@
   },
   "lockheed martin": {
     "evil": true,
-    "reason": "DEI Rollback - It's Lockheed Martin...",
+    "reason": "DEI Rollback - It's Lockheed Martin... | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/aerospace-defense/lockheed-martin-donate-1-mln-trump-inauguration-fund-2025-01-14/",
+        "source": "Reuters",
+        "title": "Lockheed Martin to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "long john silver": {
@@ -6266,7 +6422,7 @@
   },
   "sam's club": {
     "evil": true,
-    "reason": "DEI Rollback",
+    "reason": "DEI Rollback | Parent company Walmart donated $1M to Trump 2025 inauguration [$1M]",
     "alternatives": [
       "Albertsons",
       "Costco",
@@ -6275,7 +6431,16 @@
       "WinCo"
     ],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/retail-consumer/walmart-donate-trump-inauguration-2025-01-13/",
+        "source": "Reuters",
+        "title": "Walmart to donate to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "stanley": {
@@ -6336,7 +6501,7 @@
   },
   "target": {
     "evil": true,
-    "reason": "DEI Rollback",
+    "reason": "DEI Rollback | Donated to Trump 2025 inauguration fund [$1M]",
     "alternatives": [
       "Albertsons",
       "Costco",
@@ -6345,7 +6510,16 @@
       "WinCo"
     ],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/14/target-donate-1-million-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Target to donate to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "tj maxx": {
@@ -6366,10 +6540,19 @@
   },
   "toyota": {
     "evil": true,
-    "reason": "DEI Rollback",
+    "reason": "DEI Rollback | Donated $1M to Trump 2025 inauguration fund [$1M]",
     "alternatives": [],
     "supports": [
-      "Anti-DEI"
+      "Anti-DEI",
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/autos-transportation/toyota-donate-1-million-trumps-inauguration-2025-01-14/",
+        "source": "Reuters",
+        "title": "Toyota to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
     ]
   },
   "tractor supply company": {
@@ -6551,6 +6734,12 @@
         "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=uihlein",
         "source": "FEC.gov",
         "title": "Uihlein Contributions",
+        "date": "2024"
+      },
+      {
+        "url": "https://www.opensecrets.org/outsidespending/summ.php?cycle=2024&disp=D&type=V",
+        "source": "OpenSecrets",
+        "title": "Top Individual Contributors 2024",
         "date": "2024"
       }
     ]
@@ -6834,6 +7023,12 @@
         "source": "OpenSecrets",
         "title": "Linda McMahon Donations",
         "date": "2024"
+      },
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=dana+white",
+        "source": "OpenSecrets",
+        "title": "Dana White Donations",
+        "date": "2024"
       }
     ]
   },
@@ -6924,6 +7119,351 @@
         "source": "OpenSecrets",
         "title": "Tilman Fertitta Donations",
         "date": "2024"
+      }
+    ]
+  },
+  "neuralink": {
+    "evil": true,
+    "reason": "CEO Elon Musk is a major Trump campaign donor ($277M+) [$277M+]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/news/2024/10/elon-musk-pumps-nearly-120-million-into-pro-trump-america-pac/",
+        "source": "OpenSecrets",
+        "title": "Elon Musk America PAC",
+        "date": "2024-10"
+      }
+    ]
+  },
+  "whatsapp": {
+    "evil": true,
+    "reason": "Parent company Meta donated $1M to Trump 2025 inauguration [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/meta-donates-1-million-to-trump-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Meta donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "openai": {
+    "evil": true,
+    "reason": "CEO Sam Altman donated $1M personally to Trump 2025 inauguration [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/openai-ceo-sam-altman-to-personally-donate-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Sam Altman donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "chatgpt": {
+    "evil": true,
+    "reason": "OpenAI CEO Sam Altman donated $1M to Trump 2025 inauguration [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/openai-ceo-sam-altman-to-personally-donate-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Sam Altman donates $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "uber": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/world/us/uber-donate-1-mln-trumps-inaugural-fund-2025-01-09/",
+        "source": "Reuters",
+        "title": "Uber to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "ford": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/autos-transportation/ford-motor-donate-1-mln-trump-inauguration-2025-01-10/",
+        "source": "Reuters",
+        "title": "Ford to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "general motors": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/autos-transportation/gm-donate-1-mln-trump-inaugural-fund-2025-01-14/",
+        "source": "Reuters",
+        "title": "GM to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "gm": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/autos-transportation/gm-donate-1-mln-trump-inaugural-fund-2025-01-14/",
+        "source": "Reuters",
+        "title": "GM to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "goldman sachs": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.bloomberg.com/news/articles/2025-01-09/goldman-sachs-to-donate-1-million-to-trump-s-inauguration-fund",
+        "source": "Bloomberg",
+        "title": "Goldman Sachs to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jpmorgan": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/jpmorgan-to-donate-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "JPMorgan to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jpmorgan chase": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/jpmorgan-to-donate-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "JPMorgan to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "citi": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/10/citigroup-to-donate-1-million-to-trump-inaugural-fund.html",
+        "source": "CNBC",
+        "title": "Citigroup to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "intuit": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/15/intuit-donates-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Intuit to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "turbotax": {
+    "evil": true,
+    "reason": "Parent company Intuit donated $1M to Trump 2025 inauguration [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/15/intuit-donates-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Intuit to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "quickbooks": {
+    "evil": true,
+    "reason": "Parent company Intuit donated $1M to Trump 2025 inauguration [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/15/intuit-donates-1-million-to-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Intuit to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "delta airlines": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/aerospace-transportation/delta-air-lines-donate-1-million-trump-inauguration-2025-01-15/",
+        "source": "Reuters",
+        "title": "Delta to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "delta": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/aerospace-transportation/delta-air-lines-donate-1-million-trump-inauguration-2025-01-15/",
+        "source": "Reuters",
+        "title": "Delta to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "citadel": {
+    "evil": true,
+    "reason": "CEO Ken Griffin donated $100M+ to Republican PACs [$100M+]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.opensecrets.org/donor-lookup/results?name=ken+griffin",
+        "source": "OpenSecrets",
+        "title": "Ken Griffin Donations",
+        "date": "2024"
+      }
+    ]
+  },
+  "trump organization": {
+    "evil": true,
+    "reason": "Donald Trump's real estate company",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Trump_Organization",
+        "source": "Wikipedia",
+        "title": "The Trump Organization",
+        "date": "2024"
+      }
+    ]
+  },
+  "nbcuniversal": {
+    "evil": true,
+    "reason": "Parent company Comcast donated $1M to Trump 2025 inauguration [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/14/comcast-donate-1-million-trump-inauguration.html",
+        "source": "CNBC",
+        "title": "Comcast to donate $1M to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "verizon": {
+    "evil": true,
+    "reason": "Donated to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/media-telecom/verizon-donate-trump-inauguration-2025-01-14/",
+        "source": "Reuters",
+        "title": "Verizon to donate to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "pfizer": {
+    "evil": true,
+    "reason": "Donated to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/pfizer-donate-trump-inauguration-2025-01-14/",
+        "source": "Reuters",
+        "title": "Pfizer to donate to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "merck": {
+    "evil": true,
+    "reason": "Donated to Trump 2025 inauguration fund [$1M]",
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/merck-donate-trump-inauguration-2025-01-15/",
+        "source": "Reuters",
+        "title": "Merck to donate to Trump inauguration",
+        "date": "2025-01"
       }
     ]
   }
