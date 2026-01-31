@@ -380,19 +380,16 @@ function App() {
             </>
           )}
 
-          <div className="mt-6 pt-6 border-t border-slate-200/50 flex justify-center gap-6">
-            <button
-              onClick={() => { setBrowserTab('products'); setShowBrowser(true); }}
-              className="text-slate-500 hover:text-indigo-600 text-sm font-medium transition-colors"
-            >
-              Browse Products ({productCount.toLocaleString()})
-            </button>
+          <div className="mt-6 pt-6 border-t border-slate-200/50 flex flex-col items-center gap-3">
             <button
               onClick={() => { setBrowserTab('evil'); setShowBrowser(true); }}
               className="text-slate-500 hover:text-indigo-600 text-sm font-medium transition-colors"
             >
-              Browse Evil List ({Object.keys(evilCompanies).length})
+              📋 Browse Boycott List ({Object.keys(evilCompanies).length} companies)
             </button>
+            <p className="text-xs text-slate-400">
+              {productCount.toLocaleString()} products in database
+            </p>
           </div>
         </footer>
       </div>
