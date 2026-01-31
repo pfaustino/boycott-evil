@@ -1,4 +1,24 @@
 {
+  "anheuser-busch": {
+    "evil": true,
+    "reason": "Donated $1M to Trump 2025 inauguration fund. Parent company AB InBev is one of the world's largest beverage companies.",
+    "alternatives": [
+      "Local craft breweries",
+      "Sierra Nevada",
+      "New Belgium"
+    ],
+    "supports": [
+      "Trump-Donor"
+    ],
+    "citations": [
+      {
+        "url": "https://www.cnbc.com/2025/01/09/trump-inauguration-donors-toyota-ford-gm.html",
+        "source": "CNBC",
+        "title": "Anheuser-Busch donates to Trump inauguration",
+        "date": "2025-01"
+      }
+    ]
+  },
   "nestle": {
     "evil": true,
     "reason": "Unethical water sourcing, baby formula scandal, etc.",
