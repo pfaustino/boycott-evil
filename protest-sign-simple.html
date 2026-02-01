@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boycott ICE & Trump - Simple Sign</title>
+    <style>
+        @page {
+            size: 11in 17in;
+            margin: 0.5in;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            background: #fff;
+            color: #000;
+        }
+        
+        .sign {
+            width: 100%;
+            height: 16in;
+            background: #fff;
+            border: 0.2in solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1in;
+            box-sizing: border-box;
+        }
+        
+        .header {
+            text-align: center;
+            width: 100%;
+        }
+        
+        .main-title {
+            font-size: 3.5in;
+            font-weight: 900;
+            line-height: 1;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #ff0000;
+        }
+        
+        .subtitle {
+            font-size: 0.8in;
+            font-weight: 700;
+            margin: 0.2in 0;
+            text-transform: uppercase;
+            color: #000;
+        }
+        
+        .boycott-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5in;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .boycott-item {
+            font-size: 1.2in;
+            font-weight: 900;
+            padding: 0.3in;
+            border: 0.15in solid #000;
+            background: #fff;
+        }
+        
+        .ice {
+            color: #0066cc;
+            border-color: #0066cc;
+        }
+        
+        .trump {
+            color: #ff6600;
+            border-color: #ff6600;
+        }
+        
+        .cta-box {
+            background: #000;
+            color: #fff;
+            padding: 0.5in;
+            border-radius: 0.2in;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .cta-text {
+            font-size: 0.6in;
+            font-weight: 700;
+            margin: 0 0 0.3in 0;
+        }
+        
+        .qr-box {
+            width: 2.5in;
+            height: 2.5in;
+            background: #fff;
+            border: 0.1in solid #fff;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.1in;
+            box-sizing: border-box;
+        }
+        
+        .qr-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .url-text {
+            font-size: 0.35in;
+            margin-top: 0.2in;
+            color: #00ff00;
+            font-weight: 700;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sign">
+        <div class="header">
+            <h1 class="main-title">BOYCOTT</h1>
+            <p class="subtitle">Vote With Your Wallet</p>
+        </div>
+        
+        <div class="boycott-items">
+            <div class="boycott-item ice">
+                🚫 BOYCOTT ICE
+            </div>
+            <div class="boycott-item trump">
+                🍊 BOYCOTT TRUMP DONORS
+            </div>
+        </div>
+        
+        <div class="cta-box">
+            <p class="cta-text">SCAN TO CHECK PRODUCTS</p>
+            <div class="qr-box">
+                <img src="qr-code.png" alt="Scan QR Code to check products">
+            </div>
+            <!--<p class="url-text">BoycottEvil.com</p>-->
+        </div>
+    </div>
+</body>
+</html>

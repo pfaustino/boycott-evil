@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boycott ICE & Trump - Protest Sign</title>
+    <style>
+        @page {
+            size: 11in 17in; /* Tabloid size - good for signs */
+            margin: 0;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial Black', 'Impact', sans-serif;
+            background: #000;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            width: 100%;
+        }
+        
+        .sign {
+            width: 100%;
+            max-width: 11in;
+            height: 17in;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 2in;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sign::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,0,0,0.03) 10px, rgba(255,0,0,0.03) 20px);
+            pointer-events: none;
+        }
+        
+        .header {
+            text-align: center;
+            z-index: 1;
+        }
+        
+        .main-title {
+            font-size: 4.5in;
+            font-weight: 900;
+            line-height: 1;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-shadow: 
+                0 0 20px rgba(255,0,0,0.5),
+                0 0 40px rgba(255,0,0,0.3),
+                0 0 60px rgba(255,0,0,0.2);
+            color: #ff0000;
+            margin-bottom: 0.3in;
+        }
+        
+        .subtitle {
+            font-size: 1.2in;
+            font-weight: 700;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            color: #ff6b6b;
+            text-shadow: 0 0 10px rgba(255,107,107,0.5);
+        }
+        
+        .content {
+            text-align: center;
+            z-index: 1;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 0.5in;
+        }
+        
+        .boycott-section {
+            background: rgba(0,0,0,0.6);
+            border: 0.1in solid #ff0000;
+            border-radius: 0.2in;
+            padding: 0.4in;
+            margin: 0.2in 0;
+        }
+        
+        .boycott-title {
+            font-size: 1.5in;
+            font-weight: 900;
+            color: #ff0000;
+            margin: 0 0 0.2in 0;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .boycott-reason {
+            font-size: 0.6in;
+            color: #fff;
+            line-height: 1.4;
+            margin: 0;
+        }
+        
+        .cta-section {
+            background: rgba(255,255,255,0.95);
+            border: 0.15in solid #00ff00;
+            border-radius: 0.3in;
+            padding: 0.5in;
+            margin-top: 0.5in;
+            text-align: center;
+            box-shadow: 0 0 30px rgba(0,255,0,0.5);
+        }
+        
+        .cta-title {
+            font-size: 0.8in;
+            font-weight: 900;
+            color: #000;
+            margin: 0 0 0.2in 0;
+            text-transform: uppercase;
+        }
+        
+        .cta-subtitle {
+            font-size: 0.4in;
+            color: #333;
+            margin: 0 0 0.3in 0;
+        }
+        
+        .qr-placeholder {
+            width: 2.5in;
+            height: 2.5in;
+            background: #fff;
+            border: 0.1in solid #000;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.1in;
+            box-sizing: border-box;
+        }
+        
+        .qr-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .qr-instructions {
+            font-size: 0.35in;
+            color: #000;
+            margin-top: 0.2in;
+            font-weight: 700;
+        }
+        
+        .footer {
+            text-align: center;
+            z-index: 1;
+            font-size: 0.4in;
+            color: #ccc;
+            margin-top: 0.3in;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            .sign {
+                page-break-after: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="sign">
+        <div class="header">
+            <h1 class="main-title">BOYCOTT</h1>
+            <p class="subtitle">Vote With Your Wallet</p>
+        </div>
+        
+        <div class="content">
+            <div class="boycott-section">
+                <h2 class="boycott-title">🚫 ICE</h2>
+                <p class="boycott-reason">Stop supporting companies that profit from deportation & family separation</p>
+            </div>
+            
+            <div class="boycott-section">
+                <h2 class="boycott-title">🍊 TRUMP</h2>
+                <p class="boycott-reason">Don't fund companies that donated millions to Trump's campaign & inauguration</p>
+            </div>
+            
+            <div class="cta-section">
+                <h3 class="cta-title">Scan to Check Products</h3>
+                <p class="cta-subtitle">See which companies to avoid before you buy</p>
+                <div class="qr-placeholder">
+                    <img src="qr-code.png" alt="Scan QR Code to check products">
+                </div>
+                <p class="qr-instructions">📱 Scan with your phone camera</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>BoycottEvil.com | Know Before You Buy</p>
+        </div>
+    </div>
+</body>
+</html>
