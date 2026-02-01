@@ -25,6 +25,8 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
     const [page, setPage] = useState(0);
     const [totalProducts, setTotalProducts] = useState(0);
     const [selectedCompany, setSelectedCompany] = useState<SelectedCompany | null>(null);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [sortBy, setSortBy] = useState<'name' | 'supports-count' | 'name-desc'>('name');
     const pageSize = 50;
 
     // Compute set of all brands considered evil (direct + aliases)
@@ -41,7 +43,44 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
     useEffect(() => {
         setPage(0); // Reset page on tab switch
         setSelectedCompany(null); // Clear selection on tab switch
+        setSearchQuery(''); // Clear search on tab switch
     }, [activeTab]);
+
+    // Filter and sort companies
+    const filteredAndSortedCompanies = useCallback(() => {
+        let companies = Object.entries(evilCompanies);
+        
+        // Filter by search query
+        if (searchQuery.trim()) {
+            const query = searchQuery.toLowerCase();
+            companies = companies.filter(([name, data]) => {
+                const nameMatch = name.toLowerCase().includes(query);
+                const reasonMatch = data.reason?.toLowerCase().includes(query);
+                const supportsMatch = data.supports?.some(s => s.toLowerCase().includes(query));
+                const alternativesMatch = data.alternatives?.some(a => a.toLowerCase().includes(query));
+                return nameMatch || reasonMatch || supportsMatch || alternativesMatch;
+            });
+        }
+        
+        // Sort
+        companies.sort(([nameA, dataA], [nameB, dataB]) => {
+            switch (sortBy) {
+                case 'name':
+                    return nameA.localeCompare(nameB);
+                case 'name-desc':
+                    return nameB.localeCompare(nameA);
+                case 'supports-count':
+                    const countA = dataA.supports?.length || 0;
+                    const countB = dataB.supports?.length || 0;
+                    if (countA !== countB) return countB - countA; // Descending
+                    return nameA.localeCompare(nameB); // Tie-breaker: alphabetical
+                default:
+                    return nameA.localeCompare(nameB);
+            }
+        });
+        
+        return companies;
+    }, [evilCompanies, searchQuery, sortBy]);
 
     const loadAllProducts = useCallback(async () => {
         const count = await db.products.count();
@@ -111,6 +150,42 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                     </div>
                     <button onClick={onClose} className="text-slate-400 hover:text-slate-600 p-2">✕</button>
                 </div>
+
+                {/* Search and Sort Controls - only for evil companies tab */}
+                {activeTab === 'evil' && !selectedCompany && (
+                    <div className="p-4 border-b border-slate-200 bg-white">
+                        <div className="flex gap-3 items-center">
+                            {/* Search Input */}
+                            <div className="flex-1">
+                                <input
+                                    type="text"
+                                    placeholder="🔍 Search companies, reasons, or boycott categories..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                    className="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                                />
+                            </div>
+                            
+                            {/* Sort Dropdown */}
+                            <div className="flex-shrink-0">
+                                <select
+                                    value={sortBy}
+                                    onChange={(e) => setSortBy(e.target.value as 'name' | 'supports-count' | 'name-desc')}
+                                    className="px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent bg-white"
+                                >
+                                    <option value="name">Sort: A-Z</option>
+                                    <option value="name-desc">Sort: Z-A</option>
+                                    <option value="supports-count">Sort: Most Flags</option>
+                                </select>
+                            </div>
+                            
+                            {/* Results Count */}
+                            <div className="flex-shrink-0 text-sm text-slate-500">
+                                {filteredAndSortedCompanies().length} of {Object.keys(evilCompanies).length}
+                            </div>
+                        </div>
+                    </div>
+                )}
 
                 {/* Content */}
                 <div className="flex-1 overflow-auto p-0">
@@ -252,7 +327,7 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                     ) : (
                         /* Company List View */
                         <div className="p-4 grid gap-4">
-                            {Object.entries(evilCompanies).map(([name, data]) => (
+                            {filteredAndSortedCompanies().map(([name, data]) => (
                                 <button
                                     key={name}
                                     onClick={() => setSelectedCompany({ name, data })}
@@ -288,8 +363,16 @@ export default function DatabaseBrowser({ evilCompanies, brandAliases, onClose, 
                                     )}
                                 </button>
                             ))}
-                            {Object.keys(evilCompanies).length === 0 && (
-                                <div className="text-center text-slate-400 p-8">No evil companies list loaded.</div>
+                            {filteredAndSortedCompanies().length === 0 && (
+                                <div className="text-center text-slate-400 p-8">
+                                    {Object.keys(evilCompanies).length === 0 ? (
+                                        'No evil companies list loaded.'
+                                    ) : searchQuery.trim() ? (
+                                        `No companies found matching "${searchQuery}"`
+                                    ) : (
+                                        'No companies to display.'
+                                    )}
+                                </div>
                             )}
                         </div>
                     )}
