@@ -401,6 +401,16 @@ function App() {
         <footer className="text-center mt-10 text-slate-400 text-sm pb-10">
           <p>Powered by Open Facts (Food, Beauty, Pet, Products) & Community Data</p>
           <p className="text-xs mt-1 text-slate-300">Data: {dataSource}</p>
+          <p className="text-xs mt-2">
+            <a 
+              href="https://discord.gg/H3A4nuguVx" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-indigo-500 hover:text-indigo-600 hover:underline transition-colors"
+            >
+              💬 Join our Discord
+            </a>
+          </p>
           {/* Only show data management buttons when NOT using Turso cloud */}
           {!dataService.isTursoConfigured() && (
             <>
