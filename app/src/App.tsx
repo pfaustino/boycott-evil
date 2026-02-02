@@ -388,7 +388,7 @@ function App() {
         </main>
 
         <footer className="text-center mt-10 text-slate-400 text-sm pb-10">
-          <p>Powered by Open Food Facts & Community Data</p>
+          <p>Powered by Open Facts (Food, Beauty, Pet, Products) & Community Data</p>
           <p className="text-xs mt-1 text-slate-300">Data: {dataSource}</p>
           {/* Only show data management buttons when NOT using Turso cloud */}
           {!dataService.isTursoConfigured() && (

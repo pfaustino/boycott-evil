@@ -5,6 +5,7 @@ interface Product {
     product_name: string;
     brands: string;
     normalized_brand?: string;
+    generic_name?: string;
     url?: string;
 }
 

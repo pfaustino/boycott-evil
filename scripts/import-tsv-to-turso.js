@@ -38,7 +38,8 @@ async function createTable() {
             code TEXT PRIMARY KEY,
             product_name TEXT,
             brands TEXT,
-            normalized_brand TEXT
+            normalized_brand TEXT,
+            generic_name TEXT
         )
     `);
     
@@ -63,6 +64,7 @@ async function importTSV(filePath) {
     let codeIdx = -1;
     let nameIdx = -1;
     let brandsIdx = -1;
+    let genericNameIdx = -1;
     
     let batch = [];
     let totalImported = 0;
@@ -77,8 +79,9 @@ async function importTSV(filePath) {
             codeIdx = headers.indexOf('code');
             nameIdx = headers.indexOf('product_name');
             brandsIdx = headers.indexOf('brands');
+            genericNameIdx = headers.indexOf('generic_name');
             
-            console.log(`Found columns: code=${codeIdx}, product_name=${nameIdx}, brands=${brandsIdx}`);
+            console.log(`Found columns: code=${codeIdx}, product_name=${nameIdx}, brands=${brandsIdx}, generic_name=${genericNameIdx}`);
             
             if (codeIdx === -1 || nameIdx === -1) {
                 throw new Error('Required columns (code, product_name) not found in TSV');
@@ -92,6 +95,7 @@ async function importTSV(filePath) {
         const code = values[codeIdx]?.trim();
         const productName = values[nameIdx]?.trim() || '';
         const brands = brandsIdx >= 0 ? (values[brandsIdx]?.trim() || '') : '';
+        const genericName = genericNameIdx >= 0 ? (values[genericNameIdx]?.trim() || '') : '';
 
         if (!code) {
             skipped++;
@@ -105,6 +109,7 @@ async function importTSV(filePath) {
             product_name: productName.substring(0, 500), // Truncate long names
             brands: brands.substring(0, 500),
             normalized_brand: normalizedBrand,
+            generic_name: genericName.substring(0, 500), // Truncate long generic names
         });
 
         if (batch.length >= BATCH_SIZE) {
@@ -134,17 +139,18 @@ async function importTSV(filePath) {
 
 async function insertBatch(batch) {
     // Build multi-row insert
-    const placeholders = batch.map(() => '(?, ?, ?, ?)').join(', ');
+    const placeholders = batch.map(() => '(?, ?, ?, ?, ?)').join(', ');
     const args = batch.flatMap(p => [
         p.code,
         p.product_name,
         p.brands,
         p.normalized_brand,
+        p.generic_name || '', // Handle missing generic_name
     ]);
 
     try {
         await client.execute({
-            sql: `INSERT OR REPLACE INTO products (code, product_name, brands, normalized_brand) VALUES ${placeholders}`,
+            sql: `INSERT OR REPLACE INTO products (code, product_name, brands, normalized_brand, generic_name) VALUES ${placeholders}`,
             args,
         });
     } catch (error) {
