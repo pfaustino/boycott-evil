@@ -21,6 +21,10 @@ lerna-debug.log*
 app/public/off-full.tsv
 public/off-full.tsv
 
+# Large source CSV files (already imported to Turso)
+sources/**/*.csv
+sources/**/*.csv.gz
+
 # Editor
 .vscode/*
 !.vscode/extensions.json
