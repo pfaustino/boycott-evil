@@ -39,16 +39,27 @@ function App() {
         // Set data source name for display
         setDataSource(dataService.getDataSourceName());
         
-        // Initialize data source (Turso or IndexedDB)
+        // Initialize data source (Turso or IndexedDB) - no DB reads for Turso
         await dataService.initializeDataSource((count) => setLoadProgress(count));
         
-        // Load other data in parallel
+        // Load JSON data in parallel (no DB reads)
         await Promise.all([
-          dataService.getProductCount().then(setProductCount),
           loadEvilCompanies().then(setEvilCompanies),
           loadGoodCompanies().then(setGoodCompanies),
           loadBrandAliases().then(setBrandAliases)
         ]);
+        
+        // Product count is expensive (COUNT(*) on 465K rows) - lazy load it
+        // Only fetch if using IndexedDB (free) or lazy load on demand
+        if (!dataService.isTursoConfigured()) {
+          // IndexedDB - free to count
+          dataService.getProductCount().then(setProductCount);
+        } else {
+          // Turso - use cached estimate or lazy load
+          // Set a cached estimate to avoid expensive COUNT(*) query
+          setProductCount(465000); // Approximate count, saves DB reads
+        }
+        
         setLoading(false);
       } catch (err) {
         console.error("Init failed", err);
@@ -437,7 +448,7 @@ function App() {
               </button>
             </div>
             <p className="text-xs text-slate-400">
-              {productCount.toLocaleString()} products in database
+              ~{productCount.toLocaleString()} products in database
             </p>
           </div>
         </footer>

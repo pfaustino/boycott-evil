@@ -161,12 +161,8 @@ export async function getProductCount(): Promise<number> {
  */
 export async function initializeDataSource(onProgress?: (count: number) => void): Promise<void> {
     if (isTursoConfigured()) {
-        // Test Turso connection
-        const connected = await turso.testConnection();
-        if (!connected) {
-            throw new Error('Failed to connect to Turso database');
-        }
-        console.log('Connected to Turso database');
+        // Skip connection test to save DB reads - connection will be tested on first query
+        console.log('Using Turso database');
         return;
     }
     
