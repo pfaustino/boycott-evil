@@ -3342,5 +3342,13 @@
         "date": "2025-01"
       }
     ]
+  },
+  "kwikish": {
+    "good": true,
+    "reason": "Pro-DEI Stance",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": []
   }
 }
