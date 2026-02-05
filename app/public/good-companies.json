@@ -2175,22 +2175,6 @@
       }
     ]
   },
-  "uber": {
-    "good": true,
-    "reason": "DEI Effective",
-    "category": "Finance/Travel",
-    "supports": [
-      "Pro-DEI"
-    ],
-    "citations": [
-      {
-        "url": "https://www.uber.com/us/en/about/diversity/",
-        "source": "Company DEI Page",
-        "title": "Uber DEI Policy",
-        "date": "2025-01"
-      }
-    ]
-  },
   "ulta": {
     "good": true,
     "reason": "DEI Supportive",

@@ -9,6 +9,7 @@ import ProductSearch from './components/ProductSearch';
 import ResultDisplay from './components/ResultDisplay';
 import DatabaseBrowser from './components/DatabaseBrowser';
 import ShareModal from './components/ShareModal';
+import { lookupProductByUPC, digitEyesToProduct } from './digitEyesApi';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,7 +32,7 @@ function App() {
   const [importProgress, setImportProgress] = useState<string>('');
   const [isImporting, setIsImporting] = useState(false);
   const [dataSource, setDataSource] = useState<string>('');
-  const [matchInfo, setMatchInfo] = useState<{ type: 'exact' | 'prefix' | 'none'; prefixLength?: number; similarProducts?: Product[] } | undefined>(undefined);
+  const [matchInfo, setMatchInfo] = useState<{ type: 'exact' | 'prefix' | 'none'; prefixLength?: number; similarProducts?: Product[]; source?: 'database' | 'digit-eyes' } | undefined>(undefined);
 
   useEffect(() => {
     async function init() {
@@ -190,7 +191,7 @@ function App() {
           brands: result.product.brands,
           normalized_brand: result.product.normalized_brand,
         };
-        setMatchInfo({ type: 'exact' });
+        setMatchInfo({ type: 'exact', source: 'database' });
         checkCompliance(product);
       } else if (result.matchType === 'prefix' && result.product) {
         // Prefix match - found products from same manufacturer
@@ -210,15 +211,36 @@ function App() {
         setMatchInfo({ 
           type: 'prefix', 
           prefixLength: result.prefixLength,
-          similarProducts 
+          similarProducts,
+          source: 'database'
         });
         checkCompliance(product);
       } else {
-        // No match at all
+        // No match in our database - try Digit-Eyes API as fallback
         track('barcode_search', { result: 'not_found' });
-        setMatchInfo({ type: 'none' });
-        setEvilStatus('unknown');
-        setSearchLoading(false);
+        
+        try {
+          const digitEyesProduct = await lookupProductByUPC(code);
+          
+          if (digitEyesProduct) {
+            // Found in Digit-Eyes - convert and check compliance
+            track('barcode_search', { result: 'digit_eyes_fallback', brand: digitEyesProduct.brand });
+            const product = digitEyesToProduct(digitEyesProduct);
+            setMatchInfo({ type: 'exact', source: 'digit-eyes' }); // Mark as from external API
+            checkCompliance(product);
+          } else {
+            // Not found in Digit-Eyes either
+            setMatchInfo({ type: 'none' });
+            setEvilStatus('unknown');
+            setSearchLoading(false);
+          }
+        } catch (err) {
+          // API error - just show not found
+          console.error('Digit-Eyes lookup error:', err);
+          setMatchInfo({ type: 'none' });
+          setEvilStatus('unknown');
+          setSearchLoading(false);
+        }
       }
     } catch (err) {
       console.error(err);
@@ -401,16 +423,6 @@ function App() {
         <footer className="text-center mt-10 text-slate-400 text-sm pb-10">
           <p>Powered by Open Facts (Food, Beauty, Pet, Products) & Community Data</p>
           <p className="text-xs mt-1 text-slate-300">Data: {dataSource}</p>
-          <p className="text-xs mt-2">
-            <a 
-              href="https://discord.gg/H3A4nuguVx" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-indigo-500 hover:text-indigo-600 hover:underline transition-colors"
-            >
-              💬 Join our Discord
-            </a>
-          </p>
           {/* Only show data management buttons when NOT using Turso cloud */}
           {!dataService.isTursoConfigured() && (
             <>

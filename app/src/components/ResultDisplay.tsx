@@ -6,6 +6,7 @@ interface MatchInfo {
     type: 'exact' | 'prefix' | 'none';
     prefixLength?: number;
     similarProducts?: Product[];
+    source?: 'database' | 'digit-eyes';
 }
 
 interface Props {
@@ -57,6 +58,13 @@ export default function ResultDisplay({ product, evilStatus, companyData, goodCo
                 <div className="mb-4 p-3 bg-blue-100 border border-blue-300 rounded-lg text-blue-800 text-sm">
                     <span className="font-bold">🔗 Manufacturer Match:</span> Exact product not found, but we found other products from the same company 
                     (matching first {matchInfo.prefixLength} digits of barcode).
+                </div>
+            )}
+            
+            {/* Digit-Eyes API indicator */}
+            {matchInfo?.source === 'digit-eyes' && (
+                <div className="mb-4 p-3 bg-indigo-100 border border-indigo-300 rounded-lg text-indigo-800 text-sm">
+                    <span className="font-bold">🌐 External Database:</span> Product not in our database, but found via Digit-Eyes UPC lookup.
                 </div>
             )}
             
