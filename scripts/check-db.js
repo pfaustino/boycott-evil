@@ -1,8 +1,18 @@
 import { createClient } from '@libsql/client';
+import 'dotenv/config'; // Load environment variables from .env
+
+const TURSO_DATABASE_URL = process.env.TURSO_DATABASE_URL;
+const TURSO_AUTH_TOKEN = process.env.TURSO_AUTH_TOKEN;
+
+if (!TURSO_DATABASE_URL || !TURSO_AUTH_TOKEN) {
+  console.error('Error: TURSO_DATABASE_URL and TURSO_AUTH_TOKEN environment variables are required.');
+  console.error('Set them in your .env file or as environment variables.');
+  process.exit(1);
+}
 
 const client = createClient({
-  url: 'libsql://boycott-evil-products-pfaustino.aws-us-west-2.turso.io',
-  authToken: 'eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicm8iLCJpYXQiOjE3Njk3NTEzNzIsImlkIjoiYTk3YzY0MDEtNTI2MS00ZTFiLWJlZDItNGIzZTAxY2Q5MjdhIiwicmlkIjoiMjY4MjJhZDQtMDBlOC00ZTBiLWEyODEtOGNkYzE0ZmMwMTFmIn0.G5MT2EyGnicaShCmxahnRxy-WvEBTtnKCYtk3fYqsVAB5hyfy2UPc1PT-7YbqV_kPbGWHLBsq4GzBSLewDkjBg'
+  url: TURSO_DATABASE_URL,
+  authToken: TURSO_AUTH_TOKEN
 });
 
 async function check() {
