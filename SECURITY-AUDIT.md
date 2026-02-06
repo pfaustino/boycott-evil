@@ -8,17 +8,11 @@
 
 **Risk Level:** MEDIUM (Read-only token, but still a security concern)
 
-**Status:** ✅ FIXED
+**Status:** ✅ FIXED & TOKEN ROTATED
 - Updated `scripts/check-db.js` to use environment variables (`TURSO_DATABASE_URL` and `TURSO_AUTH_TOKEN`)
 - Token was read-only (JWT payload shows `"a":"ro"`), so damage is limited
-- **ACTION REQUIRED:** Rotate the token in Turso dashboard to invalidate the exposed one
-
-**How to Rotate Token:**
-1. Go to https://turso.tech
-2. Navigate to your database settings
-3. Generate a new read-only token
-4. Update your `.env` file with the new token
-5. The old token will be invalidated
+- ✅ **COMPLETED:** Token has been rotated in Turso dashboard - old token is now invalid
+- ✅ New token added to local `.env` file (not committed to git)
 
 ## Security Best Practices Verified
 
