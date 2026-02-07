@@ -3342,5 +3342,80 @@
       "Pro-DEI"
     ],
     "citations": []
+  },
+  "auntie anne's": {
+    "good": true,
+    "reason": "Stood by DEI & didn't fold to Trump - Owned by GoTo Foods",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gotofoods.com/about/inclusion/",
+        "source": "Company DEI Page",
+        "title": "GoTo Foods DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "jamba juice": {
+    "good": true,
+    "reason": "Stood by DEI & didn't fold to Trump - Owned by GoTo Foods",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gotofoods.com/about/inclusion/",
+        "source": "Company DEI Page",
+        "title": "GoTo Foods DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "cinnabon": {
+    "good": true,
+    "reason": "Stood by DEI & didn't fold to Trump - Owned by GoTo Foods",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": [
+      {
+        "url": "https://www.gotofoods.com/about/inclusion/",
+        "source": "Company DEI Page",
+        "title": "GoTo Foods DEI Policy",
+        "date": "2025-01"
+      }
+    ]
+  },
+  "bj's wholesale club": {
+    "good": true,
+    "reason": "Stood by DEI & didn't fold to Trump",
+    "category": "Shopping, Grocery",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": []
+  },
+  "walgreens": {
+    "good": true,
+    "reason": "Stood by DEI & didn't fold to Trump",
+    "category": "Health/Cosmetics, Shopping",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": []
+  },
+  "scooter's coffee": {
+    "good": true,
+    "reason": "Stood by DEI & didn't fold to Trump",
+    "category": "Food/Drink",
+    "supports": [
+      "Pro-DEI"
+    ],
+    "citations": []
   }
 }
