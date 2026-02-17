@@ -9,6 +9,7 @@ import ProductSearch from './components/ProductSearch';
 import ResultDisplay from './components/ResultDisplay';
 import DatabaseBrowser from './components/DatabaseBrowser';
 import ShareModal from './components/ShareModal';
+import AboutModal from './components/AboutModal';
 import { lookupProductByUPC, digitEyesToProduct } from './digitEyesApi';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
   const [activeTab, setActiveTab] = useState<'barcode' | 'product'>('barcode');
   const [showBrowser, setShowBrowser] = useState(false);
   const [showShareModal, setShowShareModal] = useState(false);
+  const [showAboutModal, setShowAboutModal] = useState(false);
   const [browserTab, setBrowserTab] = useState<'products' | 'evil' | 'evil-products'>('products');
 
   const [selectedProduct, setSelectedProduct] = useState<Product | undefined>(undefined);
@@ -455,7 +457,7 @@ function App() {
           )}
 
           <div className="mt-6 pt-6 border-t border-slate-200/50 flex flex-col items-center gap-3">
-            <div className="flex gap-4">
+            <div className="flex gap-4 flex-wrap justify-center">
               <button
                 onClick={() => { setBrowserTab('evil'); setShowBrowser(true); track('browse_list_clicked'); }}
                 className="text-slate-500 hover:text-indigo-600 text-sm font-medium transition-colors"
@@ -467,6 +469,12 @@ function App() {
                 className="text-slate-500 hover:text-indigo-600 text-sm font-medium transition-colors"
               >
                 📤 Share App
+              </button>
+              <button
+                onClick={() => { setShowAboutModal(true); track('about_clicked'); }}
+                className="text-slate-500 hover:text-indigo-600 text-sm font-medium transition-colors"
+              >
+                ℹ️ About
               </button>
             </div>
             <p className="text-xs text-slate-400">
@@ -491,6 +499,10 @@ function App() {
 
       {showShareModal && (
         <ShareModal onClose={() => setShowShareModal(false)} />
+      )}
+
+      {showAboutModal && (
+        <AboutModal onClose={() => setShowAboutModal(false)} />
       )}
     </div>
   );
