@@ -64,8 +64,9 @@ export default function ShareModal({ onClose }: Props) {
             <div className="bg-white border-2 border-slate-200 rounded-lg p-4 inline-block mb-4">
               <img 
                 src="/qr-code.png" 
-                alt="QR Code to share Boycott Evil"
+                alt="QR Code for Boycott Evil"
                 className="w-48 h-48 mx-auto"
+                key="qr-code-share"
                 onError={(e) => {
                   // Fallback if QR code not found
                   const target = e.target as HTMLImageElement;
@@ -79,7 +80,7 @@ export default function ShareModal({ onClose }: Props) {
             </div>
             
             <p className="text-sm text-slate-500 mb-4">
-              Scan with your phone camera
+              Scan with your phone camera to visit the app
             </p>
           </div>
 
