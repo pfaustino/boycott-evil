@@ -3,7 +3,7 @@ import { Html5Qrcode } from 'html5-qrcode';
 
 interface Props {
     onScanSuccess: (decodedText: string) => void;
-    onScanFailure?: (error: any) => void;
+    onScanFailure?: (error: unknown) => void;
     onClose: () => void;
 }
 
@@ -53,7 +53,7 @@ export default function CameraScanner({ onScanSuccess, onScanFailure, onClose }:
                 scannerRef.current.stop().catch(e => console.error("Failed to stop on unmount", e));
             }
         };
-    }, []); // Empty dependency array -> run once
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps -- mount-once camera session
 
     return (
         <div className="fixed inset-0 bg-black/80 z-[60] flex flex-col items-center justify-center p-4">

@@ -9,6 +9,8 @@ interface EvilCompany {
 
 export type EvilCompanies = Record<string, EvilCompany>;
 
+type CsvRow = Record<string, string | undefined>;
+
 export async function loadEvilCompanies(): Promise<EvilCompanies> {
     const response = await fetch('/evil-companies.json');
     if (!response.ok) {
@@ -35,50 +37,50 @@ export async function loadProductData(onProgress?: (count: number) => void): Pro
         return;
     }
 
-    return new Promise(async (resolve, reject) => {
-        try {
-            const response = await fetch('/off-mini.csv');
-            if (!response.ok) {
-                // Determine if we should fail or just resolve (maybe user deleted it)
-                // for now, strict fail
-                throw new Error(`CSV Fetch failed: ${response.statusText}`);
-            }
-            const csvText = await response.text();
+    const response = await fetch('/off-mini.csv');
+    if (!response.ok) {
+        throw new Error(`CSV Fetch failed: ${response.statusText}`);
+    }
+    const csvText = await response.text();
 
-            Papa.parse(csvText, {
-                header: true,
-                skipEmptyLines: true,
-                complete: async (results) => {
-                    const products: Product[] = (results.data as any[]).map((row: any) => {
-                        const code = row.code ? String(row.code).trim() : '';
-                        const brands = row.brands || '';
-                        const name = row.product_name || '';
+    await new Promise<void>((resolve, reject) => {
+        Papa.parse(csvText, {
+            header: true,
+            skipEmptyLines: true,
+            complete: (results) => {
+                void (async () => {
+                    try {
+                        const products: Product[] = (results.data as CsvRow[]).map((row) => {
+                            const code = row.code ? String(row.code).trim() : '';
+                            const brands = row.brands || '';
+                            const name = row.product_name || '';
 
-                        if (!code) return null;
+                            if (!code) return null;
 
-                        const firstBrand = brands.split(',')[0].trim().toLowerCase();
-                        return {
-                            code: code,
-                            product_name: name,
-                            brands: brands,
-                            normalized_brand: firstBrand
-                        } as Product;
-                    }).filter((p): p is Product => p !== null);
+                            const firstBrand = brands.split(',')[0].trim().toLowerCase();
+                            return {
+                                code: code,
+                                product_name: name,
+                                brands: brands,
+                                normalized_brand: firstBrand
+                            } as Product;
+                        }).filter((p): p is Product => p !== null);
 
-                    if (products.length > 0) {
-                        await db.products.bulkPut(products);
-                        if (onProgress) onProgress(products.length);
+                        if (products.length > 0) {
+                            await db.products.bulkPut(products);
+                            if (onProgress) onProgress(products.length);
+                        }
+                        console.log(`Parsed ${products.length} items from CSV`);
+                        resolve();
+                    } catch (e) {
+                        reject(e);
                     }
-                    console.log(`Parsed ${products.length} items from CSV`);
-                    resolve();
-                },
-                error: (err: any) => {
-                    reject(err);
-                }
-            });
-        } catch (e) {
-            reject(e);
-        }
+                })();
+            },
+            error: (err: Error) => {
+                reject(err);
+            }
+        });
     });
 }
 
@@ -100,7 +102,7 @@ export async function loadLargeProductData(filePath: string = '/off-full.tsv', o
             chunk: async (results, parser) => {
                 parser.pause();
                 try {
-                    const products: Product[] = (results.data as any[]).map((row: any) => {
+                    const products: Product[] = (results.data as CsvRow[]).map((row) => {
                         const code = row.code ? String(row.code).trim() : '';
                         if (!code) return null;
 
@@ -133,7 +135,7 @@ export async function loadLargeProductData(filePath: string = '/off-full.tsv', o
                 console.log(`Large TSV processing complete. Total: ${totalProcessed}`);
                 resolve();
             },
-            error: (err: any) => {
+            error: (err: Error) => {
                 reject(err);
             }
         });

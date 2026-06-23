@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { db, type Product } from '../db';
 import { type EvilCompanies } from '../dataLoader';
 
@@ -15,18 +15,20 @@ export default function DatabaseBrowser({ evilCompanies, onClose, initialTab = '
     const [totalProducts, setTotalProducts] = useState(0);
     const pageSize = 50;
 
-    useEffect(() => {
-        if (activeTab === 'products') {
-            loadProducts();
-        }
-    }, [activeTab, page]);
-
-    async function loadProducts() {
+    const loadProducts = useCallback(async () => {
         const count = await db.products.count();
         setTotalProducts(count);
         const chunk = await db.products.offset(page * pageSize).limit(pageSize).toArray();
         setProducts(chunk);
-    }
+    }, [page, pageSize]);
+
+    /* eslint-disable react-hooks/set-state-in-effect -- paginated IndexedDB fetch on tab/page change */
+    useEffect(() => {
+        if (activeTab === 'products') {
+            loadProducts();
+        }
+    }, [activeTab, loadProducts]);
+    /* eslint-enable react-hooks/set-state-in-effect */
 
     return (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm z-50 flex items-center justify-center p-4">
